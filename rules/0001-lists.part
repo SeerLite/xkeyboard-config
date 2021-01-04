@@ -6,7 +6,9 @@
 //              pk rs ru sy th tj tz ua uz
 
 // PC models
-! $pcmodels = pc86 pc101 pc102 pc104 pc104alt pc105
+! $pcmodels = pc101 pc102 pc104 pc105 \
+              pc104angle-z pc104wide-qu pc104aw-zqu pc104awing pc105angle pc105aw-sl \
+              pc104curl-z              pc104caw-zqu pc104cawing pc105curl pc105caw-sl
 
 // Jolla devices and keyboards
 ! $jollamodels = jollasbj

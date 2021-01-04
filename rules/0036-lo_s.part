@@ -2,3 +2,5 @@
   $threelevellayouts	grp:alts_toggle = +level3(ralt_switch_for_alts_toggle)
   *			misc:typo 	= +typo(base)
   *			misc:apl	= +apl(level3)
+  *			misc:extend 	= +extend(basic)
+  *			misc:cmk_curl_dh	= +colemak(cmk_ed_dh)

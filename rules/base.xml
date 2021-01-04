@@ -46,6 +46,48 @@
     </model>
     <model>
       <configItem>
+        <name>pc104angle-z</name>
+        <description>Generic 104-key PC (Angle(Z)Ergo mod)</description>
+        <vendor>Generic</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>pc104wide-qu</name>
+        <description>Generic 104-key PC (Wide(Quote)Ergo mod)</description>
+        <vendor>Generic</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>pc104aw-zqu</name>
+        <description>Generic 104-key PC (Angle(Z)Wide(Quote)Ergo mod)</description>
+        <vendor>Generic</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>pc104awing</name>
+        <description>Generic 104-key PC (AngleWing(Quote)Ergo mod)</description>
+        <vendor>Generic</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>pc105angle</name>
+        <description>Generic 105-key PC (intl.) (Angle_Ergo mod)</description>
+        <vendor>Generic</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>pc105aw-sl</name>
+        <description>Generic 105-key PC (intl.) (AngleWide(/)Ergo mod)</description>
+        <vendor>Generic</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>dell101</name>
         <description>Dell 101-key PC</description>
         <vendor>Dell</vendor>
@@ -1390,6 +1432,60 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_us</name>
+            <description>English (Colemak[eD] - edition DreymaR)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tarmak1__e</name>
+            <description>English (Tarmak1 - Colemak[eD] transitional)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tarmak1c_e</name>
+            <description>English (Tarmak1C - Colemak[eD] Curl-DH transitional)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tarmak2__et</name>
+            <description>English (Tarmak2 - Colemak[eD] transitional)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tarmak2c_et</name>
+            <description>English (Tarmak2C - Colemak[eD] Curl-DH transitional)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tarmak3__etr</name>
+            <description>English (Tarmak3 - Colemak[eD] transitional)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tarmak4__etro</name>
+            <description>English (Tarmak4 - Colemak[eD] transitional)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_dh</name>
+            <description>English (Colemak[eD], Curl-DH ergo mod)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_mirror</name>
+            <description>English (Colemak[eD], mirrored)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>dvorak</name>
             <description>English (Dvorak)</description>
           </configItem>
@@ -1670,6 +1766,18 @@
             <description>Albanian (Veqilharxhi)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Albanian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Albanian (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1736,6 +1844,18 @@
           <configItem>
             <name>mac</name>
             <description>German (Austria, Macintosh)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>German (Austria, Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>German (Austria, Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
       </variantList>
@@ -1860,6 +1980,18 @@
           <configItem>
             <name>wang</name>
             <description>Belgian (Wang 724 AZERTY)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Belgian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Belgian (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
       </variantList>
@@ -2327,6 +2459,18 @@
             <description>Bosnian (US)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Bosnian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Bosnian (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2375,6 +2519,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Portuguese (Brazil, Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Portuguese (Brazil, Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>thinkpad</name>
             <description>Portuguese (Brazil, IBM/Lenovo ThinkPad)</description>
           </configItem>
@@ -2408,6 +2564,12 @@
           <configItem>
             <name>bekl</name>
             <description>Bulgarian (enhanced)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>Bulgarian (Colemak, phonetic S-Slavic)</description>
           </configItem>
         </variant>
       </variantList>
@@ -2733,6 +2895,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Canadian multilingual (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Canadian multilingual (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>ike</name>
             <!-- Keyboard indicator for Inuktikut layouts -->
             <shortDescription>ike</shortDescription>
@@ -2917,6 +3091,18 @@
             <description>Croatian (US)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Croatian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Croatian (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2964,6 +3150,18 @@
           <configItem>
             <name>dvorak-ucw</name>
             <description>Czech (US, Dvorak, UCW support)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Czech (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Czech (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
         <variant>
@@ -3020,6 +3218,18 @@
             <description>Danish (Dvorak)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Danish (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Danish (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3043,6 +3253,18 @@
           <configItem>
             <name>std</name>
             <description>Dutch (standard)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Dutch (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Dutch (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
       </variantList>
@@ -3273,6 +3495,18 @@
             <description>Finnish (Macintosh)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Finnish (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Finnish (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3362,6 +3596,18 @@
           <configItem>
             <name>dvorak</name>
             <description>French (Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>French (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>French (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
         <variant>
@@ -3639,6 +3885,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_ks</name>
+            <description>German (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>German (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>neo</name>
             <description>German (Neo 2)</description>
           </configItem>
@@ -3742,6 +4000,12 @@
             <description>Greek (polytonic)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>Greek (Colemak, phonetic)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3771,6 +4035,18 @@
           <configItem>
             <name>qwerty</name>
             <description>Hungarian (QWERTY)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Hungarian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Hungarian (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
         <variant>
@@ -3900,6 +4176,18 @@
             <description>Icelandic (Dvorak)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Icelandic (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Icelandic (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3929,6 +4217,12 @@
           <configItem>
             <name>biblical</name>
             <description>Hebrew (Biblical, Tiro)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>Hebrew (Colemak, phonetic)</description>
           </configItem>
         </variant>
       </variantList>
@@ -3975,6 +4269,18 @@
             <languageList>
               <iso639Id>kat</iso639Id>
             </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Italian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Italian (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
         <variant>
@@ -4237,6 +4543,18 @@
           <configItem>
             <name>colemak-gaming</name>
             <description>Spanish (Latin American, Colemak for gaming)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Spanish (Latin American, Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Spanish (Latin American, Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
       </variantList>
@@ -4504,6 +4822,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Norwegian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Norwegian (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>smi</name>
             <description>Northern Saami (Norway)</description>
             <languageList>
@@ -4579,6 +4909,18 @@
           <configItem>
             <name>dvorak_altquotes</name>
             <description>Polish (Dvorak, with Polish quotes on key 1)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Polish (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Polish (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
         <variant>
@@ -4661,6 +5003,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Portuguese (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Portuguese (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>nativo</name>
             <description>Portuguese (Nativo)</description>
           </configItem>
@@ -4705,6 +5059,18 @@
             <description>Romanian (Windows)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Romanian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Romanian (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -4728,6 +5094,12 @@
           <configItem>
             <name>phonetic_winkeys</name>
             <description>Russian (phonetic, Windows)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <description>Russian (Colemak, phonetic E-Slavic)</description>
           </configItem>
         </variant>
         <variant>
@@ -4950,6 +5322,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Serbian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Serbian (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>rue</name>
             <description>Pannonian Rusyn</description>
             <languageList>
@@ -4980,6 +5364,18 @@
           <configItem>
             <name>us</name>
             <description>Slovenian (US)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Slovenian (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Slovenian (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
       </variantList>
@@ -5058,6 +5454,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Spanish (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Spanish (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>ast</name>
             <shortDescription>ast</shortDescription>
             <description>Asturian (Spain, with bottom-dot H and L)</description>
@@ -5105,6 +5513,18 @@
           <configItem>
             <name>dvorak</name>
             <description>Swedish (Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Swedish (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Swedish (Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
         <variant>
@@ -5472,6 +5892,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_ed_ks</name>
+            <description>Turkish (Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>Turkish (Colemak[eD], unified symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>crh</name>
             <!-- Keyboard indicator for Crimean Tatar layouts -->
             <shortDescription>crh</shortDescription>
@@ -5659,6 +6091,18 @@
           <configItem>
             <name>colemak</name>
             <description>English (UK, Colemak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_ks</name>
+            <description>English (UK, Colemak[eD], keep local symbols)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cmk_ed_us</name>
+            <description>English (UK, Colemak[eD], unified symbols)</description>
           </configItem>
         </variant>
         <variant>
@@ -7303,6 +7747,18 @@
       </option>
       <option>
         <configItem>
+          <name>misc:extend</name>
+          <description>Enable level5 Extend mappings (home position arrows etc)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>misc:cmk_curl_dh</name>
+          <description>Colemak Curl(DH) ergo mod</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>misc:apl</name>
           <description>Enable APL overlay characters</description>
         </configItem>
@@ -7420,6 +7876,18 @@
         <configItem>
           <name>lv5:rwin_switch_lock</name>
           <description>Right Win chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:caps_switch_lock</name>
+          <description>Caps Lock chooses 5th level; acts as onetime lock when pressed together with another 5th level chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:lctl_switch_lock</name>
+          <description>Left Ctrl chooses 5th level; acts as onetime lock when pressed together with another 5th level chooser</description>
         </configItem>
       </option>
 <!--

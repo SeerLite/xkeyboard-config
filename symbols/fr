@@ -1321,3 +1321,45 @@ xkb_symbols "afnor" {
      key <AB09> { [               colon,        ellipsis,           periodcentered,          VoidSymbol ] }; // : … ·
      key <AB10> { [           semicolon,           equal,             similarequal,            notequal ] }; // ; = ≃ ≠
 };
+
+// --> OEystein Bech "DreymaR" Gadmar, 2012-01: Additions to xkb/symbols/fr
+// Colemak[eD]: National/locale Colemak "edition DreymaR" variants for French.
+// 2006-01-01 Shai Coleman, http://colemak.com/
+// See the Colemak forum topic on Cmk[eD] locales: http://forum.colemak.com/viewtopic.php?id=1458
+
+// The 'keep local symbols' variant keeps the national symbol and special letter setup.
+partial alphanumeric_keys
+xkb_symbols "cmk_ed_ks" {
+    include "fr(basic)"
+    include "colemak(cmk_ed_letters)"
+    name[Group1]= "French (Colemak[eD], keep local symbols)";
+    key <AB08> { [         comma,      question,          dead_acute,    dead_doubleacute ] }; // <AB07>
+    key <AD10> { [     semicolon,        period,      horizconnector,            multiply ] }; // <AB08>
+//    key <AD10> { [     semicolon,         colon,      dead_diaeresis,            ellipsis ] }; // Colemak[eD] <AD10>
+
+// NOTE: Symbols on letter keys may be lost in cmk_ed_ks if they are not on Colemak[eD] letter keys.
+// EuroSign is often on 'E'. The latin(intl) and locale(winkeys) layout variants use '5'.
+// Colemak[eD] has EuroSign on 'E' and mu on '5'.
+//    key <AE05> { [ NoSymbol, NoSymbol, NoSymbol,       mu ] };
+//    key <AE05> { [ NoSymbol, NoSymbol, NoSymbol, EuroSign ] }; // EuroSign added on lv4 to keep bracketleft
+};
+
+// The 'us' variant uses the US-type symbol key setup (recommended!) as it is nearly an intl. standard.
+// For French, necessary local letters are added to designated flexible spots in the layout.
+partial alphanumeric_keys
+xkb_symbols "cmk_ed_us" {
+    include "colemak(cmk_ed_letters)"
+    include "colemak(cmk_ed_symbols)"
+    include "level3(ralt_switch)"
+    name[Group1]= "French (Colemak[eD], unified symbols)";
+
+//    key <AD11> { [        eacute,        egrave,         bracketleft,           braceleft ] }; // <AE02>/<AE07>
+//    key <AD12> { [        ugrave,        agrave,        bracketright,          braceright ] }; // <AC11>/<AE10>
+//    key <AB06> { [             k,             K,            ccedilla,            Ccedilla ] }; // from <AE09>
+
+    key <LSGT> { [        eacute,        Eacute,                  oe,                  OE ] }; // <AE02>; oe
+    key <AD11> { [dead_circumflex, dead_diaeresis,       bracketleft,           braceleft ] }; // <AD11> kept
+    key <AD12> { [    dead_grave,    numerosign,        bracketright,          braceright ] }; // from usage
+// NOTE: The be/ca/fr layouts have been harmonized; this should not affect typing efficiency.
+};
+// <-- DreymaR: Additions to xkb/symbols/fr

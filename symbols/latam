@@ -244,3 +244,40 @@ xkb_symbols "colemak-gaming" {
 
     include "level3(ralt_switch)"
 };
+
+// --> OEystein Bech "DreymaR" Gadmar, 2012-01: Additions to xkb/symbols/latam
+// Colemak[eD]: National/locale Colemak "edition DreymaR" variants for Spanish (Latin American).
+// 2006-01-01 Shai Coleman, http://colemak.com/
+// See the Colemak forum topic on Cmk[eD] locales: http://forum.colemak.com/viewtopic.php?id=1458
+
+// The 'keep local symbols' variant keeps the national symbol and special letter setup.
+partial alphanumeric_keys
+xkb_symbols "cmk_ed_ks" {
+    include "latam(basic)"
+    include "colemak(cmk_ed_letters)"
+    name[Group1]= "Spanish (Latin American, Colemak[eD], keep local symbols)";
+
+    key <AD10>	{ [ ntilde, Ntilde, asciitilde, dead_doubleacute ] }; // from <AC10>
+};
+
+// The 'us' variant uses the US-type symbol key setup (recommended!) as it is nearly an intl. standard.
+// For Spanish (Latin American), necessary local letters are added to designated flexible spots in the layout.
+// For "writing" and "coding" subvariants, move the brackets between lv1-2 and lv3-4 as shown.
+partial alphanumeric_keys
+xkb_symbols "cmk_ed_us" {
+    include "colemak(cmk_ed_letters)"
+    include "colemak(cmk_ed_symbols)"
+    include "level3(ralt_switch)"
+    name[Group1]= "Spanish (Latin American, Colemak[eD], unified symbols)";
+
+//    key <AB06> { [             k,             K,            ccedilla,            Ccedilla ] }; // from es <BKSL>
+
+//    key <AD11> { [   bracketleft,     braceleft,          dead_acute,      dead_diaeresis ] }; // (es <AC11>)
+//    key <AD12> { [  bracketright,    braceright,          dead_grave,     dead_circumflex ] };
+    key <AD11> { [   dead_acute, dead_diaeresis,         bracketleft,           braceleft ] }; // <AD11> kept
+    key <AD12> { [  dead_grave, dead_circumflex,        bracketright,          braceright ] }; // es/Sun <AD11>
+    key <LSGT> { [        ntilde,        Ntilde,                  oe,                  OE ] }; // from <AC10>
+// Note: For ordfeminine/masculine, use AltGr+o/O
+// NOTE: The es and latam layouts have been harmonized; this should not affect typing efficiency.
+};
+// <-- DreymaR: Additions to xkb/symbols/latam
