@@ -1,0 +1,41 @@
+Source: xkeyboard-config
+Section: x11
+Priority: optional
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ quilt,
+Build-Depends-Indep:
+ gettext-base,
+ libxml-parser-perl,
+ x11-xkb-utils,
+ libglib2.0-dev,
+ xsltproc,
+ xutils-dev (>= 1:7.6+2),
+Standards-Version: 4.5.0
+Vcs-Git: https://salsa.debian.org/xorg-team/data/xkb-data.git
+Vcs-Browser: https://salsa.debian.org/xorg-team/data/xkb-data
+Homepage: https://www.freedesktop.org/Software/XKeyboardConfig
+
+Package: xkb-data
+Depends: ${misc:Depends}
+Breaks: libx11-6 (<< 2:1.4.3),
+        x11-xkb-utils (<< 7.7+5),
+Architecture: all
+Multi-Arch: foreign
+Description: X Keyboard Extension (XKB) configuration data
+ This package contains configuration data used by the X Keyboard
+ Extension (XKB), which allows selection of keyboard layouts when
+ using a graphical interface.
+ .
+ Every X11 vendor provides its own XKB data files, so keyboard layout
+ designers have to send their layouts to several places.  The
+ xkeyboard-config project has been launched at FreeDesktop in order
+ to provide a central repository that could be used by all vendors.
+
+Package: xkb-data-udeb
+XC-Package-Type: udeb
+Section: debian-installer
+Architecture: all
+Description: X Keyboard Extension (XKB) configuration data
+ This is a udeb, or a microdeb, for the debian-installer.

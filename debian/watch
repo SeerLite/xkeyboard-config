@@ -1,0 +1,4 @@
+#git=git://anongit.freedesktop.org/xkeyboard-config
+version=3
+opts=pgpsigurlmangle=s/$/.sig/ \
+https://xorg.freedesktop.org/releases/individual/data/xkeyboard-config/xkeyboard-config-(.*)\.tar\.gz
