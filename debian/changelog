@@ -1,3 +1,9 @@
+xkeyboard-config-bbkt (2.31+git-80e6af32) unstable; urgency=medium
+  [ SeerLite ]
+  * Update to latest master of xkeyboard-config-bbkt.
+
+ -- SeerLite <seerlite@tuta.io>  Sat, 09 Jan 2021 01:53:17 -0300
+
 xkeyboard-config (2.29-2) unstable; urgency=medium
 
   [ Simon McVittie ]

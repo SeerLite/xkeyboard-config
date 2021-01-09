@@ -10,20 +10,20 @@ override_dh_auto_configure:
 
 override_dh_auto_install:
 	# Regular deb:
-	$(MAKE) -C build install DESTDIR=$(CURDIR)/debian/xkb-data
+	$(MAKE) -C build install DESTDIR=$(CURDIR)/debian/xkb-data-bbkt
 
 	# Treat the udeb as an exact copy, but remove messages/pkg-config/man-pages:
-	mkdir $(CURDIR)/debian/xkb-data-udeb
-	cp -r $(CURDIR)/debian/xkb-data/* $(CURDIR)/debian/xkb-data-udeb
-	rm -rf $(CURDIR)/debian/xkb-data-udeb/usr/share/locale
-	rm -rf $(CURDIR)/debian/xkb-data-udeb/usr/share/man
-	rm -rf $(CURDIR)/debian/xkb-data-udeb/usr/share/pkgconfig
+	mkdir $(CURDIR)/debian/xkb-data-bbkt-udeb
+	cp -r $(CURDIR)/debian/xkb-data-bbkt/* $(CURDIR)/debian/xkb-data-bbkt-udeb
+	rm -rf $(CURDIR)/debian/xkb-data-bbkt-udeb/usr/share/locale
+	rm -rf $(CURDIR)/debian/xkb-data-bbkt-udeb/usr/share/man
+	rm -rf $(CURDIR)/debian/xkb-data-bbkt-udeb/usr/share/pkgconfig
 
 	# Now try and save some space, by getting rid of comments (in
 	# non-XML files, let's be cautious), then of multiple spaces:
-	find $(CURDIR)/debian/xkb-data-udeb/ ! -name '*.xml' -type f -print0 \
+	find $(CURDIR)/debian/xkb-data-bbkt-udeb/ ! -name '*.xml' -type f -print0 \
 	  | xargs -0 perl -i -pe 's,//.*$$,,'
-	find $(CURDIR)/debian/xkb-data-udeb/usr/share/X11 -type f -print0 \
+	find $(CURDIR)/debian/xkb-data-bbkt-udeb/usr/share/X11 -type f -print0 \
 	  | xargs -0 perl -i -pe 's/[ \t]+/ /g'
 
 # Work around quilt's removing empty files:

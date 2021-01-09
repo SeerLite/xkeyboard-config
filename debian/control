@@ -1,7 +1,7 @@
-Source: xkeyboard-config
+Source: xkeyboard-config-bbkt
 Section: x11
 Priority: optional
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Maintainer: SeerLite <seerlite@tuta.io>
 Build-Depends:
  debhelper-compat (= 12),
  quilt,
@@ -13,17 +13,20 @@ Build-Depends-Indep:
  xsltproc,
  xutils-dev (>= 1:7.6+2),
 Standards-Version: 4.5.0
-Vcs-Git: https://salsa.debian.org/xorg-team/data/xkb-data.git
-Vcs-Browser: https://salsa.debian.org/xorg-team/data/xkb-data
-Homepage: https://www.freedesktop.org/Software/XKeyboardConfig
+Vcs-Git: https://github.com/SeerLite/xkeyboard-config -b debian
+Vcs-Browser: https://github.com/SeerLite/xkeyboard-config
+Homepage: https://forum.colemak.com/topic/1438-dreymars-big-bag-of-keyboard-tricks-linuxxkb-files-included
 
-Package: xkb-data
+Package: xkb-data-bbkt
 Depends: ${misc:Depends}
 Breaks: libx11-6 (<< 2:1.4.3),
         x11-xkb-utils (<< 7.7+5),
+Conflicts: xkb-data
+Replaces: xkb-data
+Provides: xkb-data
 Architecture: all
 Multi-Arch: foreign
-Description: X Keyboard Extension (XKB) configuration data
+Description: XKB configuration files with DreymaR's Big Bag patches applied (Colemak)
  This package contains configuration data used by the X Keyboard
  Extension (XKB), which allows selection of keyboard layouts when
  using a graphical interface.
@@ -32,10 +35,13 @@ Description: X Keyboard Extension (XKB) configuration data
  designers have to send their layouts to several places.  The
  xkeyboard-config project has been launched at FreeDesktop in order
  to provide a central repository that could be used by all vendors.
+ .
+ Additionally, this package has been patched with DreymaR's Big Bag of
+ Keyboard Tricks mods, mostly about Colemak.
 
-Package: xkb-data-udeb
+Package: xkb-data-bbkt-udeb
 XC-Package-Type: udeb
 Section: debian-installer
 Architecture: all
-Description: X Keyboard Extension (XKB) configuration data
+Description: XKB configuration files with DreymaR's Big Bag patches applied (Colemak)
  This is a udeb, or a microdeb, for the debian-installer.
