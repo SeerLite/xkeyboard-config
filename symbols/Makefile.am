@@ -33,7 +33,8 @@ dist_symbols_DATA = \
     ua us uz vn \
     za \
     altwin capslock compose ctrl empty eurosign rupeesign group inet \
-    keypad kpdl level2 level3 level5 nbsp olpc shift srvr_ctrl typo
+    keypad kpdl level2 level3 level5 nbsp olpc shift srvr_ctrl typo \
+    colemak colemak_eD_epo colemak_eD_template extend
 
 digitaldir = $(symbolsdir)/digital_vndr
 dist_digital_DATA = digital_vndr/lk digital_vndr/pc digital_vndr/us digital_vndr/vt
