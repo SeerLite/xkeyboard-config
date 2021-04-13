@@ -95,6 +95,7 @@ check-merge-request:
     reports:
       junit: results.xml
   allow_failure: true
+  dependencies: []
 
 make_install:
   extends: .default_build
@@ -187,13 +188,14 @@ layout_tests:
     - ./builddir/xkeyboard-config-test "$INSTDIR/share/X11/xkb/rules/evdev.xml" > $INSTDIR/xkeyboard-config-test.out
     - ./builddir/xkeyboard-config-test "$INSTDIR/share/X11/xkb/rules/evdev.extras.xml" >> $INSTDIR/xkeyboard-config-test.out
     - popd > /dev/null
+    - xz -z "$INSTDIR/xkeyboard-config-test.out"
   variables:
     GIT_STRATEGY: none
   artifacts:
     name: xkeyboard-config test output
     expire_in: 2 weeks
     paths:
-    - $INSTDIR/xkeyboard-config-test.out
+    - $INSTDIR/xkeyboard-config-test.out.xz
 
 keymap_tests:
   extends: .default_setup
