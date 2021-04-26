@@ -137,7 +137,7 @@ xkb_symbols "cmk_ed_letters" {
     key <AC04> { [             t,             T,               thorn,               THORN ] }; // QWE F Cmk tT þÞ
     key <AC05> { [             d,             D,                 eth,                 ETH ] }; // QWE G Cmk dD ðÐ
     key <AC06> { [             h,             H,             hstroke,             Hstroke ] }; // QWE H Cmk hH ħĦ
-    key <AC07> { [             n,             N,              endash,             uparrow ] }; // QWE J Cmk nN –↑
+    key <AC07> { [             n,             N,              ntilde,             Ntilde ] }; // QWE J Cmk nN –↑
     key <AC08> { [             e,             E,            EuroSign,           leftarrow ] }; // QWE K Cmk eE €←
     key <AC09> { [             i,             I,              emdash,          rightarrow ] }; // QWE L Cmk iI —→
     key <AC10> { [             o,             O,           masculine,         ordfeminine ] }; // QWE ; Cmk oO ºª
