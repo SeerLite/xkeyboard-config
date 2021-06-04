@@ -1,5 +1,5 @@
 # xkeyboard-config-bbkt
-[Upstream xkeyboard-config](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config) configuration file sources patched with @DreymaR's [Big Bag mods](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config).
+[Upstream xkeyboard-config](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config) sources patched with @DreymaR's [Big Bag mods](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config).
 
 Should build just like the upstream version.
 
@@ -11,8 +11,10 @@ Should build just like the upstream version.
 
 ## Installation
 AUR package: [`xkeyboard-config-bbkt-git`](https://aur.archlinux.org/packages/xkeyboard-config-bbkt-git/)
+
 Other distros: Soon™
 
 ## See also
 [Upstream README](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/master/README)
+
 [Dreymar's Big Bag of Keyboard Tricks main page](https://dreymar.colemak.org/index.html)
