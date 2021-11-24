@@ -1,56 +1,59 @@
-# Polish translation for xkeyboard-config.
+# Hebrew translation for xkeyboard-config package.
+# Copyright (C) 2020 Free Software Foundation
 # This file is distributed under the same license as the xkeyboard-config package.
-# Jakub Bogusz <qboosh@pld-linux.org>, 2009-2021.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xkeyboard-config 2.33.99\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
 "POT-Creation-Date: 2021-09-19 21:42+0100\n"
-"PO-Revision-Date: 2021-09-20 20:30+0200\n"
-"Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
-"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
-"Language: pl\n"
+"PO-Revision-Date: 2021-09-22 01:13+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <heb-bugzap@hamakor.org.il>\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Poedit 3.0\n"
 
 #: rules/base.xml:8
 msgid "Generic 86-key PC"
-msgstr "Zwykła PC 86-klawiszowa"
+msgstr "גנרית של 86 מקשים למחשב"
 
 #: rules/base.xml:15
 msgid "Generic 101-key PC"
-msgstr "Zwykła PC 101-klawiszowa"
+msgstr "גנרית של 101 מקשים למחשב"
 
 #: rules/base.xml:22
 msgid "Generic 102-key PC"
-msgstr "Zwykła PC 102-klawiszowa"
+msgstr "גנרית של 102 מקשים למחשב"
 
 #: rules/base.xml:29
 msgid "Generic 104-key PC"
-msgstr "Zwykła PC 104-klawiszowa"
+msgstr "גנרית של 104 מקשים למחשב"
 
 #: rules/base.xml:36
 msgid "Generic 104-key PC with L-shaped Enter key"
-msgstr "Zwykła PC 104-klawiszowa z Enterem w kształcie L"
+msgstr "גנרית של 104 מקשים למחשב עם מקש Enter בצורת L"
 
 #: rules/base.xml:43
 msgid "Generic 105-key PC"
-msgstr "Zwykła PC 105-klawiszowa"
+msgstr "גנרית של 105 מקשים למחשב"
 
 #: rules/base.xml:50
 msgid "Dell 101-key PC"
-msgstr "Dell 101-key PC"
+msgstr "Dell 101 מקשים למחשב"
 
 #: rules/base.xml:57
 msgid "Dell Latitude laptop"
-msgstr "Laptop Dell Latitude"
+msgstr "מחשב נייד Dell Latitude"
 
 #: rules/base.xml:64
 msgid "Dell Precision M65 laptop"
-msgstr "Laptop Dell Precision M65"
+msgstr "מחשב נייד Dell Precision M65"
 
 #: rules/base.xml:71
 msgid "Everex STEPnote"
@@ -150,7 +153,7 @@ msgstr "Cherry CyMotion Master XPress"
 
 #: rules/base.xml:237
 msgid "Cherry Blue Line CyBo@rd (alt.)"
-msgstr "Cherry Blue Line CyBo@rd (alt.)"
+msgstr "Cherry Blue Line CyBo@rd (חלופית)"
 
 #: rules/base.xml:244
 msgid "Cherry CyBo@rd USB-Hub"
@@ -186,15 +189,15 @@ msgstr "Compaq Easy Access"
 
 #: rules/base.xml:300
 msgid "Compaq Internet (7 keys)"
-msgstr "Compaq Internet (7 klawiszy)"
+msgstr "Compaq Internet (7 keys)"
 
 #: rules/base.xml:307
 msgid "Compaq Internet (13 keys)"
-msgstr "Compaq Internet (13 klawiszy)"
+msgstr "Compaq Internet (13 keys)"
 
 #: rules/base.xml:314
 msgid "Compaq Internet (18 keys)"
-msgstr "Compaq Internet (18 klawiszy)"
+msgstr "Compaq Internet (18 keys)"
 
 #: rules/base.xml:321
 msgid "Cherry CyMotion Master Linux"
@@ -202,11 +205,11 @@ msgstr "Cherry CyMotion Master Linux"
 
 #: rules/base.xml:328
 msgid "Compaq Armada laptop"
-msgstr "Laptop Compaq Armada"
+msgstr "מחשב נייד Compaq Armada"
 
 #: rules/base.xml:335
 msgid "Compaq Presario laptop"
-msgstr "Laptop Compaq Presario"
+msgstr "מחשב נייד Compaq Presario"
 
 #: rules/base.xml:342
 msgid "Compaq iPaq"
@@ -230,11 +233,11 @@ msgstr "Dell USB Multimedia"
 
 #: rules/base.xml:377
 msgid "Dell Inspiron 6000/8000 laptop"
-msgstr "Laptop Dell Inspiron 6000/8000"
+msgstr "מחשב נייד Dell Inspiron 6000/8000"
 
 #: rules/base.xml:384
 msgid "Dell Precision M laptop"
-msgstr "Laptop Dell Precision M"
+msgstr "מחשב נייד Dell Precision M"
 
 #: rules/base.xml:391
 msgid "Dexxa Wireless Desktop"
@@ -254,7 +257,7 @@ msgstr "Ennyah DKB-1008"
 
 #: rules/base.xml:418
 msgid "Fujitsu-Siemens Amilo laptop"
-msgstr "Laptop Fujitsu-Siemens Amilo"
+msgstr "מחשב נייד Fujitsu-Siemens Amilo"
 
 #: rules/base.xml:425
 msgid "Genius Comfy KB-16M/Multimedia KWD-910"
@@ -290,7 +293,7 @@ msgstr "Logitech"
 
 #: rules/base.xml:481
 msgid "Logitech G15 extra keys via G15daemon"
-msgstr "Logitech G15 - dodatkowe glawisze poprzez G15daemon"
+msgstr "Logitech G15 מקשים נוספים עם G15daemon"
 
 #: rules/base.xml:488
 msgid "Hewlett-Packard Internet"
@@ -342,7 +345,7 @@ msgstr "Honeywell Euroboard"
 
 #: rules/base.xml:572
 msgid "Hewlett-Packard Mini 110 laptop"
-msgstr "Laptop Hewlett-Packard Mini 110"
+msgstr "מחשב נייד Hewlett-Packard Mini 110"
 
 #: rules/base.xml:579
 msgid "IBM Rapid Access"
@@ -398,11 +401,11 @@ msgstr "Logitech Cordless Desktop Optical"
 
 #: rules/base.xml:678
 msgid "Logitech Cordless Desktop (alt.)"
-msgstr "Logitech Cordless Desktop (alt.)"
+msgstr "Logitech Cordless Desktop (חלופית)"
 
 #: rules/base.xml:685
 msgid "Logitech Cordless Desktop Pro (2nd alt.)"
-msgstr "Logitech Cordless Desktop Pro (alt. 2)"
+msgstr "Logitech Cordless Desktop Pro (חלופה שנייה)"
 
 #: rules/base.xml:692
 msgid "Logitech Cordless Freedom/Desktop Navigator"
@@ -494,7 +497,7 @@ msgstr "ViewSonic KU-306 Internet"
 
 #: rules/base.xml:853
 msgid "Microsoft Internet Pro (Swedish)"
-msgstr "Microsoft Internet Pro (szwedzka)"
+msgstr "Microsoft Internet Pro (שוודית)"
 
 #: rules/base.xml:860
 msgid "Microsoft Office Keyboard"
@@ -570,7 +573,7 @@ msgstr "SVEN Slim 303"
 
 #: rules/base.xml:986
 msgid "Symplon PaceBook tablet"
-msgstr "Tablet Symplon PaceBook"
+msgstr "מחשב לוח Symplon PaceBook"
 
 #: rules/base.xml:993
 msgid "Toshiba Satellite S3000"
@@ -602,11 +605,11 @@ msgstr "TypeMatrix EZ-Reach 2030 USB"
 
 #: rules/base.xml:1042
 msgid "TypeMatrix EZ-Reach 2030 USB (102/105:EU mode)"
-msgstr "TypeMatrix EZ-Reach 2030 USB (tryb 102/105:EU)"
+msgstr "TypeMatrix EZ-Reach 2030 USB (מצב 102/105:EU)"
 
 #: rules/base.xml:1049
 msgid "TypeMatrix EZ-Reach 2030 USB (106:JP mode)"
-msgstr "TypeMatrix EZ-Reach 2030 USB (tryb 106:JP)"
+msgstr "TypeMatrix EZ-Reach 2030 USB (מצב 106:JP)"
 
 #: rules/base.xml:1056
 msgid "Yahoo! Internet"
@@ -618,7 +621,7 @@ msgstr "MacBook/MacBook Pro"
 
 #: rules/base.xml:1070
 msgid "MacBook/MacBook Pro (intl.)"
-msgstr "MacBook/MacBook Pro (międzynarodowa)"
+msgstr "MacBook/MacBook Pro (בינלאומי)"
 
 #: rules/base.xml:1077
 msgid "Macintosh"
@@ -626,11 +629,11 @@ msgstr "Macintosh"
 
 #: rules/base.xml:1084
 msgid "Macintosh Old"
-msgstr "Macintosh - stary"
+msgstr "Macintosh ישן"
 
 #: rules/base.xml:1091
 msgid "Happy Hacking for Mac"
-msgstr "Happy Hacking for Mac"
+msgstr "Happy Hacking ל־Mac"
 
 #: rules/base.xml:1098
 msgid "Acer C300"
@@ -642,11 +645,11 @@ msgstr "Acer Ferrari 4000"
 
 #: rules/base.xml:1112
 msgid "Acer laptop"
-msgstr "Laptop Acer"
+msgstr "מחשב נייד של Acer"
 
 #: rules/base.xml:1119
 msgid "Asus laptop"
-msgstr "Laptop Asus"
+msgstr "מחשב נייד של Asus"
 
 #: rules/base.xml:1126
 msgid "Apple"
@@ -654,7 +657,7 @@ msgstr "Apple"
 
 #: rules/base.xml:1133
 msgid "Apple laptop"
-msgstr "Laptop Apple"
+msgstr "מחשב נייד של Apple"
 
 #: rules/base.xml:1140
 msgid "Apple Aluminium (ANSI)"
@@ -674,7 +677,7 @@ msgstr "Silvercrest Multimedia Wireless"
 
 #: rules/base.xml:1168
 msgid "eMachines m6800 laptop"
-msgstr "Laptop eMachines m6800"
+msgstr "מחשב נייד eMachines m6800"
 
 #: rules/base.xml:1175
 msgid "BenQ X-Touch"
@@ -706,15 +709,15 @@ msgstr "Sun Type 7 USB"
 
 #: rules/base.xml:1224
 msgid "Sun Type 7 USB (European)"
-msgstr "Sun Type 7 USB (europejski)"
+msgstr "Sun Type 7 USB (אירופית)"
 
 #: rules/base.xml:1231
 msgid "Sun Type 7 USB (Unix)"
-msgstr "Sun Type 7 USB (uniksowa)"
+msgstr "Sun Type 7 USB (יוניקס)"
 
 #: rules/base.xml:1238
 msgid "Sun Type 7 USB (Japanese)/Japanese 106-key"
-msgstr "Sun Type 7 USB (japońska)/japońska 106-klawiszowa"
+msgstr "Sun Type 7 USB (יפנית)/יפנית 106 מקשים"
 
 #: rules/base.xml:1245
 msgid "Sun Type 6/7 USB"
@@ -722,19 +725,19 @@ msgstr "Sun Type 6/7 USB"
 
 #: rules/base.xml:1252
 msgid "Sun Type 6/7 USB (European)"
-msgstr "Sun Type 6/7 USB (europejska)"
+msgstr "Sun Type 6/7 USB (אירופית)"
 
 #: rules/base.xml:1259
 msgid "Sun Type 6 USB (Unix)"
-msgstr "Sun Type 6 USB (uniksowa)"
+msgstr "Sun Type 6 USB (יוניקס)"
 
 #: rules/base.xml:1266
 msgid "Sun Type 6 USB (Japanese)"
-msgstr "Sun Type 6 USB (japońska)"
+msgstr "Sun Type 6 USB (יפנית)"
 
 #: rules/base.xml:1273
 msgid "Sun Type 6 (Japanese)"
-msgstr "Sun Type 6 (japońska)"
+msgstr "Sun Type 6 (יפנית)"
 
 #: rules/base.xml:1280
 msgid "Targa Visionary 811"
@@ -776,88 +779,88 @@ msgstr "Chromebook"
 #: rules/base.xml:5875 rules/base.xml:5918 rules/base.xml:6063
 #: rules/base.xml:6074 rules/base.extras.xml:352 rules/base.extras.xml:1254
 msgid "en"
-msgstr "en"
+msgstr "אנ"
 
 #: rules/base.xml:1340 rules/base.extras.xml:353
 msgid "English (US)"
-msgstr "Angielski (USA)"
+msgstr "אנגלית (ארה״ב)"
 
 #. Keyboard indicator for Cherokee layouts
 #: rules/base.xml:1350
 msgid "chr"
-msgstr "chr"
+msgstr "צ׳ר"
 
 #: rules/base.xml:1351
 msgid "Cherokee"
-msgstr "Czerokeski"
+msgstr "צ׳רוקי"
 
 #: rules/base.xml:1360
 msgid "haw"
-msgstr "haw"
+msgstr "האס"
 
 #: rules/base.xml:1361
 msgid "Hawaiian"
-msgstr "Hawajski"
+msgstr "הוואית"
 
 #: rules/base.xml:1370
 msgid "English (US, euro on 5)"
-msgstr "Angielski (USA, znak euro pod 5)"
+msgstr "אנגלית (ארה״ב, אירו על מקש 5)"
 
 #: rules/base.xml:1376
 msgid "English (US, intl., with dead keys)"
-msgstr "Angielski (USA, międzynarodowy z klawiszami akcentów)"
+msgstr "אנגלית (ארה״ב, בינלאומית עם מקשים מתים)"
 
 #: rules/base.xml:1382
 msgid "English (US, alt. intl.)"
-msgstr "Angielski (Wielka Brytania, międzynarodowy alt.)"
+msgstr "אנגלית (ארה״ב, בינלאומית חלופית)"
 
 #: rules/base.xml:1388
 msgid "English (Colemak)"
-msgstr "Angielski (Colemak)"
+msgstr "אנגלית (קולמק)"
 
 #: rules/base.xml:1394
 msgid "English (Colemak-DH)"
-msgstr "Angielski (Colemak-DH)"
+msgstr "אנגלית (קולמק-DH)"
 
 #: rules/base.xml:1400
 msgid "English (Colemak-DH ISO)"
-msgstr "Angielski (Colemak-DH ISO)"
+msgstr "אנגלית (קולמק-DH‏ ISO)"
 
 #: rules/base.xml:1406
 msgid "English (Dvorak)"
-msgstr "Angielski (Dvoraka)"
+msgstr "אנגלית (דבוז׳אק)"
 
 #: rules/base.xml:1412
 msgid "English (Dvorak, intl., with dead keys)"
-msgstr "Angielski (Dvoraka, międzynarodowy z klawiszami akcentów)"
+msgstr "אנגלית (דבוז׳אק, בינלאומית עם מקשים מתים)"
 
 #: rules/base.xml:1418
 msgid "English (Dvorak, alt. intl.)"
-msgstr "Angielski (Dvoraka, międzynarodowy alt.)"
+msgstr "אנגלית (דבוז׳אק, בינלאומית חלופית)"
 
 #: rules/base.xml:1424
 msgid "English (Dvorak, left-handed)"
-msgstr "Angielski (Dvoraka, leworęczny)"
+msgstr "אנגלית (דבוז׳אק, לשמאליים)"
 
 #: rules/base.xml:1430
 msgid "English (Dvorak, right-handed)"
-msgstr "Angielski (Dvoraka, praworęczny)"
+msgstr "אנגלית (דבוז׳אק, לימניים)"
 
 #: rules/base.xml:1436
 msgid "English (classic Dvorak)"
-msgstr "Angielski (klasyczny Dvoraka)"
+msgstr "אנגלית (דבוז׳אק קלסית)"
 
 #: rules/base.xml:1442
 msgid "English (programmer Dvorak)"
-msgstr "Angielski (Dvoraka programisty)"
+msgstr "אנגלית (דבוז׳אק למתכנתים)"
 
 #: rules/base.xml:1448
 msgid "English (Dvorak, Macintosh)"
-msgstr "Angielski (Dvoraka, Macintosh)"
+msgstr "אנגלית (דבוז׳אק, Macintosh)"
 
 #: rules/base.xml:1454
 msgid "English (US, Symbolic)"
-msgstr "Angielski (USA, symboliczny)"
+msgstr "אנגלית (ארה״ב, Symbolic)"
 
 #. Keyboard indicator for Russian layouts
 #: rules/base.xml:1461 rules/base.xml:3005 rules/base.xml:3565
@@ -867,80 +870,80 @@ msgstr "Angielski (USA, symboliczny)"
 #: rules/base.extras.xml:615 rules/base.extras.xml:631
 #: rules/base.extras.xml:679
 msgid "ru"
-msgstr "ru"
+msgstr "רו"
 
 #: rules/base.xml:1462
 msgid "Russian (US, phonetic)"
-msgstr "Rosyjski (USA, fonetyczny)"
+msgstr "רוסית (ארה״ב, פונטית)"
 
 #: rules/base.xml:1471
 msgid "English (Macintosh)"
-msgstr "Angielski (Macintosh)"
+msgstr "אנגלית (Macintosh)"
 
 #: rules/base.xml:1477
 msgid "English (intl., with AltGr dead keys)"
-msgstr "Angielski (międzynarodowy z klawiszami akcentów AltGr)"
+msgstr "אנגלית (בינלאומית עם AltGr מקשים מתים)"
 
 #: rules/base.xml:1488
 msgid "English (the divide/multiply toggle the layout)"
-msgstr "Angielski (dzielenie/mnożenie przełącza układ)"
+msgstr "אנגלית (חילוק/כפל מחליפים פריסה)"
 
 #: rules/base.xml:1494
 msgid "Serbo-Croatian (US)"
-msgstr "Serbsko-chorwacki (USA)"
+msgstr "סרבו-קרואטית (ארה״ב)"
 
 #: rules/base.xml:1507
 msgid "English (Norman)"
-msgstr "Angielski (Normana)"
+msgstr "אנגלית (Norman)"
 
 #: rules/base.xml:1513
 msgid "English (Workman)"
-msgstr "Angielski (Workman)"
+msgstr "אנגלית (Workman)"
 
 #: rules/base.xml:1519
 msgid "English (Workman, intl., with dead keys)"
-msgstr "Angielski (Workman, międzynarodowy z klawiszami akcentów)"
+msgstr "אנגלית (Workman, בינלאומי עם מקשים מתים)"
 
 #. Keyboard indicator for Afghani layouts
 #. Keyboard indicator for Persian layouts
 #: rules/base.xml:1528 rules/base.xml:1569 rules/base.xml:3134
 #: rules/base.extras.xml:235
 msgid "fa"
-msgstr "fa"
+msgstr "פרס"
 
 #: rules/base.xml:1529
 msgid "Afghani"
-msgstr "Afgański"
+msgstr "אפגנית"
 
 #. Keyboard indicator for Pashto layouts
 #: rules/base.xml:1536 rules/base.xml:1558
 msgid "ps"
-msgstr "ps"
+msgstr "פשט"
 
 #: rules/base.xml:1537
 msgid "Pashto"
-msgstr "Pasztuński"
+msgstr "פשטו"
 
 #. Keyboard indicator for Uzbek layouts
 #: rules/base.xml:1547 rules/base.xml:1577 rules/base.xml:5694
 msgid "uz"
-msgstr "uz"
+msgstr "אזב"
 
 #: rules/base.xml:1548
 msgid "Uzbek (Afghanistan)"
-msgstr "Uzbecki (Afganistan)"
+msgstr "אוזבקית (אפגניסטן)"
 
 #: rules/base.xml:1559
 msgid "Pashto (Afghanistan, OLPC)"
-msgstr "Paszto (Afganistan, OLPC)"
+msgstr "פשטו (אפגניסטן, OLPC)"
 
 #: rules/base.xml:1570
 msgid "Persian (Afghanistan, Dari OLPC)"
-msgstr "Perski (Afganistan, Dari OLPC)"
+msgstr "פשטו, OLPC דארי)"
 
 #: rules/base.xml:1578
 msgid "Uzbek (Afghanistan, OLPC)"
-msgstr "Uzbecki (Afganistan, OLPC)"
+msgstr "אוזבקית (אפגניסטן, OLPC)"
 
 #. Keyboard indicator for Arabic layouts
 #. Keyboard indicator for Iraqi layouts
@@ -949,528 +952,528 @@ msgstr "Uzbecki (Afganistan, OLPC)"
 #: rules/base.xml:3197 rules/base.xml:5251 rules/base.xml:5839
 #: rules/base.extras.xml:793
 msgid "ar"
-msgstr "ar"
+msgstr "ער"
 
 #: rules/base.xml:1591 rules/base.extras.xml:794
 msgid "Arabic"
-msgstr "Arabski"
+msgstr "ערבית"
 
 #: rules/base.xml:1621
 msgid "Arabic (AZERTY)"
-msgstr "Arabski (AZERTY)"
+msgstr "ערבית (AZERTY)"
 
 #: rules/base.xml:1627
 msgid "Arabic (AZERTY, Eastern Arabic numerals)"
-msgstr "Arabski (AZERTY, cyfry wschodnioarabskie)"
+msgstr "ערבית (AZERTY, עם ספרות הודיות ערביות)"
 
 #: rules/base.xml:1633
 msgid "Arabic (Eastern Arabic numerals)"
-msgstr "Arabski (cyfry wschodnioarabskie)"
+msgstr "ערבית (עם ספרות הודיות ערביות)"
 
 #: rules/base.xml:1639
 msgid "Arabic (QWERTY)"
-msgstr "Arabski (QWERTY)"
+msgstr "ערבית (QWERTY)"
 
 #: rules/base.xml:1645
 msgid "Arabic (QWERTY, Eastern Arabic numerals)"
-msgstr "Arabski (QWERTY, cyfry wschodnioarabskie)"
+msgstr "ערבית (QWERTY, עם ספרות הודיות ערביות)"
 
 #: rules/base.xml:1651
 msgid "Arabic (Buckwalter)"
-msgstr "Arabski (Buckwalter)"
+msgstr "ערבית (Buckwalter)"
 
 #: rules/base.xml:1657
 msgid "Arabic (OLPC)"
-msgstr "Arabski (OLPC)"
+msgstr "ערבית (OLPC)"
 
 #: rules/base.xml:1663
 msgid "Arabic (Macintosh)"
-msgstr "Arabski (Macintosh)"
+msgstr "ערבית (Macintosh)"
 
 #. Keyboard indicator for Albanian layouts
 #: rules/base.xml:1672
 msgid "sq"
-msgstr "sq"
+msgstr "אלב"
 
 #: rules/base.xml:1673
 msgid "Albanian"
-msgstr "Albański"
+msgstr "אלבנית"
 
 #: rules/base.xml:1682
 msgid "Albanian (Plisi)"
-msgstr "Albański (Plisi)"
+msgstr "אלבנית (Plisi)"
 
 #: rules/base.xml:1688
 msgid "Albanian (Veqilharxhi)"
-msgstr "Albański (Veqilharxhi)"
+msgstr "אלבנית (Veqilharxhi)"
 
 #. Keyboard indicator for Armenian layouts
 #: rules/base.xml:1697 rules/base.extras.xml:754
 msgid "hy"
-msgstr "hy"
+msgstr "אמנ"
 
 #: rules/base.xml:1698 rules/base.extras.xml:755
 msgid "Armenian"
-msgstr "Armeński"
+msgstr "ארמנית"
 
 #: rules/base.xml:1707
 msgid "Armenian (phonetic)"
-msgstr "Armeński (fonetyczny)"
+msgstr "ארמנית (פונטית)"
 
 #: rules/base.xml:1713
 msgid "Armenian (alt. phonetic)"
-msgstr "Armeński (fonetyczny alt.)"
+msgstr "ארמנית (פונטית חלופית)"
 
 #: rules/base.xml:1719
 msgid "Armenian (eastern)"
-msgstr "Armeński (wschodni)"
+msgstr "ארמנית (מזרחית)"
 
 #: rules/base.xml:1725
 msgid "Armenian (western)"
-msgstr "Armeński (zachodni)"
+msgstr "ארמנית (מערבית)"
 
 #: rules/base.xml:1731
 msgid "Armenian (alt. eastern)"
-msgstr "Armeński (wschodni alt.)"
+msgstr "ארמנית (מזרחית חלופית)"
 
 #. Keyboard indicator for German layouts
 #: rules/base.xml:1740 rules/base.xml:3587 rules/base.xml:5182
 #: rules/base.xml:5200 rules/base.xml:5241 rules/base.extras.xml:95
 #: rules/base.extras.xml:1197
 msgid "de"
-msgstr "de"
+msgstr "גרמ"
 
 #: rules/base.xml:1741
 msgid "German (Austria)"
-msgstr "Niemiecki (Austria)"
+msgstr "גרמנית (אוסטריה)"
 
 #: rules/base.xml:1750
 msgid "German (Austria, no dead keys)"
-msgstr "Niemiecki (Austria, bez klawiszy akcentów)"
+msgstr "גרמנית (אוסטריה, ללא מקשים מתים)"
 
 #: rules/base.xml:1756
 msgid "German (Austria, Macintosh)"
-msgstr "Niemiecki (Austria, Macintosh)"
+msgstr "גרמנית (אוסטריה, Macintosh)"
 
 #: rules/base.xml:1766
 msgid "English (Australian)"
-msgstr "Angielski (Australia)"
+msgstr "אנגלית (אוסטרלית)"
 
 #. Keyboard indicator for Azerbaijani layouts
 #: rules/base.xml:1776
 msgid "az"
-msgstr "AZ"
+msgstr "אזר"
 
 #: rules/base.xml:1777
 msgid "Azerbaijani"
-msgstr "Azerbejdżański"
+msgstr "אזרית"
 
 #: rules/base.xml:1786
 msgid "Azerbaijani (Cyrillic)"
-msgstr "Azerbejdżański (cyrylica)"
+msgstr "אזרית (קירילית)"
 
 #. Keyboard indicator for Belarusian layouts
 #: rules/base.xml:1795
 msgid "by"
-msgstr "by"
+msgstr "בלר"
 
 #: rules/base.xml:1796
 msgid "Belarusian"
-msgstr "Białoruski"
+msgstr "בלארוסית"
 
 #: rules/base.xml:1805
 msgid "Belarusian (legacy)"
-msgstr "Białoruski (stary)"
+msgstr "בלארוסית (מיושנת)"
 
 #: rules/base.xml:1811
 msgid "Belarusian (Latin)"
-msgstr "Białoruski (łaciński)"
+msgstr "בלארוסית (לטינית)"
 
 #: rules/base.xml:1817
 msgid "Russian (Belarus)"
-msgstr "Rosyjski (Białoruś)"
+msgstr "רוסית (בלרוס)"
 
 #: rules/base.xml:1823
 msgid "Belarusian (intl.)"
-msgstr "Białoruski (międzynarodowy)"
+msgstr "בלארוסית (בינלאומית)"
 
 #. Keyboard indicator for Belgian layouts
 #: rules/base.xml:1832 rules/base.extras.xml:826
 msgid "be"
-msgstr "be"
+msgstr "בלג"
 
 #: rules/base.xml:1833 rules/base.extras.xml:827
 msgid "Belgian"
-msgstr "Belgijski"
+msgstr "בלגית"
 
 #: rules/base.xml:1844
 msgid "Belgian (alt.)"
-msgstr "Belgijski (alt.)"
+msgstr "בלגית חלופית"
 
 #: rules/base.xml:1850
 msgid "Belgian (Latin-9 only, alt.)"
-msgstr "Belgijski (tylko Latin-9, alt.)"
+msgstr "בלגית (לטינית-9 בלבד, חלופית)"
 
 #: rules/base.xml:1856
 msgid "Belgian (ISO, alt.)"
-msgstr "Belgijski (ISO, alt.)"
+msgstr "בלגית (ISO, חלופית)"
 
 #: rules/base.xml:1862
 msgid "Belgian (no dead keys)"
-msgstr "Belgijski (bez klawiszy akcentów)"
+msgstr "בלגית (ללא מקשים מתים)"
 
 #: rules/base.xml:1868
 msgid "Belgian (Wang 724 AZERTY)"
-msgstr "Belgijski (Wang 724 AZERTY)"
+msgstr "בלגית (Wang 724 AZERTY)"
 
 #. Keyboard indicator for Bangla layouts
 #: rules/base.xml:1877 rules/base.xml:1906 rules/base.xml:1919
 msgid "bn"
-msgstr "bn"
+msgstr "בנג"
 
 #: rules/base.xml:1878
 msgid "Bangla"
-msgstr "Bengalski"
+msgstr "בנגלית"
 
 #: rules/base.xml:1889
 msgid "Bangla (Probhat)"
-msgstr "Bengalski (Probhat)"
+msgstr "בנגלית (Probhat)"
 
 #. Keyboard indicator for Indian layouts
 #: rules/base.xml:1898 rules/base.extras.xml:1352
 msgid "in"
-msgstr "in"
+msgstr "הוד"
 
 #: rules/base.xml:1899 rules/base.extras.xml:1353
 msgid "Indian"
-msgstr "Indyjski"
+msgstr "הודית"
 
 #: rules/base.xml:1907
 msgid "Bangla (India)"
-msgstr "Bengalski (Indie)"
+msgstr "בנגלית (הודו)"
 
 #: rules/base.xml:1920
 msgid "Bangla (India, Probhat)"
-msgstr "Bengalski (Indie, Probhat)"
+msgstr "בנגלית (הודו, Probhat)"
 
 #: rules/base.xml:1931
 msgid "Bangla (India, Baishakhi)"
-msgstr "Bengalski (Indie, Baishakhi)"
+msgstr "בנגלית (הודו, Baishakhi)"
 
 #: rules/base.xml:1942
 msgid "Bangla (India, Bornona)"
-msgstr "Bengalski (Indie, Bornona)"
+msgstr "בנגלית (הודו, Bornona)"
 
 #: rules/base.xml:1953
 msgid "Bangla (India, Gitanjali)"
-msgstr "Bengalski (Indie, Gitanjali)"
+msgstr "בנגלית (הודו, Gitanjali)"
 
 #: rules/base.xml:1964
 msgid "Bangla (India, Baishakhi InScript)"
-msgstr "Bengalski (Indie, Baishakhi InScript)"
+msgstr "בנגלית (הודו, Baishakhi InScript)"
 
 #: rules/base.xml:1975
 msgid "Manipuri (Eeyek)"
-msgstr "Manipuri (Eeyek)"
+msgstr "מניפורית (Eeyek)"
 
 #. Keyboard indicator for Gujarati layouts
 #: rules/base.xml:1985
 msgid "gu"
-msgstr "gu"
+msgstr "גוג"
 
 #: rules/base.xml:1986
 msgid "Gujarati"
-msgstr "Gudźarati"
+msgstr "גוג׳ראטית"
 
 #. Keyboard indicator for Punjabi layouts
 #: rules/base.xml:1996 rules/base.xml:2007
 msgid "pa"
-msgstr "pa"
+msgstr "פונ"
 
 #: rules/base.xml:1997
 msgid "Punjabi (Gurmukhi)"
-msgstr "Pendżabski (Gurmukhi)"
+msgstr "פנג׳אבי (גורמוקהי)"
 
 #: rules/base.xml:2008
 msgid "Punjabi (Gurmukhi Jhelum)"
-msgstr "Pendżabski (Gurmukhi Jhelum)"
+msgstr "פנג׳אבי (גורמוקהי ג׳הלום)"
 
 #. Keyboard indicator for Kannada layouts
 #: rules/base.xml:2018 rules/base.xml:2029
 msgid "kn"
-msgstr "kn"
+msgstr "קנד"
 
 #: rules/base.xml:2019
 msgid "Kannada"
-msgstr "Kannada"
+msgstr "קאנדה"
 
 #: rules/base.xml:2030
 msgid "Kannada (KaGaPa, phonetic)"
-msgstr "Kannada (KaGaPa, fonetyczny)"
+msgstr "קאנדה (KaPaGa, פונטית)"
 
 #. Keyboard indicator for Malayalam layouts
 #: rules/base.xml:2040 rules/base.xml:2051 rules/base.xml:2062
 msgid "ml"
-msgstr "ml"
+msgstr "מלא"
 
 #: rules/base.xml:2041
 msgid "Malayalam"
-msgstr "Malajalam"
+msgstr "מלאיאלאם"
 
 #: rules/base.xml:2052
 msgid "Malayalam (Lalitha)"
-msgstr "Malajalam (Lalitha)"
+msgstr "מלאיאלאם (Lalitha)"
 
 #: rules/base.xml:2063
 msgid "Malayalam (enhanced InScript, with rupee)"
-msgstr "Malajalam (rozszerzony InScript, ze znakiem rupii)"
+msgstr "מלאיאלאם (InScript מורחבת, עם רופי)"
 
 #. Keyboard indicator for Oriya layouts
 #: rules/base.xml:2073 rules/base.xml:2086 rules/base.xml:2099
 msgid "or"
-msgstr "or"
+msgstr "אור"
 
 #: rules/base.xml:2074
 msgid "Oriya"
-msgstr "Orija"
+msgstr "אורייה"
 
 #: rules/base.xml:2087
 msgid "Oriya (Bolnagri)"
-msgstr "Orija (Bolnagri)"
+msgstr "אורייה (Bolnagri)"
 
 #: rules/base.xml:2100
 msgid "Oriya (Wx)"
-msgstr "Orija (Wx)"
+msgstr "אורייה (Wx)"
 
 #. Keyboard indicator for Ol Chiki layouts
 #: rules/base.xml:2112
 msgid "sat"
-msgstr "sat"
+msgstr "סנט"
 
 #: rules/base.xml:2113
 msgid "Ol Chiki"
-msgstr "Santaki"
+msgstr "אול צ׳יקי"
 
 #. Keyboard indicator for Tamil layouts
 #: rules/base.xml:2124 rules/base.xml:2135 rules/base.xml:2146
 #: rules/base.xml:2157 rules/base.xml:2168 rules/base.xml:5343
 msgid "ta"
-msgstr "ta"
+msgstr "טמל"
 
 #: rules/base.xml:2125
 msgid "Tamil (TamilNet '99)"
-msgstr "Tamilski (TamilNet '99)"
+msgstr "טמילית (TamilNet '99)"
 
 #: rules/base.xml:2136
 msgid "Tamil (TamilNet '99 with Tamil numerals)"
-msgstr "Tamilski (TamilNet '99 z cyframi tamilskimi)"
+msgstr "טמילית (TamilNet '99 עם ספרות טמיליות)"
 
 #: rules/base.xml:2147
 msgid "Tamil (TamilNet '99, TAB encoding)"
-msgstr "Tamilski (TamilNet '99, kodowanie TAB)"
+msgstr "טמילית (TamilNet '99, קידוד TAB)"
 
 #: rules/base.xml:2158
 msgid "Tamil (TamilNet '99, TSCII encoding)"
-msgstr "Tamilski (TamilNet '99, kodowanie TSCII)"
+msgstr "טמילית (TamilNet '99, קידוד TSCII)"
 
 #: rules/base.xml:2169
 msgid "Tamil (InScript)"
-msgstr "Tamilski (InScript)"
+msgstr "טמילית (InScript)"
 
 #. Keyboard indicator for Telugu layouts
 #: rules/base.xml:2179 rules/base.xml:2190 rules/base.xml:2201
 msgid "te"
-msgstr "te"
+msgstr "טלג"
 
 #: rules/base.xml:2180
 msgid "Telugu"
-msgstr "Telugu"
+msgstr "טלוגו"
 
 #: rules/base.xml:2191
 msgid "Telugu (KaGaPa, phonetic)"
-msgstr "Telugu (KaGaPa, fonetyczny)"
+msgstr "טלוגו (KaGaPa, פונטית)"
 
 #: rules/base.xml:2202
 msgid "Telugu (Sarala)"
-msgstr "Telugu (Sarala)"
+msgstr "טלוגו (Sarala)"
 
 #. Keyboard indicator for Urdu layouts
 #: rules/base.xml:2212 rules/base.xml:2223 rules/base.xml:2234
 #: rules/base.xml:5817 rules/base.extras.xml:1092 rules/base.extras.xml:1379
 msgid "ur"
-msgstr "ur"
+msgstr "ארד"
 
 #: rules/base.xml:2213
 msgid "Urdu (phonetic)"
-msgstr "Urdu (fonetyczny)"
+msgstr "אורדו (פונטית)"
 
 #: rules/base.xml:2224
 msgid "Urdu (alt. phonetic)"
-msgstr "Urdu (fonetyczny alt.)"
+msgstr "אורדו (פונטית חלופית)"
 
 #: rules/base.xml:2235
 msgid "Urdu (Windows)"
-msgstr "Urdu (Windows)"
+msgstr "אורדו (Windows)"
 
 #. Keyboard indicator for Hindi layouts
 #: rules/base.xml:2245 rules/base.xml:2256 rules/base.xml:2267
 msgid "hi"
-msgstr "hi"
+msgstr "הנד"
 
 #: rules/base.xml:2246
 msgid "Hindi (Bolnagri)"
-msgstr "Hindi (Bolnagri)"
+msgstr "הינדי (Bolnagri)"
 
 #: rules/base.xml:2257
 msgid "Hindi (Wx)"
-msgstr "Hindi (Wx)"
+msgstr "הינדי (Wx)"
 
 #: rules/base.xml:2268
 msgid "Hindi (KaGaPa, phonetic)"
-msgstr "Hindi (KaGaPa, fonetyczny)"
+msgstr "הינדי (KaPaGa, פונטית)"
 
 #. Keyboard indicator for Sanskrit layouts
 #: rules/base.xml:2278
 msgid "sa"
-msgstr "sa"
+msgstr "סנק"
 
 #: rules/base.xml:2279
 msgid "Sanskrit (KaGaPa, phonetic)"
-msgstr "Sanskryt (KaGaPa, fonetyczny)"
+msgstr "סנסקריט (KaGaPa, פונטית)"
 
 #. Keyboard indicator for Marathi layouts
 #: rules/base.xml:2289 rules/base.extras.xml:1359
 msgid "mr"
-msgstr "mr"
+msgstr "מרט"
 
 #: rules/base.xml:2290
 msgid "Marathi (KaGaPa, phonetic)"
-msgstr "Marathi (KaGaPa, fonetyczny)"
+msgstr "מראטהית (KaGaPa, פונטית)"
 
 #: rules/base.xml:2301
 msgid "English (India, with rupee)"
-msgstr "Angielski (Indie, ze znakiem rupii)"
+msgstr "אנגלית (הודו, עם רופי)"
 
 #: rules/base.xml:2310
 msgid "Indic IPA"
-msgstr "Indyjski IPA"
+msgstr "‫IPA הודי"
 
 #: rules/base.xml:2319
 msgid "Marathi (enhanced InScript)"
-msgstr "Marathi (rozszerzony InScript)"
+msgstr "מראטהית (InScript מורחבת)"
 
 #. Keyboard indicator for Bosnian layouts
 #: rules/base.xml:2331
 msgid "bs"
-msgstr "bs"
+msgstr "בסנ"
 
 #: rules/base.xml:2332
 msgid "Bosnian"
-msgstr "Bośniacki"
+msgstr "בוסנית"
 
 #: rules/base.xml:2341
 msgid "Bosnian (with guillemets)"
-msgstr "Bośniacki (z szewronami)"
+msgstr "בוסנית (עם סוגריים משולשים כפולים)"
 
 #: rules/base.xml:2347
 msgid "Bosnian (with Bosnian digraphs)"
-msgstr "Bośniacki (z dwuznakami bośniackimi)"
+msgstr "בוסנית (עם צירופי אותיות בבוסנית)"
 
 #: rules/base.xml:2353
 msgid "Bosnian (US, with Bosnian digraphs)"
-msgstr "Bośniacki (USA, z dwuznakami bośniackimi)"
+msgstr "בוסנית (ארה״ב, עם צירופי אותיות בבוסנית)"
 
 #: rules/base.xml:2359
 msgid "Bosnian (US)"
-msgstr "Bośniacki (USA)"
+msgstr "בוסנית (ארה״ב)"
 
 #. Keyboard indicator for Portuguese layouts
 #: rules/base.xml:2368 rules/base.xml:4645 rules/base.extras.xml:841
 #: rules/base.extras.xml:1110
 msgid "pt"
-msgstr "pt"
+msgstr "פרט"
 
 #: rules/base.xml:2369 rules/base.extras.xml:842
 msgid "Portuguese (Brazil)"
-msgstr "Portugalski (Brazylia)"
+msgstr "פורטוגלית (ברזיל)"
 
 #: rules/base.xml:2378
 msgid "Portuguese (Brazil, no dead keys)"
-msgstr "Portugalski (Brazylia, bez klawiszy akcentów)"
+msgstr "פורטוגלית (ברזיל, ללא מקשים מתים)"
 
 #: rules/base.xml:2384
 msgid "Portuguese (Brazil, Dvorak)"
-msgstr "Portugalski (Brazylia, Dvoraka)"
+msgstr "פורטוגלית (ברזיל, דבוז׳אק)"
 
 #: rules/base.xml:2390
 msgid "Portuguese (Brazil, Nativo)"
-msgstr "Portugalski (Brazylia, Nativo)"
+msgstr "פורטוגלית (ברזיל, ילידית - Nativo)"
 
 #: rules/base.xml:2396
 msgid "Portuguese (Brazil, Nativo for US keyboards)"
-msgstr "Portugalski (Brazylia, Nativo dla klawiatur US)"
+msgstr "פורטוגלית (ברזיל, ילידית - Nativo למקלדות אמריקאיות)"
 
 #: rules/base.xml:2402
 msgid "Esperanto (Brazil, Nativo)"
-msgstr "Esperanto (Brazylia, Nativo)"
+msgstr "אספרנטו (ברזיל, ילידית - Nativo)"
 
 #: rules/base.xml:2411
 msgid "Portuguese (Brazil, IBM/Lenovo ThinkPad)"
-msgstr "Portugalski (Brazylia, IBM/Lenovo ThinkPad)"
+msgstr "פורטוגלית (ברזיל, IBM/Lenovo ThinkPad)"
 
 #. Keyboard indicator for Bulgarian layouts
 #: rules/base.xml:2420
 msgid "bg"
-msgstr "bg"
+msgstr "בלג"
 
 #: rules/base.xml:2421
 msgid "Bulgarian"
-msgstr "Bułgarski"
+msgstr "בולגרית"
 
 #: rules/base.xml:2430
 msgid "Bulgarian (traditional phonetic)"
-msgstr "Bułgarski (tradycyjny fonetyczny)"
+msgstr "בולגרית (פונטית מסורתית)"
 
 #: rules/base.xml:2436
 msgid "Bulgarian (new phonetic)"
-msgstr "Bułgarski (nowy fonetyczny)"
+msgstr "בולגרית (פונטית חדשה)"
 
 #: rules/base.xml:2442
 msgid "Bulgarian (enhanced)"
-msgstr "Bułgarski (rozszerzony)"
+msgstr "בולגרית (מורחבת)"
 
 #: rules/base.xml:2450 rules/base.xml:2457 rules/base.xml:2467
 #: rules/base.xml:2477 rules/base.xml:2487
 msgid "kab"
-msgstr "kab"
+msgstr "קבל"
 
 #: rules/base.xml:2451
 msgid "Berber (Algeria, Latin)"
-msgstr "Berberyjski (Algieria, łaciński)"
+msgstr "ברברית (אלגי׳ראית, לטינית)"
 
 #: rules/base.xml:2458
 msgid "Kabyle (AZERTY, with dead keys)"
-msgstr "Kabylski (AZERTY, z klawiszami akcentów)"
+msgstr "קבילית (AZERTY, עם מקשים מתים)"
 
 #: rules/base.xml:2468
 msgid "Kabyle (QWERTY, UK, with dead keys)"
-msgstr "Kabylski (QWERTY, brytyjski, z klawiszami akcentów)"
+msgstr "קבילית (QWERTY, אנגליה, עם מקשים מתים)"
 
 #: rules/base.xml:2478
 msgid "Kabyle (QWERTY, US, with dead keys)"
-msgstr "Kabylski (QWERTY, USA, z klawiszami akcentów)"
+msgstr "קבילית (QWERTY, ארה״ב, עם מקשים מתים)"
 
 #: rules/base.xml:2488
 msgid "Berber (Algeria, Tifinagh)"
-msgstr "Berberyjski (Algieria, znaki tifinagh)"
+msgstr "ברברית (אלג׳יריה, תיפינאג)"
 
 #: rules/base.xml:2498
 msgid "Arabic (Algeria)"
-msgstr "Arabski (algierski)"
+msgstr "ערבית (אלג׳יריה)"
 
 #: rules/base.xml:2511
 msgid "Arabic (Morocco)"
-msgstr "Arabski (marokański)"
+msgstr "ערבית (מרוקו)"
 
 #. Keyboard indicator for French layouts
 #: rules/base.xml:2518 rules/base.xml:2725 rules/base.xml:2736
@@ -1478,336 +1481,336 @@ msgstr "Arabski (marokański)"
 #: rules/base.xml:5208 rules/base.xml:5219 rules/base.xml:5230
 #: rules/base.xml:6052 rules/base.extras.xml:63 rules/base.extras.xml:967
 msgid "fr"
-msgstr "fr"
+msgstr "צר"
 
 #: rules/base.xml:2519
 msgid "French (Morocco)"
-msgstr "Francuski (Maroko)"
+msgstr "צרפתית (מרוקו)"
 
 #. Keyboard indicator for Berber layouts
 #: rules/base.xml:2529 rules/base.xml:2540 rules/base.xml:2551
 #: rules/base.xml:2562 rules/base.xml:2573 rules/base.xml:2584
 msgid "ber"
-msgstr "ber"
+msgstr "ברב"
 
 #: rules/base.xml:2530
 msgid "Berber (Morocco, Tifinagh)"
-msgstr "Berberyjski (Maroko, tifinagh)"
+msgstr "ברברית (מרוקו, תיפינאג)"
 
 #: rules/base.xml:2541
 msgid "Berber (Morocco, Tifinagh alt.)"
-msgstr "Berberyjski (Maroko, tifinagh alt.)"
+msgstr "ברברית (מרוקו, תיפינאג חלופית)"
 
 #: rules/base.xml:2552
 msgid "Berber (Morocco, Tifinagh phonetic, alt.)"
-msgstr "Berberyjski (Maroko, tifinagh fonetyczny, alt.)"
+msgstr "ברברית (מרוקו, תיפינאג פונטית, חלופית)"
 
 #: rules/base.xml:2563
 msgid "Berber (Morocco, Tifinagh extended)"
-msgstr "Berberyjski (Maroko, rozszerzony tifinagh)"
+msgstr "ברברית (מרוקו, תיפינאג מורחבת)"
 
 #: rules/base.xml:2574
 msgid "Berber (Morocco, Tifinagh phonetic)"
-msgstr "Berberyjski (Maroko, tifinagh fonetyczny"
+msgstr "ברברית (מרוקו, תיפינאג פונטית)"
 
 #: rules/base.xml:2585
 msgid "Berber (Morocco, Tifinagh extended phonetic)"
-msgstr "Berberyjski (Maroko, rozszerzony fonetyczny tifinagh)"
+msgstr "ברברית (מרוקו, תיפינאג מורחבת פונטית)"
 
 #. Keyboard indicator for Cameroon layouts
 #: rules/base.xml:2597
 msgid "cm"
-msgstr "cm"
+msgstr "קמנ"
 
 #: rules/base.xml:2598
 msgid "English (Cameroon)"
-msgstr "Angielski (Kamerun)"
+msgstr "אנגלית (קמרון)"
 
 #: rules/base.xml:2607
 msgid "French (Cameroon)"
-msgstr "Francuski (Kamerun)"
+msgstr "צרפתית (קמרון)"
 
 #: rules/base.xml:2616
 msgid "Cameroon Multilingual (QWERTY, intl.)"
-msgstr "Kameruński wielojęzyczny (QWERTY, międzynarodowy)"
+msgstr "קמרון רב־לשונית (QWERTY, בינלאומית)"
 
 #: rules/base.xml:2653
 msgid "Cameroon (AZERTY, intl.)"
-msgstr "Kameruński (AZERTY, międzynarodowy)"
+msgstr "קמרון (AZERTY, בינלאומית)"
 
 #: rules/base.xml:2690
 msgid "Cameroon (Dvorak, intl.)"
-msgstr "Kameruński (Dvoraka, międzynarodowy)"
+msgstr "קמרון (דבוז׳אק, בינלאומית)"
 
 #: rules/base.xml:2696
 msgid "Mmuock"
-msgstr "Mmuock"
+msgstr "מואוק"
 
 #. Keyboard indicator for Burmese layouts
 #: rules/base.xml:2705
 msgid "my"
-msgstr "my"
+msgstr "ברמ"
 
 #: rules/base.xml:2706
 msgid "Burmese"
-msgstr "Birmański"
+msgstr "בורמזית"
 
 #: rules/base.xml:2715
 msgid "zg"
-msgstr "zg"
+msgstr "זוג"
 
 #: rules/base.xml:2716
 msgid "Burmese Zawgyi"
-msgstr "Birmański Zawgyi"
+msgstr "בורמזית זוג׳י (Zawgyi)"
 
 #: rules/base.xml:2726 rules/base.extras.xml:64
 msgid "French (Canada)"
-msgstr "Francuski (Kanada)"
+msgstr "צרפתית (קנדה)"
 
 #: rules/base.xml:2737
 msgid "French (Canada, Dvorak)"
-msgstr "Francuski (kanadyjski, Dvoraka)"
+msgstr "צרפתית (קנדה, דבוז׳אק)"
 
 #: rules/base.xml:2745
 msgid "French (Canada, legacy)"
-msgstr "Francuski (kanadyjski, stary)"
+msgstr "צרפתית (קנדה, מיושנת)"
 
 #: rules/base.xml:2751
 msgid "Canadian (intl.)"
-msgstr "Kanadyjski (międzynarodowy)"
+msgstr "קנדית (בינלאומית)"
 
 #: rules/base.xml:2757
 msgid "Canadian (intl., 1st part)"
-msgstr "Kanadyjski (międzynarodowy, część 1.)"
+msgstr "קנדית (בינלאומית, חלק ראשון)"
 
 #: rules/base.xml:2763
 msgid "Canadian (intl., 2nd part)"
-msgstr "Kanadyjski (międzynarodowy, część 2.)"
+msgstr "קנדית (בינלאומית, חלק שני)"
 
 #. Keyboard indicator for Inuktikut layouts
 #: rules/base.xml:2770
 msgid "ike"
-msgstr "ike"
+msgstr "אנק"
 
 #: rules/base.xml:2771
 msgid "Inuktitut"
-msgstr "Inuktitut"
+msgstr "אינוקטיטוט"
 
 #: rules/base.xml:2782
 msgid "English (Canada)"
-msgstr "Angielski (Kanada)"
+msgstr "אנגלית (קנדה)"
 
 #: rules/base.xml:2795
 msgid "French (Democratic Republic of the Congo)"
-msgstr "Francuski (Demokratyczna Republika Konga)"
+msgstr "צרפתית (הרפובליקה הדמוקרטית של קונגו)"
 
 #. Keyboard indicator for Chinese layouts
 #. Keyboard indicator for Taiwanese layouts
 #: rules/base.xml:2806 rules/base.xml:5519
 msgid "zh"
-msgstr "zh"
+msgstr "סנ"
 
 #: rules/base.xml:2807
 msgid "Chinese"
-msgstr "Chiński"
+msgstr "סינית"
 
 #: rules/base.xml:2817
 msgid "Mongolian (Bichig)"
-msgstr "Mongolski (biczig)"
+msgstr "מונגולית (Bichig)"
 
 #: rules/base.xml:2826
 msgid "Mongolian (Todo)"
-msgstr "Mongolski (todo)"
+msgstr "מונגולית (Todo)"
 
 #: rules/base.xml:2835
 msgid "Mongolian (Xibe)"
-msgstr "Mongolski (sibe)"
+msgstr "מונגולית (Xibe)"
 
 #: rules/base.xml:2844
 msgid "Mongolian (Manchu)"
-msgstr "Mongolski (mandżurski)"
+msgstr "מונגולית (Manchu)"
 
 #: rules/base.xml:2853
 msgid "Mongolian (Galik)"
-msgstr "Mongolski (galik)"
+msgstr "מונגולית (Galik)"
 
 #: rules/base.xml:2862
 msgid "Mongolian (Todo Galik)"
-msgstr "Mongolski (todo galik)"
+msgstr "מונגולית (Todo Galik)"
 
 #: rules/base.xml:2871
 msgid "Mongolian (Manchu Galik)"
-msgstr "Mongolski (mandżurski galik)"
+msgstr "מונגולית (Manchu Galik)"
 
 #: rules/base.xml:2881
 msgid "Tibetan"
-msgstr "Tybetański"
+msgstr "טיבטית"
 
 #: rules/base.xml:2890
 msgid "Tibetan (with ASCII numerals)"
-msgstr "Tybetański (z liczbami ASCII)"
+msgstr "טיבטית (עם ספרות ASCII)"
 
 #: rules/base.xml:2899
 msgid "ug"
-msgstr "ug"
+msgstr "אגר"
 
 #: rules/base.xml:2900
 msgid "Uyghur"
-msgstr "Ujgurski"
+msgstr "אויגור"
 
 #: rules/base.xml:2909
 msgid "Hanyu Pinyin (with AltGr dead keys)"
-msgstr "Hanyu Pinyin (z klawiszami akcentów AltGr)"
+msgstr "האניו פין-יין"
 
 #. Keyboard indicator for Croatian layouts
 #: rules/base.xml:2921
 msgid "hr"
-msgstr "hr"
+msgstr "קרט"
 
 #: rules/base.xml:2922
 msgid "Croatian"
-msgstr "Chorwacki"
+msgstr "קרואטית"
 
 #: rules/base.xml:2931
 msgid "Croatian (with guillemets)"
-msgstr "Chorwacki (z szewronami)"
+msgstr "קרואטית (עם סוגריים משולשים כפולים)"
 
 #: rules/base.xml:2937
 msgid "Croatian (with Croatian digraphs)"
-msgstr "Chorwacki (z dwuznakami chorwackimi)"
+msgstr "קרואטית (עם צירופי אותיות בקרואטית)"
 
 #: rules/base.xml:2943
 msgid "Croatian (US, with Croatian digraphs)"
-msgstr "Chorwacki (USA, z dwuznakami chorwackimi)"
+msgstr "קרואטית (ארה״ב, עם צירופי אותיות בקרואטית)"
 
 #: rules/base.xml:2949
 msgid "Croatian (US)"
-msgstr "Chorwacki (USA)"
+msgstr "קרואטית (ארה״ב)"
 
 #. Keyboard indicator for Chech layouts
 #: rules/base.xml:2958 rules/base.extras.xml:856
 msgid "cs"
-msgstr "cs"
+msgstr "צ׳צ"
 
 #: rules/base.xml:2959 rules/base.extras.xml:857
 msgid "Czech"
-msgstr "Czeski"
+msgstr "צ׳כית"
 
 #: rules/base.xml:2968
 msgid "Czech (with &lt;\\|&gt; key)"
-msgstr "Czeski (z klawiszem &lt;\\|&gt;)"
+msgstr "צ׳כית (עם המקש &lt;\\|&gt;)"
 
 #: rules/base.xml:2974
 msgid "Czech (QWERTY)"
-msgstr "Czeski (QWERTY)"
+msgstr "צ׳כית (QWERTY)"
 
 #: rules/base.xml:2980
 msgid "Czech (QWERTY, extended backslash)"
-msgstr "Czeski (QWERTY, rozszerzony backslash)"
+msgstr "צ׳כית (QWERTY, לוכסן שמאלי מורחב)"
 
 #: rules/base.xml:2986
 msgid "Czech (QWERTY, Macintosh)"
-msgstr "Czeski (QWERTY, Macintosh)"
+msgstr "צ׳כית (QWERTY, Macintosh)"
 
 #: rules/base.xml:2992
 msgid "Czech (UCW, only accented letters)"
-msgstr "Czeski (UCW, tylko litery akcentowane)"
+msgstr "צ׳כית (UCW, רק אותיות עם סימני הבחן)"
 
 #: rules/base.xml:2998
 msgid "Czech (US, Dvorak, UCW support)"
-msgstr "Czeski (USA, Dvoraka, obsługa UCW)"
+msgstr "צ׳כית (ארה״ב, דבוז׳אק, תמיכה ב־UCW)"
 
 #: rules/base.xml:3006
 msgid "Russian (Czech, phonetic)"
-msgstr "Rosyjski (Czechy, fonetyczny)"
+msgstr "רוסית (צ׳כיה, פונטית)"
 
 #. Keyboard indicator for Danish layouts
 #: rules/base.xml:3018 rules/base.extras.xml:895
 msgid "da"
-msgstr "da"
+msgstr "דנית"
 
 #: rules/base.xml:3019 rules/base.extras.xml:896
 msgid "Danish"
-msgstr "Duński"
+msgstr "דנית"
 
 #: rules/base.xml:3028
 msgid "Danish (no dead keys)"
-msgstr "Duński (bez klawiszy akcentów)"
+msgstr "דנית (ללא מקשים מתים)"
 
 #: rules/base.xml:3034
 msgid "Danish (Windows)"
-msgstr "Duński (Windows)"
+msgstr "דנית (Windows)"
 
 #: rules/base.xml:3040
 msgid "Danish (Macintosh)"
-msgstr "Duński (Macintosh)"
+msgstr "דנית (Macintosh)"
 
 #: rules/base.xml:3046
 msgid "Danish (Macintosh, no dead keys)"
-msgstr "Duński (Macintosh, bez klawiszy akcentów)"
+msgstr "דנית (Macintosh, ללא מקשים מתים)"
 
 #: rules/base.xml:3052
 msgid "Danish (Dvorak)"
-msgstr "Duński (Dvoraka)"
+msgstr "דנית (דבוז׳אק)"
 
 #. Keyboard indicator for Dutch layouts
 #: rules/base.xml:3061 rules/base.extras.xml:910
 msgid "nl"
-msgstr "nl"
+msgstr "הלנ"
 
 #: rules/base.xml:3062 rules/base.extras.xml:911
 msgid "Dutch"
-msgstr "Holenderski"
+msgstr "הולנדית"
 
 #: rules/base.xml:3071
 msgid "Dutch (US)"
-msgstr "Holenderski (USA)"
+msgstr "הולנדית (ארה״ב)"
 
 #: rules/base.xml:3077
 msgid "Dutch (Macintosh)"
-msgstr "Holenderski (Macintosh)"
+msgstr "הולנדית (Macintosh)"
 
 #: rules/base.xml:3083
 msgid "Dutch (standard)"
-msgstr "Holenderski (standardowy)"
+msgstr "הולנדית (תקנית)"
 
 #. Keyboard indicator for Dzongkha layouts
 #: rules/base.xml:3092
 msgid "dz"
-msgstr "dz"
+msgstr "דזנ"
 
 #: rules/base.xml:3093
 msgid "Dzongkha"
-msgstr "Dzongka"
+msgstr "דזונגקה"
 
 #. Keyboard indicator for Estonian layouts
 #: rules/base.xml:3103 rules/base.extras.xml:925
 msgid "et"
-msgstr "et"
+msgstr "אסט"
 
 #: rules/base.xml:3104 rules/base.extras.xml:926
 msgid "Estonian"
-msgstr "Estoński"
+msgstr "אסטונית"
 
 #: rules/base.xml:3113
 msgid "Estonian (no dead keys)"
-msgstr "Estoński (bez klawiszy akcentów)"
+msgstr "אסטונית (ללא מקשים מתים)"
 
 #: rules/base.xml:3119
 msgid "Estonian (Dvorak)"
-msgstr "Estoński (Dvoraka)"
+msgstr "אסטונית (דבוז׳אק)"
 
 #: rules/base.xml:3125
 msgid "Estonian (US)"
-msgstr "Estoński (USA)"
+msgstr "אסטונית (ארה״ב)"
 
 #: rules/base.xml:3135 rules/base.extras.xml:236
 msgid "Persian"
-msgstr "Perski"
+msgstr "פרסית"
 
 #: rules/base.xml:3144
 msgid "Persian (with Persian keypad)"
-msgstr "Perski (z perską klawiaturą numeryczną)"
+msgstr "פרסית (עם מקלדת נומרית פרסית)"
 
 #. Keyboard indicator for Kurdish layouts
 #: rules/base.xml:3151 rules/base.xml:3162 rules/base.xml:3173
@@ -1816,1918 +1819,1918 @@ msgstr "Perski (z perską klawiaturą numeryczną)"
 #: rules/base.xml:5289 rules/base.xml:5300 rules/base.xml:5421
 #: rules/base.xml:5432 rules/base.xml:5443
 msgid "ku"
-msgstr "ku"
+msgstr "כרד"
 
 #: rules/base.xml:3152
 msgid "Kurdish (Iran, Latin Q)"
-msgstr "Kurdyjski (Iran, łaciński Q)"
+msgstr "כורדית (איראן, לטינית Q)"
 
 #: rules/base.xml:3163
 msgid "Kurdish (Iran, F)"
-msgstr "Kurdyjski (Iran, F)"
+msgstr "כורדית (איראן, F)"
 
 #: rules/base.xml:3174
 msgid "Kurdish (Iran, Latin Alt-Q)"
-msgstr "Kurdyjski (Iran, łaciński Alt-Q)"
+msgstr "כורדית (איראן, לטינית Alt-Q)"
 
 #: rules/base.xml:3185
 msgid "Kurdish (Iran, Arabic-Latin)"
-msgstr "Kurdyjski (Iran, arabsko-łaciński)"
+msgstr "כורדית (איראן, ערבית-לטינית)"
 
 #: rules/base.xml:3198
 msgid "Iraqi"
-msgstr "Iracki"
+msgstr "עיראקית"
 
 #: rules/base.xml:3210
 msgid "Kurdish (Iraq, Latin Q)"
-msgstr "Kurdyjski (Irak, łaciński Q)"
+msgstr "כורדית (עיראק, לטינית Q)"
 
 #: rules/base.xml:3221
 msgid "Kurdish (Iraq, F)"
-msgstr "Kurdyjski (Irak, F)"
+msgstr "כורדית (עיראק, לטינית F)"
 
 #: rules/base.xml:3232
 msgid "Kurdish (Iraq, Latin Alt-Q)"
-msgstr "Kurdyjski (Irak, łaciński Alt-Q)"
+msgstr "כורדית (עיראק, לטינית Alt-Q)"
 
 #: rules/base.xml:3243
 msgid "Kurdish (Iraq, Arabic-Latin)"
-msgstr "Kurdyjski (Irak, arabsko-łaciński)"
+msgstr "כורדית (עיראק, ערבית-לטינית)"
 
 #. Keyboard indicator for Faroese layouts
 #: rules/base.xml:3255
 msgid "fo"
-msgstr "fo"
+msgstr "פאר"
 
 #: rules/base.xml:3256
 msgid "Faroese"
-msgstr "Farerski"
+msgstr "פארואזית"
 
 #: rules/base.xml:3265
 msgid "Faroese (no dead keys)"
-msgstr "Farerski (bez klawiszy akcentów)"
+msgstr "פארואזית (ללא מקשים מתים)"
 
 #. Keyboard indicator for Finnish layouts
 #: rules/base.xml:3274 rules/base.extras.xml:940
 msgid "fi"
-msgstr "fi"
+msgstr "פינ"
 
 #: rules/base.xml:3275 rules/base.extras.xml:941
 msgid "Finnish"
-msgstr "Fiński"
+msgstr "פינית"
 
 #: rules/base.xml:3284
 msgid "Finnish (Windows)"
-msgstr "Fiński (Windows)"
+msgstr "פינית (Windows)"
 
 #: rules/base.xml:3290
 msgid "Finnish (classic)"
-msgstr "Fiński (klasyczny)"
+msgstr "פינית (קלסית)"
 
 #: rules/base.xml:3296
 msgid "Finnish (classic, no dead keys)"
-msgstr "Fiński (klasyczny, bez klawiszy akcentów)"
+msgstr "פינית (ללא מקשים מתים)"
 
 #: rules/base.xml:3302
 msgid "Northern Saami (Finland)"
-msgstr "Północnolapoński (Finlandia)"
+msgstr "סאמית צפונית (פינלנד)"
 
 #: rules/base.xml:3311
 msgid "Finnish (Macintosh)"
-msgstr "Fiński (Macintosh)"
+msgstr "פינית (Macintosh)"
 
 #: rules/base.xml:3321 rules/base.extras.xml:968
 msgid "French"
-msgstr "Francuski"
+msgstr "צרפתית"
 
 #: rules/base.xml:3330
 msgid "French (no dead keys)"
-msgstr "Francuski (bez klawiszy akcentów)"
+msgstr "צרפתית (ללא מקשים מתים)"
 
 #: rules/base.xml:3336
 msgid "French (alt.)"
-msgstr "Francuski (alt.)"
+msgstr "צרפתית (חלופית)"
 
 #: rules/base.xml:3342
 msgid "French (alt., Latin-9 only)"
-msgstr "Francuski (alt., tylko Latin-9)"
+msgstr "צרפתית (חלופית, לטינית-9 בלבד)"
 
 #: rules/base.xml:3348
 msgid "French (alt., no dead keys)"
-msgstr "Francuski (alt. bez klawiszy akcentów)"
+msgstr "צרפתית (חלופית, ללא מקשים מתים)"
 
 #: rules/base.xml:3354
 msgid "French (legacy, alt.)"
-msgstr "Francuski (stary, alt.)"
+msgstr "צרפתית (מיושנת, חלופית)"
 
 #: rules/base.xml:3360
 msgid "French (legacy, alt., no dead keys)"
-msgstr "Francuski (stary, alt., bez klawiszy akcentów)"
+msgstr "צרפתית (מיושנת, חלופית, ללא מקשים מתים)"
 
 #: rules/base.xml:3366
 msgid "French (BEPO)"
-msgstr "Francuski (BÉPO)"
+msgstr "צרפתית (BEPO)"
 
 #: rules/base.xml:3372
 msgid "French (BEPO, Latin-9 only)"
-msgstr "Francuski (BÉPO, tylko Latin-9)"
+msgstr "צרפתית (BEPO, לטינית-9 בלבד)"
 
 #: rules/base.xml:3378
 msgid "French (BEPO, AFNOR)"
-msgstr "Francuski (BÉPO, AFNOR)"
+msgstr "צרפתית (BEPO, AFNOR)"
 
 #: rules/base.xml:3384
 msgid "French (Dvorak)"
-msgstr "Francuski (Dvoraka)"
+msgstr "צרפתית (דבוז׳אק)"
 
 #: rules/base.xml:3390
 msgid "French (Macintosh)"
-msgstr "Francuski (Macintosh)"
+msgstr "צרפתית (Macintosh)"
 
 #: rules/base.xml:3396
 msgid "French (AZERTY)"
-msgstr "Francuski (AZERTY)"
+msgstr "צרפתית (AZERTY)"
 
 #: rules/base.xml:3402
 msgid "French (AZERTY, AFNOR)"
-msgstr "Francuski (AZERTY, AFNOR)"
+msgstr "צרפתית (AZERTY, AFNOR)"
 
 #: rules/base.xml:3408
 msgid "French (Breton)"
-msgstr "Francuski (bretoński)"
+msgstr "צרפתית (ברטונית)"
 
 #: rules/base.xml:3414
 msgid "Occitan"
-msgstr "Okcytański"
+msgstr "אוקסיטנית"
 
 #: rules/base.xml:3423
 msgid "Georgian (France, AZERTY Tskapo)"
-msgstr "Gruziński (Francja, AZERTY Tskapo)"
+msgstr "גאורגית (צרפת, AZERTY Tskapo)"
 
 #: rules/base.xml:3432
 msgid "French (US)"
-msgstr "Francuski (USA)"
+msgstr "צרפתית (ארה״ב)"
 
 #: rules/base.xml:3442
 msgid "English (Ghana)"
-msgstr "Angielski (Ghana)"
+msgstr "אנגלית (גאנה)"
 
 #: rules/base.xml:3451
 msgid "English (Ghana, multilingual)"
-msgstr "Angielski (Ghana, wielojęzyczny)"
+msgstr "אנגלית (גאנה, רב־לשונית)"
 
 #. Keyboard indicator for Akan layouts
 #: rules/base.xml:3458
 msgid "ak"
-msgstr "ak"
+msgstr "אקא"
 
 #: rules/base.xml:3459
 msgid "Akan"
-msgstr "Akan"
+msgstr "אקאן"
 
 #. Keyboard indicator for Ewe layouts
 #: rules/base.xml:3469
 msgid "ee"
-msgstr "ee"
+msgstr "אוא"
 
 #: rules/base.xml:3470
 msgid "Ewe"
-msgstr "Ewe"
+msgstr "אווה"
 
 #. Keyboard indicator for Fula layouts
 #: rules/base.xml:3480
 msgid "ff"
-msgstr "ff"
+msgstr "פול"
 
 #: rules/base.xml:3481
 msgid "Fula"
-msgstr "Fulani"
+msgstr "פולה"
 
 #. Keyboard indicator for Ga layouts
 #: rules/base.xml:3491
 msgid "gaa"
-msgstr "gaa"
+msgstr "גא"
 
 #: rules/base.xml:3492
 msgid "Ga"
-msgstr "Ga"
+msgstr "גה"
 
 #. Keyboard indicator for Hausa layouts
 #: rules/base.xml:3502 rules/base.xml:5951
 msgid "ha"
-msgstr "ha"
+msgstr "האו"
 
 #: rules/base.xml:3503
 msgid "Hausa (Ghana)"
-msgstr "Hausa (Ghana)"
+msgstr "האוסה (גאנה)"
 
 #. Keyboard indicator for Avatime layouts
 #: rules/base.xml:3513
 msgid "avn"
-msgstr "avn"
+msgstr "אבט"
 
 #: rules/base.xml:3514
 msgid "Avatime"
-msgstr "Avatime"
+msgstr "אואצימה"
 
 #: rules/base.xml:3523
 msgid "English (Ghana, GILLBT)"
-msgstr "Angielski (Ghana, GILLBT)"
+msgstr "אנגלית (גאנה, GILLBT)"
 
 #: rules/base.xml:3531
 msgid "N'Ko (AZERTY)"
-msgstr "N'Ko (AZERTY)"
+msgstr "נ׳קו (AZERTY)"
 
 #. Keyboard indicator for Georgian layouts
 #: rules/base.xml:3542
 msgid "ka"
-msgstr "ka"
+msgstr "גרג"
 
 #: rules/base.xml:3543
 msgid "Georgian"
-msgstr "Gruziński"
+msgstr "גאורגית"
 
 #: rules/base.xml:3552
 msgid "Georgian (ergonomic)"
-msgstr "Gruziński (ergonomiczny)"
+msgstr "גאורגית (ארגונומית)"
 
 #: rules/base.xml:3558
 msgid "Georgian (MESS)"
-msgstr "Gruziński (MESS)"
+msgstr "גאורגית (MESS)"
 
 #: rules/base.xml:3566
 msgid "Russian (Georgia)"
-msgstr "Rosyjski (Gruzja)"
+msgstr "רוסית (גאורגיה)"
 
 #: rules/base.xml:3575
 msgid "Ossetian (Georgia)"
-msgstr "Osetyjski (Gruzja)"
+msgstr "אוסטית (גאורגיה)"
 
 #: rules/base.xml:3588 rules/base.extras.xml:96
 msgid "German"
-msgstr "Niemiecki"
+msgstr "גרמנית"
 
 #: rules/base.xml:3597
 msgid "German (dead acute)"
-msgstr "Niemiecki (akcent ostry)"
+msgstr "גרמנית (acute מת)"
 
 #: rules/base.xml:3603
 msgid "German (dead grave acute)"
-msgstr "Niemiecki (akcent gravis)"
+msgstr "גרמנית (grave acute מת)"
 
 #: rules/base.xml:3609
 msgid "German (no dead keys)"
-msgstr "Niemiecki (bez klawiszy akcentów)"
+msgstr "גרמנית (ללא מקשים מתים)"
 
 #: rules/base.xml:3615
 msgid "German (E1)"
-msgstr "Niemiecki (E1)"
+msgstr "גרמנית (E1)"
 
 #: rules/base.xml:3621
 msgid "German (E2)"
-msgstr "Niemiecki (E2)"
+msgstr "גרמנית (E2)"
 
 #: rules/base.xml:3627
 msgid "German (T3)"
-msgstr "Niemiecki (T3)"
+msgstr "גרמנית (T3)"
 
 #: rules/base.xml:3633
 msgid "German (US)"
-msgstr "Niemiecki (USA)"
+msgstr "גרמנית (ארה״ב)"
 
 #: rules/base.xml:3639
 msgid "Romanian (Germany)"
-msgstr "Rumuński (Niemcy)"
+msgstr "רומנית (גרמניה)"
 
 #: rules/base.xml:3648
 msgid "Romanian (Germany, no dead keys)"
-msgstr "Rumuński (Niemcy, bez klawiszy akcentów)"
+msgstr "רומנית (גרמניה, ללא מקשים מתים)"
 
 #: rules/base.xml:3657
 msgid "German (Dvorak)"
-msgstr "Niemiecki (Dvoraka)"
+msgstr "גרמנית (דבוז׳אק)"
 
 #: rules/base.xml:3663
 msgid "German (Neo 2)"
-msgstr "Niemiecki (Neo 2)"
+msgstr "גרמנית (Neo 2)"
 
 #: rules/base.xml:3669
 msgid "German (Macintosh)"
-msgstr "Niemiecki (Macintosh)"
+msgstr "גרמנית (Macintosh)"
 
 #: rules/base.xml:3675
 msgid "German (Macintosh, no dead keys)"
-msgstr "Niemiecki (Macintosh, bez klawiszy akcentów)"
+msgstr "גרמנית (Macintosh, ללא מקשים מתים)"
 
 #: rules/base.xml:3681
 msgid "Lower Sorbian"
-msgstr "Dolnołużycki"
+msgstr "סורבית תחתית"
 
 #: rules/base.xml:3690
 msgid "Lower Sorbian (QWERTZ)"
-msgstr "Dolnołużycki (QWERTZ)"
+msgstr "סורבית תחתית (QWERTZ)"
 
 #: rules/base.xml:3699
 msgid "German (QWERTY)"
-msgstr "Niemiecki (QWERTY)"
+msgstr "גרמנית (QWERTY)"
 
 #: rules/base.xml:3705
 msgid "Turkish (Germany)"
-msgstr "Turecki (Niemcy)"
+msgstr "טורקית (גרמניה)"
 
 #: rules/base.xml:3716
 msgid "Russian (Germany, phonetic)"
-msgstr "Rosyjski (Niemcy, fonetyczny)"
+msgstr "רוסית (גרמניה, פונטית)"
 
 #: rules/base.xml:3725
 msgid "German (dead tilde)"
-msgstr "Niemiecki (akcenty z tyldą)"
+msgstr "גרמנית (טילדה מתה)"
 
 #. Keyboard indicator for Greek layouts
 #: rules/base.xml:3734 rules/base.extras.xml:994
 msgid "gr"
-msgstr "gr"
+msgstr "יונ"
 
 #: rules/base.xml:3735 rules/base.extras.xml:995
 msgid "Greek"
-msgstr "Grecki"
+msgstr "יוונית"
 
 #: rules/base.xml:3744
 msgid "Greek (simple)"
-msgstr "Grecki (prosty)"
+msgstr "יוונית (פשוטה)"
 
 #: rules/base.xml:3750
 msgid "Greek (extended)"
-msgstr "Grecki (rozszerzony)"
+msgstr "יוונית (מורחבת)"
 
 #: rules/base.xml:3756
 msgid "Greek (no dead keys)"
-msgstr "Grecki (bez klawiszy akcentów)"
+msgstr "יוונית (ללא מקשים מתים)"
 
 #: rules/base.xml:3762
 msgid "Greek (polytonic)"
-msgstr "Grecki (politoniczny)"
+msgstr "יוונית (פוליטונית)"
 
 #. Keyboard indicator for Hungarian layouts
 #: rules/base.xml:3771
 msgid "hu"
-msgstr "hu"
+msgstr "הנג"
 
 #: rules/base.xml:3772 rules/base.extras.xml:212
 msgid "Hungarian"
-msgstr "Węgierski"
+msgstr "הונגרית"
 
 #: rules/base.xml:3781
 msgid "Hungarian (standard)"
-msgstr "Węgierski (standardowy)"
+msgstr "הונגרית (תקנית)"
 
 #: rules/base.xml:3787
 msgid "Hungarian (no dead keys)"
-msgstr "Węgierski (bez klawiszy akcentów)"
+msgstr "הונגרית (ללא מקשים מתים)"
 
 #: rules/base.xml:3793
 msgid "Hungarian (QWERTY)"
-msgstr "Węgierski (QWERTY)"
+msgstr "הונגרית (QWERTY)"
 
 #: rules/base.xml:3799
 msgid "Hungarian (QWERTZ, 101-key, comma, dead keys)"
-msgstr "Węgierski (QWERTZ, 101 klawiszy, przecinek, klawisze akcentów)"
+msgstr "הונגרית (QWERTZ, 101 מקשים, פסיק, מקשים מתים)"
 
 #: rules/base.xml:3805
 msgid "Hungarian (QWERTZ, 101-key, comma, no dead keys)"
-msgstr "Węgierski (QWERTZ, 101 klawiszy, przecinek, bez klawiszy akcentów)"
+msgstr "הונגרית (QWERTZ, 101 מקשים, פסיק, ללא מקשים מתים)"
 
 #: rules/base.xml:3811
 msgid "Hungarian (QWERTZ, 101-key, dot, dead keys)"
-msgstr "Węgierski (QWERTZ, 101 klawiszy, kropka, klawisze akcentów)"
+msgstr "הונגרית (QWERTZ, 101 מקשים, נקודה, מקשים מתים)"
 
 #: rules/base.xml:3817
 msgid "Hungarian (QWERTZ, 101-key, dot, no dead keys)"
-msgstr "Węgierski (QWERTZ, 101 klawiszy, kropka, bez klawiszy akcentów)"
+msgstr "הונגרית (QWERTZ, 101 מקשים, נקודה, ללא מקשים מתים)"
 
 #: rules/base.xml:3823
 msgid "Hungarian (QWERTY, 101-key, comma, dead keys)"
-msgstr "Węgierski (QWERTY, 101 klawiszy, przecinek, klawisze akcentów)"
+msgstr "הונגרית (QWERTY, 101 מקשים, פסיק, מקשים מתים)"
 
 #: rules/base.xml:3829
 msgid "Hungarian (QWERTY, 101-key, comma, no dead keys)"
-msgstr "Węgierski (QWERTY, 101 klawiszy, przecinek, bez klawiszy akcentów)"
+msgstr "הונגרית (QWERTY, 101 מקשים, פסיק, ללא מקשים מתים)"
 
 #: rules/base.xml:3835
 msgid "Hungarian (QWERTY, 101-key, dot, dead keys)"
-msgstr "Węgierski (QWERTY, 101 klawiszy, kropka, klawisze akcentów)"
+msgstr "הונגרית (QWERTY, 101 מקשים, נקודה, מקשים מתים)"
 
 #: rules/base.xml:3841
 msgid "Hungarian (QWERTY, 101-key, dot, no dead keys)"
-msgstr "Węgierski (QWERTY, 101 klawiszy, kropka, bez klawiszy akcentów)"
+msgstr "הונגרית (QWERTY, 101 מקשים, נקודה, ללא מקשים מתים)"
 
 #: rules/base.xml:3847
 msgid "Hungarian (QWERTZ, 102-key, comma, dead keys)"
-msgstr "Węgierski (QWERTZ, 102 klawisze, przecinek, klawisze akcentów)"
+msgstr "הונגרית (QWERTZ, 102 מקשים, פסיק, מקשים מתים)"
 
 #: rules/base.xml:3853
 msgid "Hungarian (QWERTZ, 102-key, comma, no dead keys)"
-msgstr "Węgierski (QWERTZ, 102 klawisze, przecinek, bez klawiszy akcentów)"
+msgstr "הונגרית (QWERTZ, 102 מקשים, פסיק, ללא מקשים מתים)"
 
 #: rules/base.xml:3859
 msgid "Hungarian (QWERTZ, 102-key, dot, dead keys)"
-msgstr "Węgierski (QWERTZ, 102 klawisze, kropka, klawisze akcentów)"
+msgstr "הונגרית (QWERTZ, 102 מקשים, נקודה, מקשים מתים)"
 
 #: rules/base.xml:3865
 msgid "Hungarian (QWERTZ, 102-key, dot, no dead keys)"
-msgstr "Węgierski (QWERTZ, 102 klawisze, kropka, bez klawiszy akcentów)"
+msgstr "הונגרית (QWERTZ, 102 מקשים, נקודה, ללא מקשים מתים)"
 
 #: rules/base.xml:3871
 msgid "Hungarian (QWERTY, 102-key, comma, dead keys)"
-msgstr "Węgierski (QWERTY, 102 klawisze, przecinek, klawisze akcentów)"
+msgstr "הונגרית (QWERTY, 102 מקשים, פסיק, מקשים מתים)"
 
 #: rules/base.xml:3877
 msgid "Hungarian (QWERTY, 102-key, comma, no dead keys)"
-msgstr "Węgierski (QWERTY, 102 klawisze, przecinek, bez klawiszy akcentów)"
+msgstr "הונגרית (QWERTY, 102 מקשים, פסיק, ללא מקשים מתים)"
 
 #: rules/base.xml:3883
 msgid "Hungarian (QWERTY, 102-key, dot, dead keys)"
-msgstr "Węgierski (QWERTY, 102 klawisze, kropka, klawisze akcentów)"
+msgstr "הונגרית (QWERTY, 102 מקשים, נקודה, מקשים מתים)"
 
 #: rules/base.xml:3889
 msgid "Hungarian (QWERTY, 102-key, dot, no dead keys)"
-msgstr "Węgierski (QWERTY, 102 klawisze, kropka, bez klawiszy akcentów)"
+msgstr "הונגרית (QWERTY, 102 מקשים, נקודה, ללא מקשים מתים)"
 
 #. Keyboard indicator for Icelandic layouts
 #: rules/base.xml:3898
 msgid "is"
-msgstr "is"
+msgstr "אסל"
 
 #: rules/base.xml:3899
 msgid "Icelandic"
-msgstr "Islandzki"
+msgstr "איסלנדית"
 
 #: rules/base.xml:3908
 msgid "Icelandic (Macintosh, legacy)"
-msgstr "Islandzki (Macintosh, stary)"
+msgstr "איסלנדית (Macintosh, מיושנת)"
 
 #: rules/base.xml:3914
 msgid "Icelandic (Macintosh)"
-msgstr "Islandzki (Macintosh)"
+msgstr "איסלנדית (Macintosh)"
 
 #: rules/base.xml:3920
 msgid "Icelandic (Dvorak)"
-msgstr "Islandzki (Dvoraka)"
+msgstr "איסלנדית (דבוז׳אק)"
 
 #. Keyboard indicator for Hebrew layouts
 #: rules/base.xml:3929 rules/base.extras.xml:772
 msgid "he"
-msgstr "he"
+msgstr "עב"
 
 #: rules/base.xml:3930 rules/base.extras.xml:773
 msgid "Hebrew"
-msgstr "Hebrajski"
+msgstr "עברית"
 
 #: rules/base.xml:3939
 msgid "Hebrew (lyx)"
-msgstr "Hebrajski (lyx)"
+msgstr "עברית (lyx)"
 
 #: rules/base.xml:3945
 msgid "Hebrew (phonetic)"
-msgstr "Hebrajski (fonetyczny)"
+msgstr "עברית (פונטית)"
 
 #: rules/base.xml:3951
 msgid "Hebrew (Biblical, Tiro)"
-msgstr "Hebrajski (biblijny, Tiro)"
+msgstr "עברית (תנכית, תִרֹ - Tiro)"
 
 #. Keyboard indicator for Italian layouts
 #: rules/base.xml:3960 rules/base.extras.xml:1015
 msgid "it"
-msgstr "it"
+msgstr "אטל"
 
 #: rules/base.xml:3961 rules/base.extras.xml:1016
 msgid "Italian"
-msgstr "Włoski"
+msgstr "איטלקית"
 
 #: rules/base.xml:3970
 msgid "Italian (no dead keys)"
-msgstr "Włoski (bez klawiszy akcentów)"
+msgstr "איטלקית (ללא מקשים מתים)"
 
 #: rules/base.xml:3976
 msgid "Italian (Windows)"
-msgstr "Włoski (Windows)"
+msgstr "איטלקית (Windows)"
 
 #: rules/base.xml:3982
 msgid "Italian (Macintosh)"
-msgstr "Włoski (Macintosh)"
+msgstr "איטלקית (Macintosh)"
 
 #: rules/base.xml:3988
 msgid "Italian (US)"
-msgstr "Włoski (USA)"
+msgstr "איטלקית (ארה״ב)"
 
 #: rules/base.xml:3994
 msgid "Georgian (Italy)"
-msgstr "Gruziński (Włochy)"
+msgstr "גאורגית (איטליה)"
 
 #: rules/base.xml:4003
 msgid "Italian (IBM 142)"
-msgstr "Włoski (IBM 142)"
+msgstr "איטלקית (IBM 142)"
 
 #: rules/base.xml:4009
 msgid "Italian (intl., with dead keys)"
-msgstr "Włoski (międzynarodowy, z klawiszami akcentów)"
+msgstr "איטלקית (בינלאומית עם מקשים ריקים)"
 
 #: rules/base.xml:4025
 msgid "Sicilian"
-msgstr "Sycylijski"
+msgstr "סיציליאנית"
 
 #: rules/base.xml:4035
 msgid "Friulian (Italy)"
-msgstr "Friulski (Włochy)"
+msgstr "פורלן (איטליה)"
 
 #. Keyboard indicator for Japaneses
 #: rules/base.xml:4047 rules/base.xml:5757 rules/base.extras.xml:1050
 msgid "ja"
-msgstr "ja"
+msgstr "יפנ"
 
 #: rules/base.xml:4048 rules/base.extras.xml:1051
 msgid "Japanese"
-msgstr "Japoński"
+msgstr "יפנית"
 
 #: rules/base.xml:4057
 msgid "Japanese (Kana)"
-msgstr "Japoński (Kana)"
+msgstr "יפנית (קאנה)"
 
 #: rules/base.xml:4063
 msgid "Japanese (Kana 86)"
-msgstr "Japoński (Kana 86)"
+msgstr "יפנית (קאנה 86)"
 
 #: rules/base.xml:4069
 msgid "Japanese (OADG 109A)"
-msgstr "Japoński (OADG 109A)"
+msgstr "יפנית (OADG 109A)"
 
 #: rules/base.xml:4075
 msgid "Japanese (Macintosh)"
-msgstr "Japoński (Macintosh)"
+msgstr "יפנית (Macintosh)"
 
 #: rules/base.xml:4081
 msgid "Japanese (Dvorak)"
-msgstr "Japoński (Dvoraka)"
+msgstr "יפנית (דבוז׳אק)"
 
 #. Keyboard indicator for Kyrgyz layouts
 #. Keyboard indicator for Kikuyu layouts
 #: rules/base.xml:4090 rules/base.xml:6136
 msgid "ki"
-msgstr "ki"
+msgstr "קרג"
 
 #: rules/base.xml:4091
 msgid "Kyrgyz"
-msgstr "Kirgiski"
+msgstr "קירגיזית"
 
 #: rules/base.xml:4100
 msgid "Kyrgyz (phonetic)"
-msgstr "Kirgiski (fonetyczny)"
+msgstr "קירגיזית (פונטית)"
 
 #. Keyboard indicator for Khmer layouts
 #: rules/base.xml:4109
 msgid "km"
-msgstr "km"
+msgstr "קמר"
 
 #: rules/base.xml:4110
 msgid "Khmer (Cambodia)"
-msgstr "Khmerski (Kambodża)"
+msgstr "חמרית (קמבודיה)"
 
 #. Keyboard indicator for Kazakh layouts
 #: rules/base.xml:4121
 msgid "kk"
-msgstr "kk"
+msgstr "קזח"
 
 #: rules/base.xml:4122
 msgid "Kazakh"
-msgstr "Kazaski"
+msgstr "קזחית"
 
 #: rules/base.xml:4133
 msgid "Russian (Kazakhstan, with Kazakh)"
-msgstr "Rosyjski (Kazachstan, z kazaskim)"
+msgstr "רוסית (קזחסטן, עם קזחית)"
 
 #: rules/base.xml:4143
 msgid "Kazakh (with Russian)"
-msgstr "Kazaski (z rosyjskim)"
+msgstr "קזחית (עם רוסית)"
 
 #: rules/base.xml:4153
 msgid "Kazakh (extended)"
-msgstr "kazaski (rozszerzony)"
+msgstr "קזחית (מורחבת)"
 
 #: rules/base.xml:4162
 msgid "Kazakh (Latin)"
-msgstr "Kazachski (łaciński)"
+msgstr "קזחית (לטינית)"
 
 #. Keyboard indicator for Lao layouts
 #: rules/base.xml:4174
 msgid "lo"
-msgstr "lo"
+msgstr "לאו"
 
 #: rules/base.xml:4175
 msgid "Lao"
-msgstr "Laotański"
+msgstr "לאית"
 
 #: rules/base.xml:4184
 msgid "Lao (STEA)"
-msgstr "Laotański (STEA)"
+msgstr "לאית (STEA)"
 
 #. Keyboard indicator for Spanish layouts
 #: rules/base.xml:4196 rules/base.xml:5030 rules/base.extras.xml:1152
 msgid "es"
-msgstr "es"
+msgstr "ספ"
 
 #: rules/base.xml:4197
 msgid "Spanish (Latin American)"
-msgstr "Hiszpański (Ameryka Łacińska)"
+msgstr "ספרדית (אמריקה הלטינית)"
 
 #: rules/base.xml:4229
 msgid "Spanish (Latin American, no dead keys)"
-msgstr "Hiszpański (Ameryka Łacińska, bez klawiszy akcentów)"
+msgstr "ספרדית (אמריקה הלטינית, ללא מקשים מתים)"
 
 #: rules/base.xml:4235
 msgid "Spanish (Latin American, dead tilde)"
-msgstr "Hiszpański (Ameryka Łacińska, akcenty z tyldą)"
+msgstr "ספרדית (אמריקה הלטינית, טילדה מתה)"
 
 #: rules/base.xml:4241
 msgid "Spanish (Latin American, Dvorak)"
-msgstr "Hiszpański (Ameryka Łacińska, Dvoraka)"
+msgstr "ספרדית (אמריקה הלטינית, דבוז׳אק)"
 
 #: rules/base.xml:4247
 msgid "Spanish (Latin American, Colemak)"
-msgstr "Hiszpański (Ameryka Łacińska, Colemak)"
+msgstr "ספרדית (אמריקה הלטינית, קולמק)"
 
 #: rules/base.xml:4253
 msgid "Spanish (Latin American, Colemak for gaming)"
-msgstr "Hiszpański (Ameryka Łacińska, Colemak do gier)"
+msgstr "ספרדית (אמריקה הלטינית, קולמק למשחקים)"
 
 #. Keyboard indicator for Lithuanian layouts
 #: rules/base.xml:4262 rules/base.extras.xml:256
 msgid "lt"
-msgstr "lt"
+msgstr "לטא"
 
 #: rules/base.xml:4263 rules/base.extras.xml:257
 msgid "Lithuanian"
-msgstr "Litewski"
+msgstr "ליטאית"
 
 #: rules/base.xml:4272
 msgid "Lithuanian (standard)"
-msgstr "Litewski (standardowy)"
+msgstr "ליטאית (תקנית)"
 
 #: rules/base.xml:4278
 msgid "Lithuanian (US)"
-msgstr "Litewski (USA)"
+msgstr "ליטאית (ארה״ב)"
 
 #: rules/base.xml:4284
 msgid "Lithuanian (IBM LST 1205-92)"
-msgstr "Litewski (IBM LST 1205-92)"
+msgstr "ליטאית (IBM LST 1205-92)"
 
 #: rules/base.xml:4290
 msgid "Lithuanian (LEKP)"
-msgstr "Litewski (LEKP)"
+msgstr "ליטאית (LEKP)"
 
 #: rules/base.xml:4296
 msgid "Lithuanian (LEKPa)"
-msgstr "Litewski (LEKPa)"
+msgstr "ליטאית (LEKPa)"
 
 #: rules/base.xml:4302
 msgid "Samogitian"
-msgstr "Żmudzki"
+msgstr "זאמוטית (סמוגיטית)"
 
 #: rules/base.xml:4311
 msgid "Lithuanian (Ratise)"
-msgstr "Litewski (Ratise)"
+msgstr "ליטאית (Ratise)"
 
 #. Keyboard indicator for Latvian layouts
 #: rules/base.xml:4320 rules/base.extras.xml:280
 msgid "lv"
-msgstr "lv"
+msgstr "לטב"
 
 #: rules/base.xml:4321 rules/base.extras.xml:281
 msgid "Latvian"
-msgstr "Łotewski"
+msgstr "לטבית"
 
 #: rules/base.xml:4330
 msgid "Latvian (apostrophe)"
-msgstr "Łotewski (apostrof)"
+msgstr "לטבית (אפוסטרוף)"
 
 #: rules/base.xml:4336
 msgid "Latvian (tilde)"
-msgstr "Łotewski (tylda)"
+msgstr "לטבית (טילדה)"
 
 #: rules/base.xml:4342
 msgid "Latvian (F)"
-msgstr "Łotewski (F)"
+msgstr "לטבית (F)"
 
 #: rules/base.xml:4348
 msgid "Latvian (modern)"
-msgstr "Łotewski (współczesny)"
+msgstr "לטבית (מודרנית)"
 
 #: rules/base.xml:4354
 msgid "Latvian (ergonomic, ŪGJRMV)"
-msgstr "Łotewski (ergonomiczny ŪGJRMV)"
+msgstr "לטבית (ארגונומית, ŪGJRMV)"
 
 #: rules/base.xml:4360
 msgid "Latvian (adapted)"
-msgstr "Łotewski (zaadaptowany)"
+msgstr "לטבית (מותאמת)"
 
 #. Keyboard indicator for Maori layouts
 #: rules/base.xml:4369
 msgid "mi"
-msgstr "mi"
+msgstr "מאו"
 
 #: rules/base.xml:4370
 msgid "Maori"
-msgstr "Maoryski"
+msgstr "מאורית"
 
 #. Keyboard indicator for Montenegrin layouts
 #. Keyboard indicator for Serbian layouts
 #: rules/base.xml:4381 rules/base.xml:4910 rules/base.extras.xml:597
 msgid "sr"
-msgstr "sr"
+msgstr "סרב"
 
 #: rules/base.xml:4382
 msgid "Montenegrin"
-msgstr "Czarnogórski"
+msgstr "מונטנגרית"
 
 #: rules/base.xml:4391
 msgid "Montenegrin (Cyrillic)"
-msgstr "Czarnogórski (cyrylicki)"
+msgstr "מונטנגרית (קירילית)"
 
 #: rules/base.xml:4397
 msgid "Montenegrin (Cyrillic, ZE and ZHE swapped)"
-msgstr "Czarnogórski (cyrylicki, zamienione ZE i ŻE)"
+msgstr "מונטנגרית (קירילית, זה וז׳ה מוחלפות)"
 
 #: rules/base.xml:4403
 msgid "Montenegrin (Latin, Unicode)"
-msgstr "Czarnogórski (łaciński, unikodowy)"
+msgstr "מונטנגרית (לטינית, יוניקוד)"
 
 #: rules/base.xml:4409
 msgid "Montenegrin (Latin, QWERTY)"
-msgstr "Czarnogórski (łaciński, QWERTY)"
+msgstr "מונטנגרית (לטינית, QWERTY)"
 
 #: rules/base.xml:4415
 msgid "Montenegrin (Latin, Unicode, QWERTY)"
-msgstr "Czarnogórski (łaciński, unikodowy, QWERTY)"
+msgstr "מונטנגרית (לטינית, יוניקוד, QWERTY)"
 
 #: rules/base.xml:4421
 msgid "Montenegrin (Cyrillic, with guillemets)"
-msgstr "Czarnogórski (cyrylicki, z szewronami)"
+msgstr "מונטנגרית (קירילית, עם סוגריים משולשים כפולים)"
 
 #: rules/base.xml:4427
 msgid "Montenegrin (Latin, with guillemets)"
-msgstr "Czarnogórski (łaciński, z szewronami)"
+msgstr "מונטנגרית (לטינית, עם סוגריים משולשים כפולים)"
 
 #. Keyboard indicator for Macedonian layouts
 #: rules/base.xml:4436
 msgid "mk"
-msgstr "mk"
+msgstr "מקד"
 
 #: rules/base.xml:4437
 msgid "Macedonian"
-msgstr "Macedoński"
+msgstr "מקדונית"
 
 #: rules/base.xml:4446
 msgid "Macedonian (no dead keys)"
-msgstr "Macedoński (bez klawiszy akcentów)"
+msgstr "מקדונית (ללא מקשים מתים)"
 
 #. Keyboard indicator for Maltese layouts
 #: rules/base.xml:4455
 msgid "mt"
-msgstr "mt"
+msgstr "מלט"
 
 #: rules/base.xml:4456
 msgid "Maltese"
-msgstr "Maltański"
+msgstr "מלטית"
 
 #: rules/base.xml:4465
 msgid "Maltese (US)"
-msgstr "Maltański (USA)"
+msgstr "מלטית (ארה״ב)"
 
 #: rules/base.xml:4471
 msgid "Maltese (US, with AltGr overrides)"
-msgstr "Maltański (USA, z modyfikacją AltGr)"
+msgstr "מלטית (ארה״ב, עם מעקפי AltGr)"
 
 #: rules/base.xml:4477
 msgid "Maltese (UK, with AltGr overrides)"
-msgstr "Maltański (USA, z modyfikacją AltGr)"
+msgstr "מלטית (אנגליה, עם מעקפי AltGr)"
 
 #. Keyboard indicator for Mongolian layouts
 #: rules/base.xml:4486
 msgid "mn"
-msgstr "mn"
+msgstr "מנג"
 
 #: rules/base.xml:4487
 msgid "Mongolian"
-msgstr "Mongolski"
+msgstr "מונגולית"
 
 #. Keyboard indicator for Norwegian layouts
 #: rules/base.xml:4498 rules/base.extras.xml:1077
 msgid "no"
-msgstr "no"
+msgstr "נור"
 
 #: rules/base.xml:4499 rules/base.extras.xml:1078
 msgid "Norwegian"
-msgstr "Norweski"
+msgstr "נורווגית"
 
 #: rules/base.xml:4510
 msgid "Norwegian (no dead keys)"
-msgstr "Norweski (bez klawiszy akcentów)"
+msgstr "נורווגית (ללא מקשים מתים)"
 
 #: rules/base.xml:4516
 msgid "Norwegian (Windows)"
-msgstr "Norweski (Windows)"
+msgstr "נורווגית (Windows)"
 
 #: rules/base.xml:4522
 msgid "Norwegian (Dvorak)"
-msgstr "Norweski (Dvoraka)"
+msgstr "נורווגית (דבוז׳אק)"
 
 #: rules/base.xml:4528
 msgid "Northern Saami (Norway)"
-msgstr "Północnolapoński (Norwegia)"
+msgstr "סאמית צפונית (נורווגיה)"
 
 #: rules/base.xml:4537
 msgid "Northern Saami (Norway, no dead keys)"
-msgstr "Północnolapoński (Norwegia, bez klawiszy akcentów)"
+msgstr "סאמית צפונית (נורווגיה, ללא מקשים מתים)"
 
 #: rules/base.xml:4546
 msgid "Norwegian (Macintosh)"
-msgstr "Norweski (Macintosh)"
+msgstr "נורווגית (Macintosh)"
 
 #: rules/base.xml:4552
 msgid "Norwegian (Macintosh, no dead keys)"
-msgstr "Norweski (Macintosh, bez klawiszy akcentów)"
+msgstr "נורווגית (Macintosh, ללא מקשים מתים)"
 
 #: rules/base.xml:4558
 msgid "Norwegian (Colemak)"
-msgstr "Norweski (Colemak)"
+msgstr "נורווגית (קולמק)"
 
 #. Keyboard indicator for Polish layouts
 #: rules/base.xml:4567 rules/base.xml:5681 rules/base.extras.xml:515
 msgid "pl"
-msgstr "pl"
+msgstr "פלנ"
 
 #: rules/base.xml:4568 rules/base.extras.xml:516
 msgid "Polish"
-msgstr "Polski"
+msgstr "פולנית"
 
 #: rules/base.xml:4577
 msgid "Polish (legacy)"
-msgstr "Polski (stary)"
+msgstr "פולנית (מיושנת)"
 
 #: rules/base.xml:4583
 msgid "Polish (QWERTZ)"
-msgstr "Polski (QWERTZ)"
+msgstr "פולנית (QWERTZ)"
 
 #: rules/base.xml:4589
 msgid "Polish (Dvorak)"
-msgstr "Polski (Dvoraka)"
+msgstr "פולנית (דבוז׳אק)"
 
 #: rules/base.xml:4595
 msgid "Polish (Dvorak, with Polish quotes on quotemark key)"
-msgstr "Polski (Dvoraka, z polskimi cudzysłowami pod klawiszem cudzysłowu)"
+msgstr "פולנית (דבוז׳אק, עם ציטטות פולניות ומקש סימני ציטוט)"
 
 #: rules/base.xml:4601
 msgid "Polish (Dvorak, with Polish quotes on key 1)"
-msgstr "Polski (Dvoraka, z polskimi cudzysłowami pod klawiszem 1)"
+msgstr "פולנית (דבוז׳אק, עם ציטטות פולניות על מקש 1)"
 
 #: rules/base.xml:4607
 msgid "Kashubian"
-msgstr "Kaszubski"
+msgstr "קשובית"
 
 #: rules/base.xml:4616
 msgid "Silesian"
-msgstr "Śląski"
+msgstr "שילזית"
 
 #: rules/base.xml:4627
 msgid "Russian (Poland, phonetic Dvorak)"
-msgstr "Rosyjski (Polska, fonetyczny Dvoraka)"
+msgstr "רוסית (פולין, דבוז׳אק פונטית)"
 
 #: rules/base.xml:4636
 msgid "Polish (programmer Dvorak)"
-msgstr "Polski (Dvoraka programisty)"
+msgstr "פולנית (דבוז׳אק למתכנתים)"
 
 #: rules/base.xml:4646 rules/base.extras.xml:1111
 msgid "Portuguese"
-msgstr "Portugalski"
+msgstr "פורטוגלית"
 
 #: rules/base.xml:4655
 msgid "Portuguese (no dead keys)"
-msgstr "Portugalski (bez klawiszy akcentów)"
+msgstr "פורטוגלית (ללא מקשים מתים)"
 
 #: rules/base.xml:4661
 msgid "Portuguese (Macintosh)"
-msgstr "Portugalski (Macintosh)"
+msgstr "פורטוגלית (Macintosh)"
 
 #: rules/base.xml:4667
 msgid "Portuguese (Macintosh, no dead keys)"
-msgstr "Portugalski (Macintosh, bez klawiszy akcentów)"
+msgstr "פורטוגלית (Macintosh, ללא מקשים מתים)"
 
 #: rules/base.xml:4673
 msgid "Portuguese (Nativo)"
-msgstr "Portugalski (Nativo)"
+msgstr "פורטוגלית (ילידית - Nativo)"
 
 #: rules/base.xml:4679
 msgid "Portuguese (Nativo for US keyboards)"
-msgstr "Portugalski (Nativo dla klawiatur US)"
+msgstr "פורטוגלית (ילידית - Nativo למקלדות אמריקאיות)"
 
 #: rules/base.xml:4685
 msgid "Esperanto (Portugal, Nativo)"
-msgstr "Esperanto (Portugalia, Nativo)"
+msgstr "אספרנטו (פורטוגל, ילידית - Nativo)"
 
 #. Keyboard indicator for Romanian layouts
 #: rules/base.xml:4697 rules/base.extras.xml:563
 msgid "ro"
-msgstr "ro"
+msgstr "רמנ"
 
 #: rules/base.xml:4698 rules/base.extras.xml:564
 msgid "Romanian"
-msgstr "Rumuński"
+msgstr "רומנית"
 
 #: rules/base.xml:4707
 msgid "Romanian (standard)"
-msgstr "Rumuński (standardowy)"
+msgstr "רומנית (תקנית)"
 
 #: rules/base.xml:4713
 msgid "Romanian (Windows)"
-msgstr "Rumuński (Windows)"
+msgstr "רומנית (Windows)"
 
 #: rules/base.xml:4723 rules/base.extras.xml:616
 msgid "Russian"
-msgstr "Rosyjski"
+msgstr "רוסית"
 
 #: rules/base.xml:4732
 msgid "Russian (phonetic)"
-msgstr "Rosyjski (fonetyczny)"
+msgstr "רוסית (פונטית)"
 
 #: rules/base.xml:4738
 msgid "Russian (phonetic, Windows)"
-msgstr "Rosyjski (fonetyczny, Windows)"
+msgstr "רוסית (פונטית, Windows)"
 
 #: rules/base.xml:4744
 msgid "Russian (phonetic, YAZHERTY)"
-msgstr "Rosyjski (fonetyczny, JAŻERTY)"
+msgstr "רוסית (פונטית, YAZHERTY)"
 
 #: rules/base.xml:4750
 msgid "Russian (typewriter)"
-msgstr "Rosyjski (maszynistki)"
+msgstr "רוסית (מכונת כתיבה)"
 
 #: rules/base.xml:4756
 msgid "Russian (legacy)"
-msgstr "Rosyjski (stary)"
+msgstr "רוסית (מיושנת)"
 
 #: rules/base.xml:4762
 msgid "Russian (typewriter, legacy)"
-msgstr "Rosyjski (maszynistki, stary)"
+msgstr "רוסית (מכונת כתיבה, מיושנת)"
 
 #: rules/base.xml:4768
 msgid "Tatar"
-msgstr "Tatarski"
+msgstr "טטרית"
 
 #: rules/base.xml:4777
 msgid "Ossetian (legacy)"
-msgstr "Osetyjski (stary)"
+msgstr "אוסטית (מיושנת)"
 
 #: rules/base.xml:4786
 msgid "Ossetian (Windows)"
-msgstr "Osetyjski (Windows)"
+msgstr "אוסטית (Windows)"
 
 #: rules/base.xml:4795
 msgid "Chuvash"
-msgstr "Czuwaski"
+msgstr "צ׳ובשית"
 
 #: rules/base.xml:4804
 msgid "Chuvash (Latin)"
-msgstr "Czuwaski (łaciński)"
+msgstr "צ׳ובשית (לטינית)"
 
 #: rules/base.xml:4813
 msgid "Udmurt"
-msgstr "Udmurcki"
+msgstr "אודמורטית"
 
 #: rules/base.xml:4822
 msgid "Komi"
-msgstr "Komi"
+msgstr "קומי"
 
 #: rules/base.xml:4831
 msgid "Yakut"
-msgstr "Jakucki"
+msgstr "יקוטית"
 
 #: rules/base.xml:4840
 msgid "Kalmyk"
-msgstr "Kałmucki"
+msgstr "קלמיקית"
 
 #: rules/base.xml:4849
 msgid "Russian (DOS)"
-msgstr "Rosyjski (DOS)"
+msgstr "רוסית (DOS)"
 
 #: rules/base.xml:4855
 msgid "Russian (Macintosh)"
-msgstr "Rosyjski (Macintosh)"
+msgstr "רוסית (Macintosh)"
 
 #: rules/base.xml:4861
 msgid "Serbian (Russia)"
-msgstr "Serbski (Rosja)"
+msgstr "סרבית (רוסית)"
 
 #: rules/base.xml:4871
 msgid "Bashkirian"
-msgstr "Baszkirski"
+msgstr "בשקירית"
 
 #: rules/base.xml:4880
 msgid "Mari"
-msgstr "Maryjski"
+msgstr "מארי"
 
 #: rules/base.xml:4889
 msgid "Russian (phonetic, AZERTY)"
-msgstr "Rosyjski (fonetyczny, AZWERTY)"
+msgstr "רוסית (פונטית, AZERTY)"
 
 #: rules/base.xml:4895
 msgid "Russian (phonetic, Dvorak)"
-msgstr "Rosyjski (fonetyczny, Dvoraka)"
+msgstr "רוסית (פונטית, דבוז׳אק)"
 
 #: rules/base.xml:4901
 msgid "Russian (phonetic, French)"
-msgstr "Rosyjski (fonetyczny, francuski)"
+msgstr "רוסית (פונטית, צרפתית)"
 
 #: rules/base.xml:4911 rules/base.extras.xml:598
 msgid "Serbian"
-msgstr "Serbski"
+msgstr "סרבית"
 
 #: rules/base.xml:4920
 msgid "Serbian (Cyrillic, ZE and ZHE swapped)"
-msgstr "Serbski (cyrylicki, zamienione ZE i ŻE)"
+msgstr "סרבית (קירילית, זה וז׳ה מוחלפות)"
 
 #: rules/base.xml:4926
 msgid "Serbian (Latin)"
-msgstr "Serbski (łaciński)"
+msgstr "סרבית (לטינית)"
 
 #: rules/base.xml:4932
 msgid "Serbian (Latin, Unicode)"
-msgstr "Serbski (łaciński, unikodowy)"
+msgstr "סרבית (לטינית, יוניקוד)"
 
 #: rules/base.xml:4938
 msgid "Serbian (Latin, QWERTY)"
-msgstr "Serbski (łaciński, QWERTY)"
+msgstr "סרבית (לטינית, QWERTY)"
 
 #: rules/base.xml:4944
 msgid "Serbian (Latin, Unicode, QWERTY)"
-msgstr "Serbski (łaciński, unikodowy, QWERTY)"
+msgstr "סרבית (לטינית, יוניקוד, QWERTY)"
 
 #: rules/base.xml:4950
 msgid "Serbian (Cyrillic, with guillemets)"
-msgstr "Serbski (cyrylicki, z szewronami)"
+msgstr "סרבית (קירילית, עם סוגריים משולשים כפולים)"
 
 #: rules/base.xml:4956
 msgid "Serbian (Latin, with guillemets)"
-msgstr "Serbski (łaciński, z szewronami)"
+msgstr "סרבית (לטינית, עם סוגריים משולשים כפולים)"
 
 #: rules/base.xml:4962
 msgid "Pannonian Rusyn"
-msgstr "Pannońskorusiński"
+msgstr "רוסינית של הפנוניים"
 
 #. Keyboard indicator for Slovenian layouts
 #: rules/base.xml:4974
 msgid "sl"
-msgstr "sl"
+msgstr "סלנ"
 
 #: rules/base.xml:4975
 msgid "Slovenian"
-msgstr "Słoweński"
+msgstr "סלובנית"
 
 #: rules/base.xml:4984
 msgid "Slovenian (with guillemets)"
-msgstr "Słoweński (z szewronami)"
+msgstr "סלובנית (עם סוגריים משולשים כפולים)"
 
 #: rules/base.xml:4990
 msgid "Slovenian (US)"
-msgstr "Słoweński (USA)"
+msgstr "סלובנית (ארה״ב)"
 
 #. Keyboard indicator for Slovak layouts
 #: rules/base.xml:4999 rules/base.extras.xml:1131
 msgid "sk"
-msgstr "sk"
+msgstr "סלק"
 
 #: rules/base.xml:5000 rules/base.extras.xml:1132
 msgid "Slovak"
-msgstr "Słowacki"
+msgstr "סלובקית"
 
 #: rules/base.xml:5009
 msgid "Slovak (extended backslash)"
-msgstr "Słowacki (rozszerzony backslash)"
+msgstr "סלובקית (לוכסן שמאלי מורחב)"
 
 #: rules/base.xml:5015
 msgid "Slovak (QWERTY)"
-msgstr "Słowacki (QWERTY)"
+msgstr "סלובקית (QWERTY)"
 
 #: rules/base.xml:5021
 msgid "Slovak (QWERTY, extended backslash)"
-msgstr "Słowacki (QWERTY, rozszerzony backslash)"
+msgstr "סלובקית (QWERTY, לוכסן שמאלי מורחב)"
 
 #: rules/base.xml:5031 rules/base.extras.xml:1153
 msgid "Spanish"
-msgstr "Hiszpański"
+msgstr "ספרדית"
 
 #: rules/base.xml:5040
 msgid "Spanish (no dead keys)"
-msgstr "Hiszpański (bez klawiszy akcentów)"
+msgstr "ספרדית (ללא מקשים מתים)"
 
 #: rules/base.xml:5046
 msgid "Spanish (Windows)"
-msgstr "Hiszpański (Windows)"
+msgstr "ספרדית (Windows)"
 
 #: rules/base.xml:5052
 msgid "Spanish (dead tilde)"
-msgstr "Hiszpański (akcenty z tyldą)"
+msgstr "ספרדית (טילדה מתה)"
 
 #: rules/base.xml:5058
 msgid "Spanish (Dvorak)"
-msgstr "Hiszpański (Dvoraka)"
+msgstr "ספרדית (דבוז׳אק)"
 
 #: rules/base.xml:5064
 msgid "ast"
-msgstr "ast"
+msgstr "אסט"
 
 #: rules/base.xml:5065
 msgid "Asturian (Spain, with bottom-dot H and L)"
-msgstr "Asturski (hiszpański, z H i L z dolną kropką)"
+msgstr "אסטורית (ספרד, עם L ו־H עם נקודות בתחתית)"
 
 #: rules/base.xml:5074
 msgid "ca"
-msgstr "ca"
+msgstr "צקנ"
 
 #: rules/base.xml:5075
 msgid "Catalan (Spain, with middle-dot L)"
-msgstr "Kataloński (hiszpański, z L ze środkową kropką)"
+msgstr "קטלאנית (ספרד, עם L עם נקודה באמצע)"
 
 #: rules/base.xml:5084
 msgid "Spanish (Macintosh)"
-msgstr "Hiszpański (Macintosh)"
+msgstr "ספרדית (Macintosh)"
 
 #. Keyboard indicator for Swedish layouts
 #: rules/base.xml:5093 rules/base.extras.xml:1167
 msgid "sv"
-msgstr "sv"
+msgstr "שבד"
 
 #: rules/base.xml:5094 rules/base.extras.xml:1168
 msgid "Swedish"
-msgstr "Szwedzki"
+msgstr "שוודית"
 
 #: rules/base.xml:5103
 msgid "Swedish (no dead keys)"
-msgstr "Szwedzki (bez klawiszy akcentów)"
+msgstr "שוודית (ללא מקשים מתים)"
 
 #: rules/base.xml:5109
 msgid "Swedish (Dvorak)"
-msgstr "Szwedzki (Dvoraka)"
+msgstr "שוודית (דבוז׳אק)"
 
 #: rules/base.xml:5117
 msgid "Russian (Sweden, phonetic)"
-msgstr "Rosyjski (Szwecja, fonetyczny)"
+msgstr "רוסית (שוודיה, פונטית)"
 
 #: rules/base.xml:5128
 msgid "Russian (Sweden, phonetic, no dead keys)"
-msgstr "Rosyjski (Szwecja, fonetyczny, bez klawiszy akcentów)"
+msgstr "רוסית (שוודיה, פונטית, ללא מקשים מתים)"
 
 #: rules/base.xml:5137
 msgid "Northern Saami (Sweden)"
-msgstr "Północnolapoński (Szwecja)"
+msgstr "סאמית צפונית (שוודיה)"
 
 #: rules/base.xml:5146
 msgid "Swedish (Macintosh)"
-msgstr "Szwedzki (Macintosh)"
+msgstr "שוודית (Macintosh)"
 
 #: rules/base.xml:5152
 msgid "Swedish (Svdvorak)"
-msgstr "Szwedzki (Svdvorak)"
+msgstr "שוודית (דבוז׳אק שוודי - Svdvorak)"
 
 #: rules/base.xml:5158
 msgid "Swedish (Dvorak, intl.)"
-msgstr "Szwedzki (Dvoraka, międzynarodowy)"
+msgstr "שוודית (דבוז׳אק, בינלאומית)"
 
 #: rules/base.xml:5164
 msgid "Swedish (US)"
-msgstr "Szwedzki (USA)"
+msgstr "שוודית (ארה״ב)"
 
 #: rules/base.xml:5170
 msgid "Swedish Sign Language"
-msgstr "Szwedzki migowy"
+msgstr "שפת הסימנים השוודית"
 
 #: rules/base.xml:5183 rules/base.extras.xml:1198
 msgid "German (Switzerland)"
-msgstr "Niemiecki (Szwajcaria)"
+msgstr "גרמנית (שווייץ)"
 
 #: rules/base.xml:5193
 msgid "German (Switzerland, legacy)"
-msgstr "Niemiecki (Szwajcaria, stary)"
+msgstr "גרמנית (שווייץ, מיושנת)"
 
 #: rules/base.xml:5201
 msgid "German (Switzerland, no dead keys)"
-msgstr "Niemiecki (Szwajcaria, bez klawiszy akcentów)"
+msgstr "גרמנית (שווייץ, ללא מקשים מתים)"
 
 #: rules/base.xml:5209
 msgid "French (Switzerland)"
-msgstr "Francuski (Szwajcaria)"
+msgstr "צרפתית (שווייץ)"
 
 #: rules/base.xml:5220
 msgid "French (Switzerland, no dead keys)"
-msgstr "Francuski (Szwajcaria, bez klawiszy akcentów)"
+msgstr "צרפתית (שווייץ, ללא מקשים מתים)"
 
 #: rules/base.xml:5231
 msgid "French (Switzerland, Macintosh)"
-msgstr "Francuski (Szwajcaria, Macintosh)"
+msgstr "צרפתית (שווייץ, Macintosh)"
 
 #: rules/base.xml:5242
 msgid "German (Switzerland, Macintosh)"
-msgstr "Niemiecki (Szwajcaria, Macintosh)"
+msgstr "גרמנית (שווייץ, Macintosh)"
 
 #: rules/base.xml:5252
 msgid "Arabic (Syria)"
-msgstr "Arabski (syryjski)"
+msgstr "ערבית (סוריה)"
 
 #. Keyboard indicator for Syriac layouts
 #: rules/base.xml:5262 rules/base.xml:5270
 msgid "syc"
-msgstr "syc"
+msgstr "שוד"
 
 #: rules/base.xml:5263
 msgid "Syriac"
-msgstr "Syryjski"
+msgstr "סורית"
 
 #: rules/base.xml:5271
 msgid "Syriac (phonetic)"
-msgstr "Syryjski (fonetyczny)"
+msgstr "סורית (פונטית)"
 
 #: rules/base.xml:5279
 msgid "Kurdish (Syria, Latin Q)"
-msgstr "Kurdyjski (Syria, łaciński Q)"
+msgstr "כורדית (סוריה, לטינית Q)"
 
 #: rules/base.xml:5290
 msgid "Kurdish (Syria, F)"
-msgstr "Kurdyjski (Syria, F)"
+msgstr "כורדית (סוריה, F)"
 
 #: rules/base.xml:5301
 msgid "Kurdish (Syria, Latin Alt-Q)"
-msgstr "Kurdyjski (Syria, łaciński Alt-Q)"
+msgstr "כורדית (סוריה, Alt-Q לטינית)"
 
 #. Keyboard indicator for Tajik layouts
 #: rules/base.xml:5313
 msgid "tg"
-msgstr "tg"
+msgstr "טג׳"
 
 #: rules/base.xml:5314
 msgid "Tajik"
-msgstr "Tadżycki"
+msgstr "טג׳יקית"
 
 #: rules/base.xml:5323
 msgid "Tajik (legacy)"
-msgstr "Tadżycki (stary)"
+msgstr "טג׳יקית (מיושנת)"
 
 #. Keyboard indicator for Sinhala layouts
 #: rules/base.xml:5332
 msgid "si"
-msgstr "si"
+msgstr "סנה"
 
 #: rules/base.xml:5333
 msgid "Sinhala (phonetic)"
-msgstr "Syngaleski (fonetyczny)"
+msgstr "סינהלית (פונטית)"
 
 #: rules/base.xml:5344
 msgid "Tamil (Sri Lanka, TamilNet '99)"
-msgstr "Tamilski (Sri Lanka, TamilNet '99)"
+msgstr "טמילית (סרי לנקה, TamilNet ’99)"
 
 #: rules/base.xml:5353
 msgid "Tamil (Sri Lanka, TamilNet '99, TAB encoding)"
-msgstr "Tamilski (Sri Lanka, TamilNet '99, kodowanie TAB)"
+msgstr "טמילית (סרי לנקה, TamilNet ’99, קידוד TAB)"
 
 #. Keyboard indicator for US layouts
 #: rules/base.xml:5363
 msgid "us"
-msgstr "us"
+msgstr "ארה"
 
 #: rules/base.xml:5364
 msgid "Sinhala (US)"
-msgstr "Syngaleski (USA)"
+msgstr "סינהלית (ארה״ב)"
 
 #. Keyboard indicator for Thai layouts
 #: rules/base.xml:5373
 msgid "th"
-msgstr "th"
+msgstr "תאי"
 
 #: rules/base.xml:5374
 msgid "Thai"
-msgstr "Tajski"
+msgstr "תאית"
 
 #: rules/base.xml:5383
 msgid "Thai (TIS-820.2538)"
-msgstr "Tajski (TIS-820.2538)"
+msgstr "תאית (TIS-820.2538)"
 
 #: rules/base.xml:5389
 msgid "Thai (Pattachote)"
-msgstr "Tajski (Pattachote)"
+msgstr "תאית (Pattachote)"
 
 #. Keyboard indicator for Turkish layouts
 #: rules/base.xml:5398 rules/base.extras.xml:1218
 msgid "tr"
-msgstr "tr"
+msgstr "טרק"
 
 #: rules/base.xml:5399 rules/base.extras.xml:1219
 msgid "Turkish"
-msgstr "Turecki"
+msgstr "טורקית"
 
 #: rules/base.xml:5408
 msgid "Turkish (F)"
-msgstr "Turecki (F)"
+msgstr "טורקית (F)"
 
 #: rules/base.xml:5414
 msgid "Turkish (Alt-Q)"
-msgstr "Turecki (Alt-Q)"
+msgstr "טורקית (Alt-Q)"
 
 #: rules/base.xml:5422
 msgid "Kurdish (Turkey, Latin Q)"
-msgstr "Kurdyjski (Turcja, łaciński Q)"
+msgstr "כורדית (טורקיה, לטינית Q)"
 
 #: rules/base.xml:5433
 msgid "Kurdish (Turkey, F)"
-msgstr "Kurdyjski (Turcja, F)"
+msgstr "כורדית (טורקיה, F)"
 
 #: rules/base.xml:5444
 msgid "Kurdish (Turkey, Latin Alt-Q)"
-msgstr "Kurdyjski (Turcja, łaciński Alt-Q)"
+msgstr "כורדית (טורקיה, לטינית Alt-Q)"
 
 #: rules/base.xml:5453
 msgid "Turkish (intl., with dead keys)"
-msgstr "Turecki (międzynarodowy, z klawiszami akcentów)"
+msgstr "טורקית (בינלאומית, עם מקשים מתים)"
 
 #. Keyboard indicator for Crimean Tatar layouts
 #: rules/base.xml:5460 rules/base.xml:5471 rules/base.xml:5482
 #: rules/base.extras.xml:573
 msgid "crh"
-msgstr "crh"
+msgstr "טקר"
 
 #: rules/base.xml:5461
 msgid "Crimean Tatar (Turkish Q)"
-msgstr "Krymskotatarski (turecki Q)"
+msgstr "טטרית של קרים (טורקית Q)"
 
 #: rules/base.xml:5472
 msgid "Crimean Tatar (Turkish F)"
-msgstr "Krymskotatarski (turecki F)"
+msgstr "טטרית של קרים (טורקית F)"
 
 #: rules/base.xml:5483
 msgid "Crimean Tatar (Turkish Alt-Q)"
-msgstr "Krymskotatarski (turecki Alt-Q)"
+msgstr "טטרית של קרים (טורקית Alt-Q)"
 
 #: rules/base.xml:5492
 msgid "Ottoman"
-msgstr "Otomański"
+msgstr "עות׳מנאית"
 
 #: rules/base.xml:5498
 msgid "Ottoman (F)"
-msgstr "Otomański (F)"
+msgstr "עות׳מאנית (F)"
 
 #: rules/base.xml:5504 rules/base.extras.xml:1231
 msgid "Old Turkic"
-msgstr "Stary turkijski"
+msgstr "טורקית עתיקה"
 
 #: rules/base.xml:5510
 msgid "Old Turkic (F)"
-msgstr "Stary turkijski (F)"
+msgstr "טורקית עתיקה (F)"
 
 #: rules/base.xml:5520
 msgid "Taiwanese"
-msgstr "Tajwański"
+msgstr "טאיוואנית"
 
 #: rules/base.xml:5529
 msgid "Taiwanese (indigenous)"
-msgstr "Tajwański (autochtoniczny)"
+msgstr "טאיוואנית (ילידית)"
 
 #. Keyboard indicator for Saisiyat layouts
 #: rules/base.xml:5554
 msgid "xsy"
-msgstr "xsy"
+msgstr "ססט"
 
 #: rules/base.xml:5555
 msgid "Saisiyat (Taiwan)"
-msgstr "Saisiyat (Tajwan)"
+msgstr "סיסיאט (טאיוואן)"
 
 #. Keyboard indicator for Ukranian layouts
 #: rules/base.xml:5567 rules/base.extras.xml:1239
 msgid "uk"
-msgstr "uk"
+msgstr "אקר"
 
 #: rules/base.xml:5568 rules/base.extras.xml:1240
 msgid "Ukrainian"
-msgstr "Ukraiński"
+msgstr "אוקראינית"
 
 #: rules/base.xml:5577
 msgid "Ukrainian (phonetic)"
-msgstr "Ukraiński (fonetyczny)"
+msgstr "אוקראינית (פונטית)"
 
 #: rules/base.xml:5583
 msgid "Ukrainian (typewriter)"
-msgstr "Ukraiński (maszynistki)"
+msgstr "אוקראינית (מכונת כתיבה)"
 
 #: rules/base.xml:5589
 msgid "Ukrainian (Windows)"
-msgstr "Ukraiński (Windows)"
+msgstr "אוקראינית (Windows)"
 
 #: rules/base.xml:5595
 msgid "Ukrainian (legacy)"
-msgstr "Ukraiński (stary)"
+msgstr "אוקראינית (מיושנת)"
 
 #: rules/base.xml:5601
 msgid "Ukrainian (standard RSTU)"
-msgstr "Ukraiński (standardowy RSTU)"
+msgstr "אוקראינית (RSTU תקנית)"
 
 #: rules/base.xml:5607
 msgid "Russian (Ukraine, standard RSTU)"
-msgstr "Rosyjski (Ukraina, standardowy RSTU)"
+msgstr "רוסית (אוקראינה, RSTU תקנית)"
 
 #: rules/base.xml:5613
 msgid "Ukrainian (homophonic)"
-msgstr "Ukraiński (homofoniczny)"
+msgstr "אוקראינית (הומופונית)"
 
 #: rules/base.xml:5623 rules/base.extras.xml:1255
 msgid "English (UK)"
-msgstr "Angielski (brytyjski)"
+msgstr "אנגלית (אנגליה)"
 
 #: rules/base.xml:5632
 msgid "English (UK, extended, Windows)"
-msgstr "Angielski (brytyjski, rozszerzony, Windows)"
+msgstr "אנגלית (אנגליה, מורחבת, Windows)"
 
 #: rules/base.xml:5638
 msgid "English (UK, intl., with dead keys)"
-msgstr "Angielski (brytyjski, międzynarodowy, z klawiszami akcentów)"
+msgstr "אנגלית (אנגליה, בינלאומית, עם מקשים מתים)"
 
 #: rules/base.xml:5644
 msgid "English (UK, Dvorak)"
-msgstr "Angielski (brytyjski, Dvoraka)"
+msgstr "אנגלית (אנגליה, דבוז׳אק)"
 
 #: rules/base.xml:5650
 msgid "English (UK, Dvorak, with UK punctuation)"
-msgstr "Angielski (brytyjski, Dvoraka, z interpunkcją brytyjską)"
+msgstr "אנגלית (אנגליה, דבוז׳אק, עם פיסוק אנגלי)"
 
 #: rules/base.xml:5656
 msgid "English (UK, Macintosh)"
-msgstr "Angielski (brytyjski, Macintosh)"
+msgstr "אנגלית (אנגליה, Macintosh)"
 
 #: rules/base.xml:5662
 msgid "English (UK, Macintosh, intl.)"
-msgstr "Angielski (brytyjski, Macintosh, międzynarodowy)"
+msgstr "אנגלית (אנגליה, Macintosh, בינלאומית)"
 
 #: rules/base.xml:5668
 msgid "English (UK, Colemak)"
-msgstr "Angielski (brytyjski, Colemak)"
+msgstr "אנגלית (אנגליה, קולמק)"
 
 #: rules/base.xml:5674
 msgid "English (UK, Colemak-DH)"
-msgstr "Angielski (brytyjski, Colemak-DH)"
+msgstr "אנגלית (אנגליה, קולמק-DH)"
 
 #: rules/base.xml:5682
 msgid "Polish (British keyboard)"
-msgstr "Polski (klawiatura brytyjska)"
+msgstr "פולנית (מקלדת בריטית)"
 
 #: rules/base.xml:5695
 msgid "Uzbek"
-msgstr "Uzbecki"
+msgstr "אוזבקית"
 
 #: rules/base.xml:5704
 msgid "Uzbek (Latin)"
-msgstr "Uzbecki (łaciński)"
+msgstr "אוזבקית (לטינית)"
 
 #. Keyboard indicator for Vietnamese layouts
 #: rules/base.xml:5713 rules/base.extras.xml:1285
 msgid "vi"
-msgstr "vi"
+msgstr "וטנ"
 
 #: rules/base.xml:5714 rules/base.extras.xml:1286
 msgid "Vietnamese"
-msgstr "Wietnamski"
+msgstr "וייטנאמית"
 
 #: rules/base.xml:5723
 msgid "Vietnamese (US)"
-msgstr "Wietnamski (USA)"
+msgstr "וייטנאמית (ארה״ב)"
 
 #: rules/base.xml:5729
 msgid "Vietnamese (French)"
-msgstr "Wietnamski (francuski)"
+msgstr "וויטנאמית (צרפתית)"
 
 #. Keyboard indicator for Korean layouts
 #: rules/base.xml:5738 rules/base.extras.xml:1269
 msgid "ko"
-msgstr "ko"
+msgstr "קרא"
 
 #: rules/base.xml:5739 rules/base.extras.xml:1270
 msgid "Korean"
-msgstr "Koreański"
+msgstr "קוריאנית"
 
 #: rules/base.xml:5748
 msgid "Korean (101/104-key compatible)"
-msgstr "Koreański (kompatybilny ze 101/104 klawiszami)"
+msgstr "קוריאנית (תואמת 101/104 מקשים)"
 
 #: rules/base.xml:5758
 msgid "Japanese (PC-98)"
-msgstr "Japoński (PC-98)"
+msgstr "יפנית (PC-98)"
 
 #. Keyboard indicator for Irish layouts
 #: rules/base.xml:5771
 msgid "ie"
-msgstr "ie"
+msgstr "איר"
 
 #: rules/base.xml:5772
 msgid "Irish"
-msgstr "Irlandzki"
+msgstr "אירית"
 
 #: rules/base.xml:5781
 msgid "CloGaelach"
-msgstr "Irlandzki gaelicki"
+msgstr "קלו גיילאך"
 
 #: rules/base.xml:5790
 msgid "Irish (UnicodeExpert)"
-msgstr "Irlandzki (UnicodeExpert)"
+msgstr "אירית (UnicodeExpert)"
 
 #: rules/base.xml:5796
 msgid "Ogham"
-msgstr "Ogamiczny"
+msgstr "אוגהם"
 
 #: rules/base.xml:5805
 msgid "Ogham (IS434)"
-msgstr "Ogamiczny (IS434)"
+msgstr "אוגהם (IS434)"
 
 #: rules/base.xml:5818 rules/base.extras.xml:1093
 msgid "Urdu (Pakistan)"
-msgstr "Urdu (Pakistan)"
+msgstr "אורדו (פקיסטן)"
 
 #: rules/base.xml:5827
 msgid "Urdu (Pakistan, CRULP)"
-msgstr "Urdu (Pakistan, CRULP)"
+msgstr "אורדו (פקיסטן, CRULP)"
 
 #: rules/base.xml:5833
 msgid "Urdu (Pakistan, NLA)"
-msgstr "Urdu (Pakistan, NLA)"
+msgstr "אורדו (פקיסטן, NLA)"
 
 #: rules/base.xml:5840
 msgid "Arabic (Pakistan)"
-msgstr "Arabski (pakistański)"
+msgstr "ערבית (פקיסטן)"
 
 #. Keyboard indicator for Sindhi layouts
 #: rules/base.xml:5850
 msgid "sd"
-msgstr "sd"
+msgstr "סנד"
 
 #: rules/base.xml:5851
 msgid "Sindhi"
-msgstr "Sindhi"
+msgstr "סינדהי"
 
 #. Keyboard indicator for Dhivehi layouts
 #: rules/base.xml:5863
 msgid "dv"
-msgstr "dv"
+msgstr "דבה"
 
 #: rules/base.xml:5864
 msgid "Dhivehi"
-msgstr "Malediwski"
+msgstr "דיבהי"
 
 #: rules/base.xml:5876
 msgid "English (South Africa)"
-msgstr "Angielski (Afryka Południowa)"
+msgstr "אנגלית (דרום אפריקה)"
 
 #. Keyboard indicator for Esperanto layouts
 #: rules/base.xml:5886
 msgid "eo"
-msgstr "eo"
+msgstr "אספ"
 
 #: rules/base.xml:5887
 msgid "Esperanto"
-msgstr "Esperancki"
+msgstr "אספרנטו"
 
 #: rules/base.xml:5896
 msgid "Esperanto (legacy)"
-msgstr "Esperanto (stary)"
+msgstr "אספרנטו (מיושנת)"
 
 #. Keyboard indicator for Nepali layouts
 #: rules/base.xml:5905
 msgid "ne"
-msgstr "ne"
+msgstr "נפל"
 
 #: rules/base.xml:5906
 msgid "Nepali"
-msgstr "Nepalski"
+msgstr "נפלית"
 
 #: rules/base.xml:5919
 msgid "English (Nigeria)"
-msgstr "Angielski (Nigeria)"
+msgstr "אנגלית (ניגריה)"
 
 #. Keyboard indicator for Igbo layouts
 #: rules/base.xml:5929
 msgid "ig"
-msgstr "ig"
+msgstr "אגב"
 
 #: rules/base.xml:5930
 msgid "Igbo"
-msgstr "Ibo"
+msgstr "איגבו"
 
 #. Keyboard indicator for Yoruba layouts
 #: rules/base.xml:5940
 msgid "yo"
-msgstr "yo"
+msgstr "ירב"
 
 #: rules/base.xml:5941
 msgid "Yoruba"
-msgstr "Joruba"
+msgstr "יורובה"
 
 #: rules/base.xml:5952
 msgid "Hausa (Nigeria)"
-msgstr "Hausa (Nigeria)"
+msgstr "האוסה (ניגריה)"
 
 #. Keyboard indicator for Amharic layouts
 #: rules/base.xml:5964
 msgid "am"
-msgstr "am"
+msgstr "אמ"
 
 #: rules/base.xml:5965
 msgid "Amharic"
-msgstr "Amharski"
+msgstr "אמהרית"
 
 #. Keyboard indicator for Wolof layouts
 #: rules/base.xml:5976
 msgid "wo"
-msgstr "wo"
+msgstr "ולו"
 
 #: rules/base.xml:5977
 msgid "Wolof"
-msgstr "Wolof"
+msgstr "וולוף"
 
 #. Keyboard indicator for Braille layouts
 #: rules/base.xml:5988
 msgid "brl"
-msgstr "brl"
+msgstr "ברל"
 
 #: rules/base.xml:5989
 msgid "Braille"
-msgstr "Braille'a"
+msgstr "ברייל"
 
 #: rules/base.xml:5995
 msgid "Braille (left-handed)"
-msgstr "Braille (leworęczny)"
+msgstr "ברייל (לשמאליים)"
 
 #: rules/base.xml:6001
 msgid "Braille (left-handed inverted thumb)"
-msgstr "Braille (leworęczny, odwrócony kciuk)"
+msgstr "ברייל (לשמאליים עם היפוך אגודל)"
 
 #: rules/base.xml:6007
 msgid "Braille (right-handed)"
-msgstr "Braille (praworęczny)"
+msgstr "ברייל (לימניים)"
 
 #: rules/base.xml:6013
 msgid "Braille (right-handed inverted thumb)"
-msgstr "Braille (praworęczny, odwrócony kciuk)"
+msgstr "ברייל (לימניים עם היפוך אגודל)"
 
 #. Keyboard indicator for Turkmen layouts
 #: rules/base.xml:6022
 msgid "tk"
-msgstr "tk"
+msgstr "טור"
 
 #: rules/base.xml:6023
 msgid "Turkmen"
-msgstr "Turkmeński"
+msgstr "טורקמנית"
 
 #: rules/base.xml:6032
 msgid "Turkmen (Alt-Q)"
-msgstr "Turkmeński (Alt-Q)"
+msgstr "טורקמנית (Alt-Q)"
 
 #. Keyboard indicator for Bambara layouts
 #: rules/base.xml:6041
 msgid "bm"
-msgstr "bm"
+msgstr "במב"
 
 #: rules/base.xml:6042
 msgid "Bambara"
-msgstr "Bambara"
+msgstr "במברה"
 
 #: rules/base.xml:6053
 msgid "French (Mali, alt.)"
-msgstr "Francuski (Mali, alt.)"
+msgstr "צרפתית (מאלי)"
 
 #: rules/base.xml:6064
 msgid "English (Mali, US, Macintosh)"
-msgstr "Angielski (Mali, USA, Macintosh)"
+msgstr "אנגלית (מאלי, ארה״ב, Macintosh)"
 
 #: rules/base.xml:6075
 msgid "English (Mali, US, intl.)"
-msgstr "Angielski (Mali, USA, międzynarodowy)"
+msgstr "אנגלית (מאלי, ארה״ב, בינלאומית)"
 
 #. Keyboard indicator for Swahili layouts
 #: rules/base.xml:6087 rules/base.xml:6125
 msgid "sw"
-msgstr "sw"
+msgstr "סוה"
 
 #: rules/base.xml:6088
 msgid "Swahili (Tanzania)"
-msgstr "Suahili (Tanzania)"
+msgstr "סווהילי (טנזניה)"
 
 #: rules/base.xml:6097
 msgid "fr-tg"
-msgstr "fr-tg"
+msgstr "צר-טו"
 
 #: rules/base.xml:6098
 msgid "French (Togo)"
-msgstr "Francuski (Togo)"
+msgstr "צרפתית (טוגו)"
 
 #: rules/base.xml:6126
 msgid "Swahili (Kenya)"
-msgstr "Suahili (Kenia)"
+msgstr "סווהילי (קניה)"
 
 #: rules/base.xml:6137
 msgid "Kikuyu"
-msgstr "Kikiju"
+msgstr "קיקויו"
 
 #. Keyboard indicator for Tswana layouts
 #: rules/base.xml:6149
 msgid "tn"
-msgstr "tn"
+msgstr "טסו"
 
 #: rules/base.xml:6150
 msgid "Tswana"
-msgstr "Tswana"
+msgstr "סצוואנה"
 
 #. Keyboard indicator for Filipino layouts
 #: rules/base.xml:6160
 msgid "ph"
-msgstr "ph"
+msgstr "פלפ"
 
 #: rules/base.xml:6161
 msgid "Filipino"
-msgstr "Filipiński"
+msgstr "פיליפינית"
 
 #: rules/base.xml:6180
 msgid "Filipino (QWERTY, Baybayin)"
-msgstr "Filipino (QWERTY, baybayin)"
+msgstr "פיליפינית (QWERTY, בייביין)"
 
 #: rules/base.xml:6198
 msgid "Filipino (Capewell-Dvorak, Latin)"
-msgstr "Filipiński (Capewella-Dvoraka, łaciński)"
+msgstr "פיליפינית (קייפוול-דבוז׳אק, לטינית)"
 
 #: rules/base.xml:6204
 msgid "Filipino (Capewell-Dvorak, Baybayin)"
-msgstr "Filipiński (Capewella-Dvoraka, baybayin)"
+msgstr "פיליפינית (קייפוול-דבוז׳אק, בייביין)"
 
 #: rules/base.xml:6222
 msgid "Filipino (Capewell-QWERF 2006, Latin)"
-msgstr "Filipiński (Capewella-QWERF 2006, łaciński)"
+msgstr "פיליפינית (קייפוול-QWERF 2006, לטינית)"
 
 #: rules/base.xml:6228
 msgid "Filipino (Capewell-QWERF 2006, Baybayin)"
-msgstr "Filipiński (Capewella-QWERF 2006, baybayin)"
+msgstr "פיליפינית (קייפוול-QWERF 2006, בייביין)"
 
 #: rules/base.xml:6246
 msgid "Filipino (Colemak, Latin)"
-msgstr "Filipiński (Colemak, łaciński)"
+msgstr "פיליפינית (קולמק, לטינית)"
 
 #: rules/base.xml:6252
 msgid "Filipino (Colemak, Baybayin)"
-msgstr "Filipiński (Colemak, baybayin)"
+msgstr "פיליפינית (קולמק, בייביין)"
 
 #: rules/base.xml:6270
 msgid "Filipino (Dvorak, Latin)"
-msgstr "Filipiński (Dvoraka, łaciński)"
+msgstr "פיליפינית (דבוז׳אק, לטינית)"
 
 #: rules/base.xml:6276
 msgid "Filipino (Dvorak, Baybayin)"
-msgstr "Filipiński (Dvoraka, baybayin)"
+msgstr "פיליפינית (דבוז׳אק, בייביין)"
 
 #: rules/base.xml:6296
 msgid "md"
-msgstr "md"
+msgstr "מלד"
 
 #: rules/base.xml:6297
 msgid "Moldavian"
-msgstr "Mołdawski"
+msgstr "מולדבית"
 
 #: rules/base.xml:6306
 msgid "gag"
-msgstr "gag"
+msgstr "גגא"
 
 #: rules/base.xml:6307
 msgid "Moldavian (Gagauz)"
-msgstr "Mołdawski (gagauski)"
+msgstr "מולדבית (גגאוז)"
 
 #: rules/base.xml:6318
 msgid "id"
-msgstr "id"
+msgstr "אנד"
 
 #: rules/base.xml:6319
 msgid "Indonesian (Latin)"
-msgstr "Indonezyjski (łaciński)"
+msgstr "אינדונזית (לטינית)"
 
 #: rules/base.xml:6334
 msgid "Indonesian (Arab Pegon, extended phonetic)"
-msgstr "Indonezyjski (Arab Pegon, rozszerzony fonetyczny)"
+msgstr "אינדונזית (פיגון ערבית, פונטית מורחבת)"
 
 #: rules/base.xml:6342
 msgid "jv"
-msgstr "jv"
+msgstr "ג׳ו"
 
 #: rules/base.xml:6343
 msgid "Indonesian (Javanese)"
-msgstr "Indonezyjski (jawajski)"
+msgstr "אינדונזית (ג׳אווה)"
 
 #: rules/base.xml:6353
 msgid "ms"
-msgstr "ms"
+msgstr "מלע"
 
 #: rules/base.xml:6354
 msgid "Malay (Jawi, Arabic Keyboard)"
-msgstr "Malajski (jawi, klawiatura arabska)"
+msgstr "מלאית (ג׳אווי, מקלדת ערבית)"
 
 #: rules/base.xml:6369
 msgid "Malay (Jawi, phonetic)"
-msgstr "Malajski (jawi, fonetyczny)"
+msgstr "מלאית (ג׳אווי, פונטית)"
 
 #: rules/base.xml:6377
 msgid "custom"
-msgstr "własny"
+msgstr "בהתאמה"
 
 #: rules/base.xml:6378
 msgid "A user-defined custom Layout"
-msgstr "Układ własny zdefiniowany przez użytkownika"
+msgstr "פריסה בהתאמת המשתמש"
 
 #: rules/base.xml:6388
 msgid "Switching to another layout"
-msgstr "Przełączenie na inny układ"
+msgstr "החלפה לפריסה אחרת"
 
 #: rules/base.xml:6393
 msgid "Right Alt (while pressed)"
-msgstr "Prawy Alt (wciśnięty)"
+msgstr "Alt ימני (בזמן הלחיצה)"
 
 #: rules/base.xml:6399
 msgid "Left Alt (while pressed)"
-msgstr "Lewy Alt (wciśnięty)"
+msgstr "Alt שמאלי (בזמן הלחיצה)"
 
 #: rules/base.xml:6405
 msgid "Left Win (while pressed)"
-msgstr "Lewy Win (wciśnięty)"
+msgstr "Win שמאלי (בזמן הלחיצה)"
 
 #: rules/base.xml:6411
 msgid "Right Win (while pressed)"
-msgstr "Prawy Win (wciśnięty)"
+msgstr "Win ימני (בזמן הלחיצה)"
 
 #: rules/base.xml:6417
 msgid "Any Win (while pressed)"
-msgstr "Dowolny Win (wciśnięty)"
+msgstr "Win כלשהו (בזמן הלחיצה)"
 
 #: rules/base.xml:6423
 msgid "Menu (while pressed), Shift+Menu for Menu"
-msgstr "Menu (wciśnięty), Shift+Menu jako Menu"
+msgstr "תפריט (בזמן הלחיצה), Shift+תפריט לקבלת תפריט"
 
 #: rules/base.xml:6429
 msgid "Caps Lock (while pressed), Alt+Caps Lock for the original Caps Lock action"
-msgstr "CapsLock (wciśnięty), Alt+CapsLock jako zwykły CapsLock"
+msgstr "Caps Lock (בזמן הלחיצה), Alt+Caps Lock לפעולת ה־Caps Lock המקורית"
 
 #: rules/base.xml:6435
 msgid "Right Ctrl (while pressed)"
-msgstr "Prawy Ctrl (wciśnięty)"
+msgstr "Ctrl ימני (בזמן הלחיצה)"
 
 #: rules/base.xml:6441 rules/base.xml:6678 rules/base.xml:7172
 msgid "Right Alt"
-msgstr "Prawy Alt"
+msgstr "Alt ימני"
 
 #: rules/base.xml:6447 rules/base.xml:6672
 msgid "Left Alt"
-msgstr "Lewy Alt"
+msgstr "Alt שמאלי"
 
 #: rules/base.xml:6453 rules/base.xml:6702 rules/base.xml:6829
 #: rules/base.xml:7238
 msgid "Caps Lock"
-msgstr "CapsLock"
+msgstr "Caps Lock"
 
 #: rules/base.xml:6459
 msgid "Shift+Caps Lock"
-msgstr "Shift+CapsLock"
+msgstr "Shift+Caps Lock"
 
 #: rules/base.xml:6465
 msgid "Caps Lock to first layout; Shift+Caps Lock to last layout"
-msgstr "CapsLock do pierwszego układu; Shift+CapsLock do ostatniego układu"
+msgstr "Caps Lock לפריסה הראשונה, Shift+Caps Lock לפריסה האחרונה"
 
 #: rules/base.xml:6471
 msgid "Left Win to first layout; Right Win/Menu to last layout"
-msgstr "Lewy Win do pierwszego układu; prawy Win/Menu do ostatniego układu"
+msgstr "Win שמאלי לפריסה הראשונה, Win ימני/תפריט לפריסה האחרונה"
 
 #: rules/base.xml:6477
 msgid "Left Ctrl to first layout; Right Ctrl to last layout"
-msgstr "Lewy Ctrl do pierwszego układu; prawy Ctrl do ostatniego układu"
+msgstr "Ctrl שמאלי לפריסה הראשונה, Ctrl ימני לפריסה האחרונה"
 
 #: rules/base.xml:6483
 msgid "Alt+Caps Lock"
-msgstr "Alt+CapsLock"
+msgstr "Alt+Caps Lock"
 
 #: rules/base.xml:6489
 msgid "Both Shift together"
-msgstr "Oba Shift naraz"
+msgstr "שני ה־Shift ביחד"
 
 #: rules/base.xml:6495
 msgid "Both Alt together"
-msgstr "Oba Alt naraz"
+msgstr "שני ה־Alt ביחד"
 
 #: rules/base.xml:6501
 msgid "Both Ctrl together"
-msgstr "Oba Ctrl naraz"
+msgstr "שני ה־Ctrl ביחד"
 
 #: rules/base.xml:6507
 msgid "Ctrl+Shift"
@@ -3735,11 +3738,11 @@ msgstr "Ctrl+Shift"
 
 #: rules/base.xml:6513
 msgid "Left Ctrl+Left Shift"
-msgstr "Lewy Ctrl+lewy Shift"
+msgstr "Ctrl שמאלי+Shift שמאלי"
 
 #: rules/base.xml:6519
 msgid "Right Ctrl+Right Shift"
-msgstr "Prawy Ctrl+prawy Shift"
+msgstr "Ctrl ימני+Shift ימני"
 
 #: rules/base.xml:6525
 msgid "Alt+Ctrl"
@@ -3751,167 +3754,167 @@ msgstr "Alt+Shift"
 
 #: rules/base.xml:6537
 msgid "Left Alt+Left Shift"
-msgstr "Lewy Alt+lewy Shift"
+msgstr "Alt שמאלי+Shift שמאלי"
 
 #: rules/base.xml:6543
 msgid "Alt+Space"
-msgstr "Alt+Spacja"
+msgstr "Alt+רווח"
 
 #: rules/base.xml:6549 rules/base.xml:6642 rules/base.xml:7202
 msgid "Menu"
-msgstr "Menu"
+msgstr "תפריט"
 
 #: rules/base.xml:6555 rules/base.xml:6654 rules/base.xml:7178
 msgid "Left Win"
-msgstr "Lewy Win"
+msgstr "Win שמאלי"
 
 #: rules/base.xml:6561
 msgid "Win+Space"
-msgstr "Win+Spacja"
+msgstr "Win+רווח"
 
 #: rules/base.xml:6567 rules/base.xml:6660 rules/base.xml:7190
 msgid "Right Win"
-msgstr "Prawy Win"
+msgstr "Win ימני"
 
 #: rules/base.xml:6573
 msgid "Left Shift"
-msgstr "Lewy Shift"
+msgstr "Shift שמאלי"
 
 #: rules/base.xml:6579
 msgid "Right Shift"
-msgstr "Prawy Shift"
+msgstr "Shift ימני"
 
 #: rules/base.xml:6585 rules/base.xml:7214
 msgid "Left Ctrl"
-msgstr "Lewy Ctrl"
+msgstr "Ctrl שמאלי"
 
 #: rules/base.xml:6591 rules/base.xml:6636 rules/base.xml:7226
 msgid "Right Ctrl"
-msgstr "Prawy Ctrl"
+msgstr "Ctrl ימני"
 
 #: rules/base.xml:6597 rules/base.xml:6835 rules/base.xml:7274
 msgid "Scroll Lock"
-msgstr "ScrollLock"
+msgstr "Scroll Lock"
 
 #: rules/base.xml:6603
 msgid "Left Ctrl+Left Win to first layout; Right Ctrl+Menu to second layout"
-msgstr "Lewy Ctrl+lewy Win do pierwszego układu; prawy Ctrl+Menu do drugiego układu"
+msgstr "Ctrl שמאלי+Win שמאלי לפריסה הראשונה, Ctrl ימני+תפריט לפריסה השנייה"
 
 #: rules/base.xml:6609
 msgid "Left Ctrl+Left Win"
-msgstr "Lewy Ctrl+lewy Win"
+msgstr "Ctrl שמאלי+Win שמאלי"
 
 #: rules/base.xml:6617
 msgid "Key to choose the 2nd level"
-msgstr "Klawisz wybierający poziom 2."
+msgstr "מקש לבחירת הרמה השנייה"
 
 #: rules/base.xml:6622 rules/base.xml:6714 rules/base.xml:7250
 msgid "The \"&lt; &gt;\" key"
-msgstr "Klawisz \"&lt; &gt;\""
+msgstr "המקש „&lt; &gt;”"
 
 #: rules/base.xml:6631 rules/base.extras.xml:1395
 msgid "Key to choose the 3rd level"
-msgstr "Klawisz wybierający poziom 3."
+msgstr "מקש לבחירת הרמה השלישית"
 
 #: rules/base.xml:6648
 msgid "Any Win"
-msgstr "Dowolny Win"
+msgstr "מקש Win כלשהו"
 
 #: rules/base.xml:6666
 msgid "Any Alt"
-msgstr "Dowolny Alt"
+msgstr "מקש Alt כלשהו"
 
 #: rules/base.xml:6684
 msgid "Right Alt; Shift+Right Alt as Compose"
-msgstr "Prawy Alt; Shift+prawy Alt jako Compose"
+msgstr "Alt ימני, Shift+Alt ימני בתור Compose"
 
 #: rules/base.xml:6690
 msgid "Right Alt never chooses 3rd level"
-msgstr "Prawy Alt nigdy nie wybierający poziomu 3."
+msgstr "Alt ימני אף לא בוחר את הרמה שלישית"
 
 #: rules/base.xml:6696
 msgid "Enter on keypad"
-msgstr "Enter na klawiaturze numerycznej"
+msgstr "Enter במקלדת הנומרית"
 
 #: rules/base.xml:6708
 msgid "Backslash"
-msgstr "Backslash"
+msgstr "לוכסן שמאלי"
 
 #: rules/base.xml:6720
 msgid "Caps Lock; acts as onetime lock when pressed together with another 3rd-level chooser"
-msgstr "CapsLock; jednorazowo blokuje przy naciśnięciu z innym klawiszem wybierającym poziom 3."
+msgstr "Caps Lock, מתנהג כנעילה חד־פעמית כאשר נלחץ ביחד עם בורר נוסף מרמה שלישית"
 
 #: rules/base.xml:6726
 msgid "Backslash; acts as onetime lock when pressed together with another 3rd level chooser"
-msgstr "Odwrotny ukośnik; jednorazowo blokuje przy naciśnięciu z innym klawiszem wybierającym poziom 3."
+msgstr "לוכסן שמאלי, מתנהג כנעילה חד־פעמית כאשר נלחץ ביחד עם בורר נוסף מרמה שליש"
 
 #: rules/base.xml:6732
 msgid "The \"&lt; &gt;\" key; acts as onetime lock when pressed together with another 3rd level chooser"
-msgstr "Klawisz \"&lt; &gt;\"; jednorazowo blokuje przy naciśnięciu z innym klawiszem wybierającym poziom 3."
+msgstr "המקש „&lt; &gt;”, מתנהג כנעילה חד־פעמית כאשר נלחץ יחד עם בורר אחר ברמה השלישית"
 
 #: rules/base.xml:6740
 msgid "Ctrl position"
-msgstr "Położenie Ctrl"
+msgstr "מיקום ה־Ctrl"
 
 #: rules/base.xml:6745
 msgid "Caps Lock as Ctrl"
-msgstr "CapsLock jako Ctrl"
+msgstr "Caps Lock בתור Ctrl"
 
 #: rules/base.xml:6751
 msgid "Left Ctrl as Meta"
-msgstr "Lewy Ctrl jako Meta"
+msgstr "Ctrl שמאלי בתור Meta"
 
 #: rules/base.xml:6757
 msgid "Swap Ctrl and Caps Lock"
-msgstr "Zamiana Ctrl i CapsLocka"
+msgstr "החלפה בין Ctrl ו־Caps Lock"
 
 #: rules/base.xml:6763
 msgid "Caps Lock as Ctrl, Ctrl as Hyper"
-msgstr "CapsLock jako Ctrl, Control jako Hyper"
+msgstr "Caps Lock בתור Ctrl, Ctrl בתור Hyper"
 
 #: rules/base.xml:6769
 msgid "To the left of \"A\""
-msgstr "Z lewej \"A\""
+msgstr "משמאל ל־„A”"
 
 #: rules/base.xml:6775
 msgid "At the bottom left"
-msgstr "W lewym dolnym rogu"
+msgstr "בפינה השמאלית התחתונה"
 
 #: rules/base.xml:6781
 msgid "Right Ctrl as Right Alt"
-msgstr "Prawy Ctrl jako prawy Alt"
+msgstr "Ctrl ימני כ־Alt ימני"
 
 #: rules/base.xml:6787
 msgid "Menu as Right Ctrl"
-msgstr "Menu jako prawy Ctrl"
+msgstr "תפריט כ־Ctrl ימני"
 
 #: rules/base.xml:6793
 msgid "Swap Left Alt with Left Ctrl"
-msgstr "Zamiana lewego Alta z lewym Ctrl"
+msgstr "להחליף Alt שמאלי ב־Ctrl שמאלי"
 
 #: rules/base.xml:6799
 msgid "Swap Left Win with Left Ctrl"
-msgstr "Zamiana lewego Win z lewym Ctrl"
+msgstr "להחליף Win שמאלי ב־Ctrl שמאלי"
 
 #: rules/base.xml:6804
 msgid "Swap Right Win with Right Ctrl"
-msgstr "Zamiana prawego Win z prawym Ctrl"
+msgstr "להחליף Win ימני ב־Ctrl ימני"
 
 #: rules/base.xml:6810
 msgid "Left Alt as Ctrl, Left Ctrl as Win, Left Win as Left Alt"
-msgstr "Lewy Alt jako Ctrl, lewy Ctrl jako Win, lewy Win jako Alt"
+msgstr "Alt שמאלי בתור Ctrl, Ctrl שמאלי בתור Win, Win שמאלי בתור Alt שמאלי"
 
 #: rules/base.xml:6818
 msgid "Use keyboard LED to show alternative layout"
-msgstr "Używanie diody na klawiaturze do sygnalizacji układu alternatywnego"
+msgstr "להשתמש בנורית מקלדת כדי להציג פריסה חלופית"
 
 #: rules/base.xml:6823
 msgid "Num Lock"
-msgstr "NumLock"
+msgstr "Num Lock"
 
 #: rules/base.xml:6843
 msgid "Use keyboard LED to indicate modifiers"
-msgstr "Używanie diody na klawiaturze do sygnalizacji modyfikatorów"
+msgstr "להשתמש בנוריות מקלדת כדי לציין מקשי החלפה"
 
 #: rules/base.xml:6848
 msgid "Compose"
@@ -3919,242 +3922,242 @@ msgstr "Compose"
 
 #: rules/base.xml:6856
 msgid "Layout of numeric keypad"
-msgstr "Układ klawiatury numerycznej"
+msgstr "פריסת המקלדת הנומרית"
 
 #: rules/base.xml:6861
 msgid "Legacy"
-msgstr "Stary"
+msgstr "מיושנת"
 
 #: rules/base.xml:6867
 msgid "Unicode arrows and math operators"
-msgstr "Strzałki i symbole matematyczne Unicode"
+msgstr "חצי יוניקוד וסימוני פעולות מתמטיות"
 
 #: rules/base.xml:6873
 msgid "Unicode arrows and math operators on default level"
-msgstr "Strzałki i symbole matematyczne Unicode na poziomie domyślnym"
+msgstr "חצי יוניקוד וסימוני פעולות מתמטיות ברמת בררת המחדל"
 
 #: rules/base.xml:6879
 msgid "Legacy Wang 724"
-msgstr "Legacy Wang 724"
+msgstr "Wang 724 מיושנת"
 
 #: rules/base.xml:6885
 msgid "Wang 724 keypad with Unicode arrows and math operators"
-msgstr "Klawiatura numeryczna Wang 724 ze strzałkami i symbolami matematycznymi Unicode"
+msgstr "מקלדת נומרית Wang 724 עם חצי יוניקוד וסימוני פעולות מתמטיות"
 
 #: rules/base.xml:6891
 msgid "Wang 724 keypad with Unicode arrows and math operators on default level"
-msgstr "Klawiatura numeryczna Wang 724 ze strzałkami i symbolami matematycznymi Unicode na poziomie domyślnym"
+msgstr "מקלדת נומרית Wang 724 עם חצי יוניקוד וסימוני פעולות מתמטיות ברמת בררת המחדל"
 
 #: rules/base.xml:6897
 msgid "Hexadecimal"
-msgstr "Szesnastkowy"
+msgstr "הקסדצימלי"
 
 #: rules/base.xml:6903
 msgid "Phone and ATM style"
-msgstr "Styl telefonu i bankomatu"
+msgstr "סגנון טלפון וכספומט"
 
 #: rules/base.xml:6912
 msgid "Numeric keypad Delete behavior"
-msgstr "Zachowanie Delete na klawiaturze numerycznej"
+msgstr "התנהגות ה־Delete במקלדת הנומרית"
 
 #: rules/base.xml:6918
 msgid "Legacy key with dot"
-msgstr "Klawisz tradycyjny z kropką"
+msgstr "מקש מיושן עם נקודה"
 
 #. Actually, with KP_SEPARATOR, as the old keypad(comma)
 #: rules/base.xml:6925
 msgid "Legacy key with comma"
-msgstr "Klawisz tradycyjny z przecinkiem"
+msgstr "מקש מיושן עם פסיק"
 
 #: rules/base.xml:6931
 msgid "Four-level key with dot"
-msgstr "Klawisz czterofunkcyjny z kropką"
+msgstr "מקש ברמה רביעית עם נקודה"
 
 #: rules/base.xml:6937
 msgid "Four-level key with dot, Latin-9 only"
-msgstr "Klawisz czterofunkcyjny z kropką, tylko Latin-9"
+msgstr "מקש ברמה רביעית עם נקודה, לטינית-9"
 
 #: rules/base.xml:6943
 msgid "Four-level key with comma"
-msgstr "Klawisz czterofunkcyjny z przecinkiem"
+msgstr "מקש ברמה רביעית עם פסיק"
 
 #: rules/base.xml:6949
 msgid "Four-level key with momayyez"
-msgstr "Klawisz czterofunkcyjny ze znakiem momayyez"
+msgstr "מקש ברמה רביעית עם מומאיז"
 
 #. This assumes the KP_ abstract symbols are actually useful for some apps
 #. The description needs to be rewritten
 #: rules/base.xml:6957
 msgid "Four-level key with abstract separators"
-msgstr "Klawisz czterofunkcyjny z abstrakcyjnymi separatorami"
+msgstr "מקש ברמה רביעית עם מפרידים מופשטים"
 
 #: rules/base.xml:6963
 msgid "Semicolon on third level"
-msgstr "Średnik na poziomie 3."
+msgstr "נקודה פסיק ברמה השלישית"
 
 #: rules/base.xml:6973
 msgid "Caps Lock behavior"
-msgstr "Zachowanie CapsLock"
+msgstr "התנהגות Caps Lock"
 
 #: rules/base.xml:6978
 msgid "Caps Lock uses internal capitalization; Shift \"pauses\" Caps Lock"
-msgstr "CapsLock używa wewnętrznej zmiany rozmiaru liter; Shift wstrzymuje CapsLock"
+msgstr "Caps Lock משתמש בהגדלת אותיות פנימית, Shift „משהה” את Caps Lock"
 
 #: rules/base.xml:6984
 msgid "Caps Lock uses internal capitalization; Shift does not affect Caps Lock"
-msgstr "CapsLock używa wewnętrznej zmiany rozmiaru liter; Shift nie wpływa na CapsLock"
+msgstr "Caps Lock משתמש בהגדלת אותיות פנימית, Shift לא משפיע על Caps Lock"
 
 #: rules/base.xml:6990
 msgid "Caps Lock acts as Shift with locking; Shift \"pauses\" Caps Lock"
-msgstr "CapsLock działa jako Shift z blokadą; Shift wstrzymuje CapsLock"
+msgstr "Caps Lock מתנהג כמו Shift עם נעילה, Shift „משהה” את Caps Lock"
 
 #: rules/base.xml:6996
 msgid "Caps Lock acts as Shift with locking; Shift does not affect Caps Lock"
-msgstr "CapsLock działa jako Shift z blokadą; Shift nie wpływa na CapsLock"
+msgstr "Caps Lock מתנהג כמו Shift עם נעילה, Shift לא משפיע על Caps Lock"
 
 #: rules/base.xml:7002
 msgid "Caps Lock toggles normal capitalization of alphabetic characters"
-msgstr "CapsLock przełącza wielkość znaków alfabetycznych"
+msgstr "Caps Lock משנה הגדלה או הקטנה רגילה של תווים אלפבתיים"
 
 #: rules/base.xml:7008
 msgid "Caps Lock toggles Shift Lock (affects all keys)"
-msgstr "CapsLock przełącza ShiftLock (wpływając na wszystkie klawisze)"
+msgstr "Caps Lock מחליף מצב נעילת Shift (משפיע על כל המקשים)"
 
 #: rules/base.xml:7014
 msgid "Swap Esc and Caps Lock"
-msgstr "Zamiana Esc i CapsLocka"
+msgstr "להחליף בין Esc ל־Caps Lock"
 
 #: rules/base.xml:7020
 msgid "Make Caps Lock an additional Esc"
-msgstr "CapsLock jako dodatkowy Esc"
+msgstr "להפוך את Caps Lock ל־Esc נוסף"
 
 #: rules/base.xml:7026
 msgid "Make Caps Lock an additional Esc, but Shift + Caps Lock is the regular Caps Lock"
-msgstr "CapsLock jako dodatkowy Esc, ale Shift+CapsLock jako zwykły CapsLock"
+msgstr "להפוך את Caps Lock ל־Esc נוסף, אבל Shift + Caps Lock זה ה־Caps Lock הרגיל"
 
 #: rules/base.xml:7032
 msgid "Make Caps Lock an additional Backspace"
-msgstr "CapsLock jako dodatkowy Backspace"
+msgstr "להפוך את Caps Lock ל־Backspace נוסף"
 
 #: rules/base.xml:7038
 msgid "Make Caps Lock an additional Super"
-msgstr "CapsLock jako dodatkowy Super"
+msgstr "להפוך את Caps Lock לסופר נוסף"
 
 #: rules/base.xml:7044
 msgid "Make Caps Lock an additional Hyper"
-msgstr "CapsLock jako dodatkowy Hyper"
+msgstr "להפוך את Caps Lock ל־Hyper נוסף"
 
 #: rules/base.xml:7050
 msgid "Make Caps Lock an additional Menu key"
-msgstr "CapsLock jako dodatkowy klawisz Menu"
+msgstr "להפוך את Caps Lock למקש תפריט נוסף"
 
 #: rules/base.xml:7056
 msgid "Make Caps Lock an additional Num Lock"
-msgstr "CapsLock jako dodatkowy NumLock"
+msgstr "להפוך את Caps Lock ל־Num Lock נוסף"
 
 #: rules/base.xml:7062
 msgid "Make Caps Lock an additional Ctrl"
-msgstr "CapsLock jako dodatkowy Ctrl"
+msgstr "להפוך את Caps Lock ל־Ctrl נוסף"
 
 #: rules/base.xml:7068
 msgid "Caps Lock is disabled"
-msgstr "CapsLock wyłączony"
+msgstr "Caps Lock מושבת"
 
 #: rules/base.xml:7076
 msgid "Alt and Win behavior"
-msgstr "Zachowanie klawiszy Alt i Win"
+msgstr "התנהגות של Alt ו־Win"
 
 #: rules/base.xml:7081
 msgid "Add the standard behavior to Menu key"
-msgstr "Dodanie standardowego działania klawisza Menu"
+msgstr "הוספת ההתנהגות הרגילה למקש התפריט"
 
 #: rules/base.xml:7087
 msgid "Menu is mapped to Win"
-msgstr "Menu pod Win"
+msgstr "תפריט ממופה ל־Win"
 
 #: rules/base.xml:7093
 msgid "Alt and Meta are on Alt"
-msgstr "Alt i Meta pod Alt"
+msgstr "Alt ו־Meta הם על Alt"
 
 #: rules/base.xml:7099
 msgid "Alt is mapped to Win and the usual Alt"
-msgstr "Alt pod Win oraz zwykłymi Alt"
+msgstr "Alt ממופה ל־Win ול־Alt הרגיל"
 
 #: rules/base.xml:7105
 msgid "Ctrl is mapped to Win and the usual Ctrl"
-msgstr "Ctrl pod Win oraz zwykłymi Ctrl"
+msgstr "Ctrl ממופה ל־Win ול־Ctrl הרגיל"
 
 #: rules/base.xml:7111
 msgid "Ctrl is mapped to Right Win and the usual Ctrl"
-msgstr "Ctrl pod prawym Win oraz zwykłymi Ctrl"
+msgstr "‫Ctrl ממופה ל־Win ימני ול־Ctrl הרגיל"
 
 #: rules/base.xml:7117
 msgid "Ctrl is mapped to Alt, Alt to Win"
-msgstr "Ctrl pod Alt; Alt pod Win"
+msgstr "Ctrl ממופה ל־Alt, Alt ל־Win"
 
 #: rules/base.xml:7123
 msgid "Meta is mapped to Win"
-msgstr "Meta pod Win"
+msgstr "Meta ממופה ל־Win"
 
 #: rules/base.xml:7129
 msgid "Meta is mapped to Left Win"
-msgstr "Meta pod lewym Win"
+msgstr "Meta ממופה ל־Win השמאלי"
 
 #: rules/base.xml:7135
 msgid "Hyper is mapped to Win"
-msgstr "Hyper pod Win"
+msgstr "Hyper ממופה ל־Win"
 
 #: rules/base.xml:7141
 msgid "Alt is mapped to Right Win, Super to Menu"
-msgstr "Alt pod prawym Win, Super pod Menu"
+msgstr "Alt ממופה ל־Win הימני, סופר לתפריט"
 
 #: rules/base.xml:7147
 msgid "Left Alt is swapped with Left Win"
-msgstr "Lewy Alt zamieniony z lewym Win"
+msgstr "Alt שמאלי מוחלף עם Win שמאלי"
 
 #: rules/base.xml:7153
 msgid "Alt is swapped with Win"
-msgstr "Lewy zamieniony z Win"
+msgstr "Alt מוחלף ב־Win"
 
 #: rules/base.xml:7159
 msgid "Win is mapped to PrtSc and the usual Win"
-msgstr "Win pod PrtSc oraz zwykłym Win"
+msgstr "Win ממופה ל־PrtSc ול־Win הרגיל"
 
 #: rules/base.xml:7167
 msgid "Position of Compose key"
-msgstr "Położenie klawisza Compose"
+msgstr "מיקום מקש ה־Compose"
 
 #: rules/base.xml:7184
 msgid "3rd level of Left Win"
-msgstr "Pozion 3. lewego klawisza Win"
+msgstr "רמה שלישית של Win שמאלי"
 
 #: rules/base.xml:7196
 msgid "3rd level of Right Win"
-msgstr "Pozion 3. prawego klawisza Win"
+msgstr "רמה שלישית של Win ימני"
 
 #: rules/base.xml:7208
 msgid "3rd level of Menu"
-msgstr "Poziom 3. klawisza Menu"
+msgstr "רמה שלישית של תפריט"
 
 #: rules/base.xml:7220
 msgid "3rd level of Left Ctrl"
-msgstr "Poziom 3. lewego klawisza Ctrl"
+msgstr "רמה שלישית של Ctrl שמאלי"
 
 #: rules/base.xml:7232
 msgid "3rd level of Right Ctrl"
-msgstr "Poziom 3. prawego klawisza Ctrl"
+msgstr "רמה שלישית של Ctrl ימני"
 
 #: rules/base.xml:7244
 msgid "3rd level of Caps Lock"
-msgstr "Poziom 3. klawisza Caps Lock"
+msgstr "רמה שלישית של Caps Lock"
 
 #: rules/base.xml:7256
 msgid "3rd level of the \"&lt; &gt;\" key"
-msgstr "Poziom 3. klawisza \"&lt; &gt;\""
+msgstr "רמה שלישית של המקש „&lt; &gt;”"
 
 #: rules/base.xml:7262
 msgid "Pause"
-msgstr "Pauza"
+msgstr "Pause"
 
 #: rules/base.xml:7268
 msgid "PrtSc"
@@ -4162,255 +4165,255 @@ msgstr "PrtSc"
 
 #: rules/base.xml:7281
 msgid "Compatibility options"
-msgstr "Opcje kompatybilności"
+msgstr "אפשרויות תאימות"
 
 #: rules/base.xml:7286
 msgid "Default numeric keypad keys"
-msgstr "Domyślne klawisze klawiatury numerycznej"
+msgstr "מקשי מקלדת נומרית כבררת מחדל"
 
 #: rules/base.xml:7292
 msgid "Numeric keypad always enters digits (as in macOS)"
-msgstr "Klawiatura numeryczna zawsze prowadza cyfry (jak w MacOS)"
+msgstr "המקלדת הנומרית תמיד מקלידה ספרות (כמו ב־macOS)"
 
 #: rules/base.xml:7298
 msgid "Num Lock on: digits; Shift for arrows. Num Lock off: arrows (as in Windows)"
-msgstr "NumLock włączony: cyfry; Shift na strzałki; NumLock wyłączony: strzałki (jak w Windows)"
+msgstr "Num Lock פעיל: ספרות, Shift לחצים. Num Lock כבוי: חצים (כמו ב־Windows)"
 
 #: rules/base.xml:7304
 msgid "Shift does not cancel Num Lock, chooses 3rd level instead"
-msgstr "Shift nie anuluje NumLocka, wybiera poziom 3."
+msgstr "Shift לא מבטל את Num Lock, בוחר רמה שלישית במקום"
 
 #: rules/base.xml:7310
 msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
-msgstr "Klawisze specjalne (Ctrl+Alt+&lt;klawisz&gt;) obsługiwane przez serwer"
+msgstr "מקשים מיוחדים (Ctrl+Alt+&lt;key&gt;) מטופלים בשרת"
 
 #: rules/base.xml:7316
 msgid "Apple Aluminium emulates Pause, PrtSc, Scroll Lock"
-msgstr "Apple Aluminium: emulacja Pause, PrtSc, ScrollLock"
+msgstr "Apple Aluminium מדמה את Pause, PrtSc, Scroll Lock"
 
 #: rules/base.xml:7322
 msgid "Shift cancels Caps Lock"
-msgstr "Shift anuluje CapsLock"
+msgstr "Shift מבטל Caps Lock"
 
 #: rules/base.xml:7328
 msgid "Enable extra typographic characters"
-msgstr "Włączenie dodatkowych znaków typograficznych"
+msgstr "לאפשר תווים טיפוגרפיים נוספים"
 
 #: rules/base.xml:7334
 msgid "Enable APL overlay characters"
-msgstr "Włączenie znaków nakładki APL"
+msgstr "לאפשר תווי APL חופפים"
 
 #: rules/base.xml:7340
 msgid "Both Shift together enable Caps Lock"
-msgstr "Oba Shift naraz włączają CapsLock"
+msgstr "שני מקשי ה־Shift יחד מפעילים את Caps Lock"
 
 #: rules/base.xml:7346
 msgid "Both Shift together enable Caps Lock; one Shift key disables it"
-msgstr "Oba Shift naraz włączają CapsLock; jeden Shift wyłącza"
+msgstr "שני מקשי ה־Shift יחד מפעילים Caps Lock, לחיצה על Shift אחד משביתה אותה"
 
 #: rules/base.xml:7352
 msgid "Both Shift together enable Shift Lock"
-msgstr "Oba Shift naraz włączają ShiftLock"
+msgstr "שני מקשי ה־Shift יחד מפעילים נעילת Shift"
 
 #: rules/base.xml:7358
 msgid "Shift + Num Lock enables PointerKeys"
-msgstr "Shift + NumLock włącza klawisze kursorów"
+msgstr "Shift + Num Lock מפעיל מקשי שליטה בסמן עכבר"
 
 #: rules/base.xml:7364
 msgid "Allow breaking grabs with keyboard actions (warning: security risk)"
-msgstr "Akcje klawiatury mogą przełamywać przechwytywanie (uwaga: zagrożenie bezpieczeństwa)"
+msgstr "לאפשר לקטוע גרירות עם פעולות מקלדת (אזהרה: סיכון אבטחה)"
 
 #: rules/base.xml:7370
 msgid "Allow grab and window tree logging"
-msgstr "Możliwe przechwytywanie i logowanie drzewa okien"
+msgstr "לאפשר לגרור ולתעד עץ חלון"
 
 #: rules/base.xml:7378
 msgid "Currency signs"
-msgstr "Symbole walut"
+msgstr "סמלי מטבעות"
 
 #: rules/base.xml:7383
 msgid "Euro on E"
-msgstr "Euro pod E"
+msgstr "אירו על E"
 
 #: rules/base.xml:7389
 msgid "Euro on 2"
-msgstr "Euro pod 2"
+msgstr "אירו על 2"
 
 #: rules/base.xml:7395
 msgid "Euro on 4"
-msgstr "Euro pod 4"
+msgstr "אירו על 4"
 
 #: rules/base.xml:7401
 msgid "Euro on 5"
-msgstr "Euro pod 5"
+msgstr "אירו על 5"
 
 #: rules/base.xml:7407
 msgid "Rupee on 4"
-msgstr "Rupia pod 4"
+msgstr "רופי על 4"
 
 #: rules/base.xml:7414
 msgid "Key to choose 5th level"
-msgstr "Klawisz wybierający poziom 5."
+msgstr "מקש לבחירת הרמה החמישית"
 
 #: rules/base.xml:7419
 msgid "The \"&lt; &gt;\" key chooses 5th level"
-msgstr "Klawisz \"&lt; &gt;\" wybiera poziom 5."
+msgstr "המקש „&lt; &gt;” בוחר את הרמה החמישית"
 
 #: rules/base.xml:7425
 msgid "Right Alt chooses 5th level"
-msgstr "Prawy Alt wybiera poziom 5."
+msgstr "Alt ימני בוחר את הרמה החמישית"
 
 #: rules/base.xml:7431
 msgid "Menu chooses 5th level"
-msgstr "Menu wybiera poziom 5."
+msgstr "מקש תפריט בוחר את הרמה החמישית"
 
 #: rules/base.xml:7437
 msgid "The \"&lt; &gt;\" key chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser"
-msgstr "Klawisz \"&lt; &gt;\" wybiera poziom 5. i blokuje przy naciśnięciu z innym klawiszem wybierającym poziom 5."
+msgstr "המקש „&lt; &gt;” בוחר את הרמה החמישית ומתנהג כנעילה חד־פעמית אם לוחצים עליו עם בורר רמה חמישית נוסף"
 
 #: rules/base.xml:7443
 msgid "Right Alt chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser"
-msgstr "Prawy Alt wybiera poziom 5. i blokuje przy naciśnięciu z innym klawiszem wybierającym poziom 5."
+msgstr "Alt ימני בוחר את הרמה החמישית ומתנהג כנעילה חד־פעמית אם לוחצים עליו עם בורר רמה חמישית נוסף"
 
 #: rules/base.xml:7449
 msgid "Left Win chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser"
-msgstr "Lewy Win wybiera poziom 5. i blokuje przy naciśnięciu z innym klawiszem wybierającym poziom 5."
+msgstr "Win שמאלי בוחר את הרמה החמישית ומתנהג כנעילה חד־פעמית אם לוחצים עליו עם בורר רמה חמישית נוסף"
 
 #: rules/base.xml:7455
 msgid "Right Win chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser"
-msgstr "Prawy Win wybiera poziom 5. i blokuje przy naciśnięciu z innym klawiszem wybierającym poziom 5."
+msgstr "Win ימני בוחר את הרמה החמישית ומתנהג כנעילה חד־פעמית אם לוחצים עליו עם בורר רמה חמישית נוסף"
 
 #: rules/base.xml:7501
 msgid "Non-breaking space input"
-msgstr "Wprowadzanie niełamliwej spacji"
+msgstr "קל רווח קשיח"
 
 #: rules/base.xml:7506
 msgid "Usual space at any level"
-msgstr "Zwykła spacja na dowolnym poziomie"
+msgstr "רווח רגיל בכל רמה"
 
 #: rules/base.xml:7512
 msgid "Non-breaking space at the 2nd level"
-msgstr "Niełamliwa spacja na poziomie 2."
+msgstr "רווח קשיח ברמה השנייה"
 
 #: rules/base.xml:7518
 msgid "Non-breaking space at the 3rd level"
-msgstr "Niełamliwa spacja na poziomie 3."
+msgstr "רווח קשיח ברמה השלישית"
 
 #: rules/base.xml:7524
 msgid "Non-breaking space at the 3rd level, nothing at the 4th level"
-msgstr "Niełamliwa spacja na poziomie 3., nic na poziomie 4."
+msgstr "רווח קשיח ברמה השלישית, כלום ברמה הרביעית"
 
 #: rules/base.xml:7530
 msgid "Non-breaking space at the 3rd level, thin non-breaking space at the 4th level"
-msgstr "Niełamliwa spacja na poziomie 3., wąska niełamliwa spacja na poziomie 4."
+msgstr "רווח קשיח ברמה השלישית, רווח קשיח צר ברמה הרביעית"
 
 #: rules/base.xml:7536
 msgid "Non-breaking space at the 4th level"
-msgstr "Niełamliwa spacja na poziomie 4."
+msgstr "רווח קשיח ברמה הרביעית"
 
 #: rules/base.xml:7542
 msgid "Non-breaking space at the 4th level, thin non-breaking space at the 6th level"
-msgstr "Niełamliwa spacja na poziomie 4., wąska niełamliwa spacja na poziomie 6."
+msgstr "רווח קשיח ברמה הרביעית, רווח קשיח צר ברמה השישית"
 
 #: rules/base.xml:7548
 msgid "Non-breaking space at the 4th level, thin non-breaking space at the 6th level (via Ctrl+Shift)"
-msgstr "Niełamliwa spacja na poziomie 4., wąska niełamliwa spacja na poziomie 6. (z Ctrl+Shift)"
+msgstr "רווח קשיח ברמה הרביעית, רווח קשיח צר ברמה השישית (דרך Ctrl+Shift)"
 
 #: rules/base.xml:7554
 msgid "Zero-width non-joiner at the 2nd level"
-msgstr "Znak rozdzielający zerowej szerokości na poziomie 2."
+msgstr "מפריד רוחב־אפס ברמה השנייה"
 
 #: rules/base.xml:7560
 msgid "Zero-width non-joiner at the 2nd level, zero-width joiner at the 3rd level"
-msgstr "Znak rozdzielający zerowej szerokości na poziomie 2., znak łączący zerowej szerokości na poziomie 3."
+msgstr "מפריד רוחב־אפס ברמה השנייה, מחבר רוחב־אפס ברמה השלישית"
 
 #: rules/base.xml:7566
 msgid "Zero-width non-joiner at the 2nd level, zero-width joiner at the 3rd level, non-breaking space at the 4th level"
-msgstr "Znak rozdzielający zerowej szerokości na poziomie 2., znak łączący zerowej szerokości na poziomie 3., niełamliwa spacja na poziomie 4."
+msgstr "מפריד רוחב־אפס ברמה השנייה, מחבר רוחב־אפס ברמה השלישית, רווח קשיח ברמה הרביעית"
 
 #: rules/base.xml:7572
 msgid "Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level"
-msgstr "Znak rozdzielający zerowej szerokości na poziomie 2., niełamliwa spacja na poziomie 3."
+msgstr "מפריד רוחב־אפס ברמה השנייה, רווח קשיח ברמה השלישית"
 
 #: rules/base.xml:7578
 msgid "Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, nothing at the 4th level"
-msgstr "Znak rozdzielający zerowej szerokości na poziomie 2., niełamliwa spacja na poziomie 3., nic na poziomie 4."
+msgstr "מפריד רוחב־אפס ברמה השנייה, רווח קשיח ברמה השלישית, שום דבר ברמה הרביעית"
 
 #: rules/base.xml:7584
 msgid "Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, zero-width joiner at the 4th level"
-msgstr "Znak rozdzielający zerowej szerokości na poziomie 2., niełamliwa spacja na poziomie 3., znak łączący zerowej szerokości na poziomie 4."
+msgstr "מפריד רוחב־אפס ברמה השנייה, רווח קשיח ברמה השלישית, מחבר רוחב־אפס ברמה הרביעית"
 
 #: rules/base.xml:7590
 msgid "Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, thin non-breaking space at the 4th level"
-msgstr "Znak rozdzielający zerowej szerokości na poziomie 2., niełamliwa spacja na poziomie 3., wąska niełamliwa spacja na poziomie 4."
+msgstr "מפריד רוחב־אפס ברמה השנייה, רווח קשיח ברמה השלישית, רווח קשיח צר ברמה הרביעית"
 
 #: rules/base.xml:7596
 msgid "Zero-width non-joiner at the 3rd level, zero-width joiner at the 4th level"
-msgstr "Znak rozdzielający zerowej szerokości na poziomie 3., znak łączący zerowej szerokości na poziomie 4."
+msgstr "מפריד רוחב־אפס ברמה השלישית, מחבר רוחב־אפס ברמה הרביעית"
 
 #: rules/base.xml:7603
 msgid "Japanese keyboard options"
-msgstr "Opcje klawiatury japońskiej"
+msgstr "אפשרויות מקלדת יפנית"
 
 #: rules/base.xml:7608
 msgid "Kana Lock key is locking"
-msgstr "Blokujący klawisz Kana Lock"
+msgstr "מקש נעילת הקאנה נועל"
 
 #: rules/base.xml:7614
 msgid "NICOLA-F style Backspace"
-msgstr "Backspace w stylu NICOLA-F"
+msgstr "Backspace בסגנון NICOLA-F"
 
 #: rules/base.xml:7620
 msgid "Make Zenkaku Hankaku an additional Esc"
-msgstr "Zenkaku Hankaku jako dodatkowy Esc"
+msgstr "להפוך את זנקאקו האנקאקו ל־Esc נוסף"
 
 #: rules/base.xml:7627
 msgid "Korean Hangul/Hanja keys"
-msgstr "Koreańskie klawisze Hangul/Hanja"
+msgstr "מקשי הנגול/האנג׳ה קוריאנים"
 
 #: rules/base.xml:7632
 msgid "Make right Alt a Hangul key"
-msgstr "Prawy Alt jako klawisz Hangul"
+msgstr "להפוך את ה־Alt הימני למקש הנגול"
 
 #: rules/base.xml:7638
 msgid "Make right Ctrl a Hangul key"
-msgstr "Prawy Ctrl jako klawisz Hangul"
+msgstr "להפוך את ה־Ctrl הימני למקש הנגול"
 
 #: rules/base.xml:7644
 msgid "Make right Alt a Hanja key"
-msgstr "Prawy Alt jako klawisz Hanja"
+msgstr "להפוך את ה־Alt הימני למקש האנג׳ה"
 
 #: rules/base.xml:7650
 msgid "Make right Ctrl a Hanja key"
-msgstr "Prawy Ctrl jako klawisz Hanja"
+msgstr "להפוך את ה־Ctrl הימני למקש האנג׳ה"
 
 #: rules/base.xml:7657
 msgid "Esperanto letters with superscripts"
-msgstr "Litery esperanto z indeksem górnym"
+msgstr "אותיות אספרנטו עם כתב עילי"
 
 #: rules/base.xml:7662
 msgid "At the corresponding key in a QWERTY layout"
-msgstr "Pod odpowiednimi klawiszami wg układu QWERTY"
+msgstr "במקש המתאים בפריסת QWERTY"
 
 #: rules/base.xml:7668
 msgid "At the corresponding key in a Dvorak layout"
-msgstr "Pod odpowiednimi klawiszami wg układu Dvoraka"
+msgstr "במקש המתאים בפריסת דבוז׳אק"
 
 #: rules/base.xml:7674
 msgid "At the corresponding key in a Colemak layout"
-msgstr "Pod odpowiednimi klawiszami wg układu Colemak"
+msgstr "במקש המתאים בפריסת קולמק"
 
 #: rules/base.xml:7681
 msgid "Old Solaris keycodes compatibility"
-msgstr "Zgodność ze starymi kodami klawiszy Solarisa"
+msgstr "תאימות לקודי מקשים ישנים של Solaris"
 
 #: rules/base.xml:7686
 msgid "Sun key compatibility"
-msgstr "Zgodność klawiszy z Sunem"
+msgstr "תאימות עם מקש של Sun"
 
 #: rules/base.xml:7693
 msgid "Key sequence to kill the X server"
-msgstr "Sekwencja klawiszy zabijająca serwer X"
+msgstr "צירוף מקשים להשמדת שרת ה־X"
 
 #: rules/base.xml:7698
 msgid "Ctrl+Alt+Backspace"
@@ -4418,7 +4421,7 @@ msgstr "Ctrl+Alt+Backspace"
 
 #: rules/base.extras.xml:9
 msgid "apl"
-msgstr "apl"
+msgstr "אפל"
 
 #: rules/base.extras.xml:10
 msgid "APL"
@@ -4426,594 +4429,1229 @@ msgstr "APL"
 
 #: rules/base.extras.xml:19
 msgid "dlg"
-msgstr "dlg"
+msgstr "דלג"
 
 #: rules/base.extras.xml:20
 msgid "APL symbols (Dyalog APL)"
-msgstr "Symbole APL (Dyalog APL)"
+msgstr "סימנים ל־APL (Dyalog APL)"
 
 #: rules/base.extras.xml:26
 msgid "sax"
-msgstr "sax"
+msgstr "סאק"
 
 #: rules/base.extras.xml:27
 msgid "APL symbols (SAX, Sharp APL for Unix)"
-msgstr "Symbole APL (SAX, Sharp APL dla Uniksa)"
+msgstr "סימנים ל־APL (SAX, Sharp APL ליוניקס)"
 
 #: rules/base.extras.xml:33
 msgid "ufd"
-msgstr "ufd"
+msgstr "מחד"
 
 #: rules/base.extras.xml:34
 msgid "APL symbols (unified)"
-msgstr "Symbole APL (ujednolicone)"
+msgstr "סימנים ל־APL (מאוחדים)"
 
 #: rules/base.extras.xml:40
 msgid "apl2"
-msgstr "apl2"
+msgstr "אפל2"
 
 #: rules/base.extras.xml:41
 msgid "APL symbols (IBM APL2)"
-msgstr "Symbole APL (IBM APL2)"
+msgstr "סימנים ל־APL (IBM APL2)"
 
 #: rules/base.extras.xml:47
 msgid "aplII"
-msgstr "aplII"
+msgstr "אפלIII"
 
 #: rules/base.extras.xml:48
 msgid "APL symbols (Manugistics APL*PLUS II)"
-msgstr "Symbole APL (Manugistics APL*PLUS II)"
+msgstr "סימנים ל־APL (Manugistics APL*PLUS II)"
 
 #: rules/base.extras.xml:54
 msgid "aplx"
-msgstr "aplx"
+msgstr "אפלx"
 
 #: rules/base.extras.xml:55
 msgid "APL symbols (APLX unified)"
-msgstr "Symbole APL (ujednolicone APLX)"
+msgstr "סימנים ל־APL (APLX מאוחדים)"
 
 #: rules/base.extras.xml:73
 msgid "kut"
-msgstr "kut"
+msgstr "קטנ"
 
 #: rules/base.extras.xml:74
 msgid "Kutenai"
-msgstr "Kutenai"
+msgstr "קוטנאי"
 
 #: rules/base.extras.xml:80
 msgid "shs"
-msgstr "shs"
+msgstr "שסו"
 
 #: rules/base.extras.xml:81
 msgid "Secwepemctsin"
-msgstr "Shuswap"
+msgstr "שוסוואפ"
 
 #: rules/base.extras.xml:87
 msgid "Multilingual (Canada, Sun Type 6/7)"
-msgstr "Wielojęzyczny (Kanada, Sun Type 6/7)"
+msgstr "רב־לשונית (קנדה, Sun Type 6/7)"
 
 #: rules/base.extras.xml:105
 msgid "German (with Hungarian letters, no dead keys)"
-msgstr "Niemiecki (z literami węgierskimi, bez klawiszy akcentów)"
+msgstr "גרמנית (עם אותיות הונגריות, ללא מקשים מתים)"
 
 #: rules/base.extras.xml:115
 msgid "Polish (Germany, no dead keys)"
-msgstr "Polski (Niemcy, bez klawiszy akcentów)"
+msgstr "פולנית (גרמניה, ללא מקשים מתים)"
 
 #: rules/base.extras.xml:125
 msgid "German (Sun Type 6/7)"
-msgstr "Niemiecki (Sun Type 6/7)"
+msgstr "גרמנית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:131
 msgid "German (Aus der Neo-Welt)"
-msgstr "Niemiecki (Aus der Neo-Welt)"
+msgstr "גרמנית (Aus der Neo-Welt)"
 
 #: rules/base.extras.xml:137
 msgid "German (KOY)"
-msgstr "Niemiecki (KOY)"
+msgstr "גרמנית (KOY)"
 
 #: rules/base.extras.xml:143
 msgid "German (Bone)"
-msgstr "Niemiecki (Bone)"
+msgstr "German (Bone)"
 
 #: rules/base.extras.xml:149
 msgid "German (Bone, eszett in the home row)"
-msgstr "Niemiecki (Bone, eszett w rzędzie podstawowym)"
+msgstr "גרמנית (Bone, אסצט בשורת הבית)"
 
 #: rules/base.extras.xml:155
 msgid "German (Neo, QWERTZ)"
-msgstr "Niemiecki (Neo, QWERTZ)"
+msgstr "גרמנית (Neo, QWERTZ)"
 
 #: rules/base.extras.xml:161
 msgid "German (Neo, QWERTY)"
-msgstr "Niemiecki (Neo, QWERTY)"
+msgstr "גרמנית (Neo, QWERTY)"
 
 #: rules/base.extras.xml:169
 msgid "Russian (Germany, recommended)"
-msgstr "Rosyjski (Niemcy, zalecany)"
+msgstr "רוסית (גרמניה, מומלצת)"
 
 #: rules/base.extras.xml:180
 msgid "Russian (Germany, transliteration)"
-msgstr "Rosyjski (Niemcy, transliteracja)"
+msgstr "רוסית (גרמניה, תעתיק)"
 
 #: rules/base.extras.xml:189
 msgid "de_lld"
-msgstr "de_lld"
+msgstr "גר_לדנ"
 
 #: rules/base.extras.xml:190
 msgid "German (Ladin)"
-msgstr "Niemiecki (ladyński)"
+msgstr "גרמנית (לדין)"
 
 #: rules/base.extras.xml:202
 msgid "Coptic"
-msgstr "Koptyjski"
+msgstr "קופטית"
 
 #: rules/base.extras.xml:218
 msgid "oldhun"
-msgstr "oldhun"
+msgstr "הנגעתק"
 
 #: rules/base.extras.xml:219
 msgid "Old Hungarian"
-msgstr "Stary węgierski"
+msgstr "הונגרית עתיקה"
 
 #: rules/base.extras.xml:225
 msgid "oldhun(lig)"
-msgstr "oldhun(lig)"
+msgstr "הנגעתק(ליג)"
 
 #: rules/base.extras.xml:226
 msgid "Old Hungarian (for ligatures)"
-msgstr "Starowęgierski (bez ligatur)"
+msgstr "הוגרית עתיקה (לליגטורות)"
 
 #: rules/base.extras.xml:245
 msgid "Avestan"
-msgstr "Awestyjski"
+msgstr "אווסטית"
 
 #: rules/base.extras.xml:266
 msgid "Lithuanian (Dvorak)"
-msgstr "Litewski (Dvoraka)"
+msgstr "ליטאית (דבוז׳אק)"
 
 #: rules/base.extras.xml:272
 msgid "Lithuanian (Sun Type 6/7)"
-msgstr "Litewski (Sun Type 6/7)"
+msgstr "ליטאית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:290
 msgid "Latvian (Dvorak)"
-msgstr "Łotewski (Dvoraka)"
+msgstr "לטבית (Dvorak)"
 
 #: rules/base.extras.xml:296
 msgid "Latvian (Dvorak, with Y)"
-msgstr "Łotewski (Dvoraka, z Y)"
+msgstr "לטבית (דבוז׳אק, עם Y)"
 
 #: rules/base.extras.xml:302
 msgid "Latvian (Dvorak, with minus)"
-msgstr "Łotewski (Dvoraka, z minusem)"
+msgstr "לטבית (דבוז׳אק, עם מינוס)"
 
 #: rules/base.extras.xml:308
 msgid "Latvian (programmer Dvorak)"
-msgstr "Łotewski (Dvoraka programisty)"
+msgstr "לטבית (דבוז׳אק למתכנתים)"
 
 #: rules/base.extras.xml:314
 msgid "Latvian (programmer Dvorak, with Y)"
-msgstr "Łotewski (Dvoraka programisty, z Y)"
+msgstr "לטבית (דבוז׳אק למתכנתים, עם Y)"
 
 #: rules/base.extras.xml:320
 msgid "Latvian (programmer Dvorak, with minus)"
-msgstr "Łotewski (Dvoraka programisty, z minusem)"
+msgstr "לטבית (דבוז׳אק למתכנתים, עם מינוס)"
 
 #: rules/base.extras.xml:326
 msgid "Latvian (Colemak)"
-msgstr "Łotewski (Colemak)"
+msgstr "לטבית (קולמק)"
 
 #: rules/base.extras.xml:332
 msgid "Latvian (Colemak, with apostrophe)"
-msgstr "Łotewski (Colemak, z apostrofem)"
+msgstr "לטבית (קולמק, עם אפוסטרוף)"
 
 #: rules/base.extras.xml:338
 msgid "Latvian (Sun Type 6/7)"
-msgstr "Łotewski (Sun Type 6/7)"
+msgstr "לטבית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:344
 msgid "Latvian (apostrophe, dead quotes)"
-msgstr "Łotewski (apostrof, akcenty pod cudzysłowowem)"
+msgstr "לטבית (אפוסטרוף, מירכאות מתות)"
 
 #: rules/base.extras.xml:362
 msgid "English (US, intl., AltGr Unicode combining)"
-msgstr "Angielski (USA, międzynarodowy, łączenie unikodu z AltGr)"
+msgstr "אנגלית (ארה״ב, בינלאומית, AltGr לשילוב יוניקוד)"
 
 #: rules/base.extras.xml:368
 msgid "English (US, intl., AltGr Unicode combining, alt.)"
-msgstr "Angielski (USA, międzynarodowy, łączenie unikodu z AltGr, alt.)"
+msgstr "אנגלית (ארה״ב, בינלאומית, AltGr לשילוב יוניקוד, חלופית)"
 
 #: rules/base.extras.xml:374
 msgid "Atsina"
-msgstr "Atsina"
+msgstr "אטסינה/גרו-וונט"
 
 #: rules/base.extras.xml:381
 msgid "Coeur d'Alene Salish"
-msgstr "Coeur d'Alene Salish"
+msgstr "סייליש של קור ד׳אלן"
 
 #: rules/base.extras.xml:390
 msgid "Czech Slovak and German (US)"
-msgstr "Czeski, słowacki i niemiecki (US)"
+msgstr "סלובקית צ׳כית וגרמנית (ארה״ב)"
 
 #: rules/base.extras.xml:402
 msgid "Czech, Slovak, Polish, Spanish, Finnish, Swedish and German (US)"
-msgstr "Czeski, słowacki, polski, hiszpański, fiński, szwedzki i niemiecki (USA)"
+msgstr "צ׳כית, סלובקית, פולנית, ספרדית, פינית, שבדית וגרמנית (ארה״ב)"
 
 #: rules/base.extras.xml:418
 msgid "English (Drix)"
-msgstr "Angielski (Drix)"
+msgstr "אנגלית (Drix)"
 
 #: rules/base.extras.xml:424
 msgid "German, Swedish and Finnish (US)"
-msgstr "Niemiecki, szwedzki i fiński (USA)"
+msgstr "גרמנית, שוודית ופינית (ארה״ב)"
 
 #: rules/base.extras.xml:436
 msgid "English (US, IBM Arabic 238_L)"
-msgstr "Angielski (USA, arabski IBM 238_L)"
+msgstr "אנגלית (ארה״ב, IBM Arabic 238_L)"
 
 #: rules/base.extras.xml:442
 msgid "English (US, Sun Type 6/7)"
-msgstr "Angielski (USA, Sun Type 6/7)"
+msgstr "אנגלית (ארה״ב, Sun Type 6/7)"
 
 #: rules/base.extras.xml:448
 msgid "English (Carpalx)"
-msgstr "Angielski (Carpalx)"
+msgstr "אנגלית (Carpalx)"
 
 #: rules/base.extras.xml:454
 msgid "English (Carpalx, intl., with dead keys)"
-msgstr "Angielski (Carpalx, międzynarodowy, z klawiszami akcentów)"
+msgstr "אנגלית (Carpalx, בינלאומית, עם מקשים מתים)"
 
 #: rules/base.extras.xml:460
 msgid "English (Carpalx, intl., with AltGr dead keys)"
-msgstr "Angielski (Carpalx, międzynarodowy, z klawiszami akcentów AltGr)"
+msgstr "English (Carpalx, בינלאומית, עם מקשים מתים עם AltGr)"
 
 #: rules/base.extras.xml:466
 msgid "English (Carpalx, full optimization)"
-msgstr "Angielski (Carpalx, pełna optymalizacja)"
+msgstr "אנגלית (Carpalx, מיטוב מלא)"
 
 #: rules/base.extras.xml:472
 msgid "English (Carpalx, full optimization, intl., with dead keys)"
-msgstr "Angielski (Carpalx, pełna optymalizacja, międzynarodowy, z klawiszami akcentów)"
+msgstr "אנגלית (Carpalx, מיטוב מלא, בינלאומי, עם מקשים מתים)"
 
 #: rules/base.extras.xml:478
 msgid "English (Carpalx, full optimization, intl., with AltGr dead keys)"
-msgstr "Angielski (Carpalx, pełna optymalizacja, międzynarodowy, z klawiszami akcentów AltGr)"
+msgstr "אנגלית (Carpalx, מיטוב מלא, בינלאומי, עם מקשים מתים עם AltGr)"
 
 #: rules/base.extras.xml:484
 msgid "English (3l)"
-msgstr "Angielski (3l)"
+msgstr "אנגלית (3l)"
 
 #: rules/base.extras.xml:490
 msgid "English (3l, Chromebook)"
-msgstr "Angielski (3l, Chromebook)"
+msgstr "אנגלית (3l, Chromebook)"
 
 #: rules/base.extras.xml:496
 msgid "English (3l, emacs)"
-msgstr "Angielski (3l, emacs)"
+msgstr "אנגלית (3l, emacs)"
 
 #: rules/base.extras.xml:502
 msgid "Sicilian (US keyboard)"
-msgstr "Sycylijski (klawiatura US)"
+msgstr "סיצילית (מקלדת אמריקאית)"
 
 #: rules/base.extras.xml:525
 msgid "Polish (intl., with dead keys)"
-msgstr "Polski (międzynarodowy, z klawiszami akcentów)"
+msgstr "פולנית (בינלאומית, עם מקשים מתים)"
 
 #: rules/base.extras.xml:531
 msgid "Polish (Colemak)"
-msgstr "Polski (Colemak)"
+msgstr "פולנית (קולמק)"
 
 #: rules/base.extras.xml:537
 msgid "Polish (Colemak-DH)"
-msgstr "Polski (Colemak-DH)"
+msgstr "פולנית (קולמק-DH)"
 
 #: rules/base.extras.xml:543
 msgid "Polish (Sun Type 6/7)"
-msgstr "Polski (Sun Type 6/7)"
+msgstr "פולנית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:549
 msgid "Polish (Glagolica)"
-msgstr "Polski (głagolica)"
+msgstr "פולנית (Glagolica)"
 
 #: rules/base.extras.xml:555
 msgid "Polish (lefty)"
-msgstr "Polski (lefty)"
+msgstr "פולנית (שמאלית)"
 
 #: rules/base.extras.xml:574
 msgid "Crimean Tatar (Dobruja Q)"
-msgstr "Krymskotatarski (Dobruja Q)"
+msgstr "טטרית של קרים (Dobruja Q)"
 
 #: rules/base.extras.xml:583
 msgid "Romanian (ergonomic Touchtype)"
-msgstr "Rumuński (ergonomiczny Touchtype)"
+msgstr "רומנית (הקלדה ארגונומית במגע)"
 
 #: rules/base.extras.xml:589
 msgid "Romanian (Sun Type 6/7)"
-msgstr "Rumuński (Sun Type 6/7)"
+msgstr "רומנית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:607
 msgid "Serbian (combining accents instead of dead keys)"
-msgstr "Serbski (łączenie akcentów zamiast klawiszy akcentów)"
+msgstr "סרבית (שילוב סימני הבחן במקום מקשים מתים)"
 
 #: rules/base.extras.xml:622
 msgid "Church Slavonic"
-msgstr "Cerkiewnosłowiański"
+msgstr "סלאבית כנסייתית"
 
 #: rules/base.extras.xml:632
 msgid "Russian (with Ukrainian-Belorussian layout)"
-msgstr "Rosyjski (z układem ukraińsko-białoruskim)"
+msgstr "רוסית (עם פריסה אוקראינית-בלארוסית)"
 
 #: rules/base.extras.xml:643
 msgid "Russian (Rulemak, phonetic Colemak)"
-msgstr "Rosyjski (Rulemak, fonetyczny Colemak)"
+msgstr "רוסית (Rulemak, קולמק פונטית)"
 
 #: rules/base.extras.xml:649
 msgid "Russian (phonetic Macintosh)"
-msgstr "Rosyjski (fonetyczny Macintosh)"
+msgstr "רוסית (Macintosh פונטית)"
 
 #: rules/base.extras.xml:655
 msgid "Russian (Sun Type 6/7)"
-msgstr "Rosyjski (Sun Type 6/7)"
+msgstr "רוסית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:661
 msgid "Russian (with US punctuation)"
-msgstr "Rosyjski (z interpunkcją USA)"
+msgstr "רוסית (עם פיסוק אמריקאי)"
 
 #: rules/base.extras.xml:667
 msgid "Russian (GOST 6431-75, 48-key)"
-msgstr "Rosyjski (GOST 6431-75, 48-klawiszowy)"
+msgstr "רוסית (GOST 6431-75,‏ 48-מקשים)"
 
 #: rules/base.extras.xml:673
 msgid "Russian (GOST 14289-88)"
-msgstr "Rosyjski (GOST 14289-88)"
+msgstr "רוסית (GOST 14289-88)"
 
 #: rules/base.extras.xml:680
 msgid "Russian (Polyglot and Reactionary)"
-msgstr "Rosyjski (Polyglot i Reactionary)"
+msgstr "רוסית (מרובת שפות שמרנית)"
 
 #: rules/base.extras.xml:764
 msgid "Armenian (OLPC, phonetic)"
-msgstr "Armeński (OLPC, fonetyczny)"
+msgstr "ארמנית (OLPC, פונטית)"
 
 #: rules/base.extras.xml:782
 msgid "Hebrew (Biblical, SIL phonetic)"
-msgstr "Hebrajski (biblijny, fonetyczny SIL)"
+msgstr "עברית (תנכית, SIL פונטית)"
 
 #: rules/base.extras.xml:800
 msgid "Arabic (Sun Type 6/7)"
-msgstr "Arabski (Sun Type 6/7)"
+msgstr "ערבית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:806
 msgid "Arabic (Arabic numerals, extensions in the 4th level)"
-msgstr "Arabski (cyfry arabskie, rozszerzenia na poziomie 4.)"
+msgstr "ערבית (ספרות ערביות, הרחבות ברמה הרביעית)"
 
 #: rules/base.extras.xml:812
 msgid "Arabic (Eastern Arabic numerals, extensions in the 4th level)"
-msgstr "Arabski (cyfry wschodnioarabskie, rozszerzenia na poziomie 4.)"
+msgstr "ערבית (ספרות הודו-ערביות, הרחבות ברמה הרביעית)"
 
 #: rules/base.extras.xml:818
 msgid "Ugaritic instead of Arabic"
-msgstr "Ugarycki zamiast arabskiego"
+msgstr "אוגריתית במקום ערבית"
 
 #: rules/base.extras.xml:833
 msgid "Belgian (Sun Type 6/7)"
-msgstr "Belgijski (Sun Type 6/7)"
+msgstr "בלגית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:848
 msgid "Portuguese (Brazil, Sun Type 6/7)"
-msgstr "Portugalski (Brazylia, Sun Type 6/7)"
+msgstr "פורטוגלית (ברזיל, Sun Type 6/7)"
 
 #: rules/base.extras.xml:863
 msgid "Czech (Sun Type 6/7)"
-msgstr "Czeski (Sun Type 6/7)"
+msgstr "צ׳כית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:869
 msgid "Czech (programming)"
-msgstr "Czeski (programisty)"
+msgstr "צ׳כית (תכנות)"
 
 #: rules/base.extras.xml:875
 msgid "Czech (typographic)"
-msgstr "Czeski (typograficzny)"
+msgstr "צ׳כית (טיפוגרפית)"
 
 #: rules/base.extras.xml:881
 msgid "Czech (coder)"
-msgstr "Czeski (kodera)"
+msgstr "צ׳כית (מקודד)"
 
 #: rules/base.extras.xml:887
 msgid "Czech (programming, typographic)"
-msgstr "Czeski (programisty, typograficzny)"
+msgstr "צ׳כית (תכנות, טיפוגרפית)"
 
 #: rules/base.extras.xml:902
 msgid "Danish (Sun Type 6/7)"
-msgstr "Duński (Sun Type 6/7)"
+msgstr "דנית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:917
 msgid "Dutch (Sun Type 6/7)"
-msgstr "Holenderski (Sun Type 6/7)"
+msgstr "הולנדית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:932
 msgid "Estonian (Sun Type 6/7)"
-msgstr "Estoński (Sun Type 6/7)"
+msgstr "אסטונית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:947
 msgid "Finnish (Sun Type 6/7)"
-msgstr "Fiński (Sun Type 6/7)"
+msgstr "פינית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:953
 msgid "Finnish (DAS)"
-msgstr "Fiński (DAS)"
+msgstr "פינית (DAS)"
 
 #: rules/base.extras.xml:959
 msgid "Finnish (Dvorak)"
-msgstr "Finski (Dvoraka)"
+msgstr "פינית (דבוז׳אק)"
 
 #: rules/base.extras.xml:974
 msgid "French (Sun Type 6/7)"
-msgstr "Francuski (Sun Type 6/7)"
+msgstr "צרפתית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:980
 msgid "French (US with dead keys, alt.)"
-msgstr "Francuski (USA z klawiszami akcentów Suna, alt.)"
+msgstr "צרפתית (ארה״ב עם מקשים מתים, חלופית)"
 
 #: rules/base.extras.xml:986
 msgid "French (US, AZERTY)"
-msgstr "Francuski (USA, AZERTY)"
+msgstr "צרפתית (ארה״ב, AZERTY)"
 
 #: rules/base.extras.xml:1001
 msgid "Greek (Sun Type 6/7)"
-msgstr "Grecki (Sun Type 6/7)"
+msgstr "יוונית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1007
 msgid "Greek (Colemak)"
-msgstr "Grecki (Colemak)"
+msgstr "יוונית (קולמק)"
 
 #: rules/base.extras.xml:1022
 msgid "Italian (Sun Type 6/7)"
-msgstr "Włoski (Sun Type 6/7)"
+msgstr "איטלקית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1028
 msgid "it_lld"
-msgstr "it_lld"
+msgstr "אטל_לדנ"
 
 #: rules/base.extras.xml:1029
 msgid "Italian (Ladin)"
-msgstr "Włoski (ladyński)"
+msgstr "איטלקית (לדין)"
 
 #: rules/base.extras.xml:1039
 msgid "Italian (Dvorak)"
-msgstr "Włoski (Dvoraka)"
+msgstr "איטלקית (דבוז׳אק)"
 
 #: rules/base.extras.xml:1057
 msgid "Japanese (Sun Type 6)"
-msgstr "Japoński (Sun Type 6)"
+msgstr "יפנית (Sun Type 6)"
 
 #: rules/base.extras.xml:1063
 msgid "Japanese (Sun Type 7, PC-compatible)"
-msgstr "Japoński (Sun Type 7, kompatybilny z PC)"
+msgstr "יפנית (Sun Type 7, תואמת מחשב)"
 
 #: rules/base.extras.xml:1069
 msgid "Japanese (Sun Type 7, Sun-compatible)"
-msgstr "Japoński (Sun Type 7, kompatybilny z Sunem)"
+msgstr "יפנית (Sun Type 7, תואמת Sun)"
 
 #: rules/base.extras.xml:1084
 msgid "Norwegian (Sun Type 6/7)"
-msgstr "Norweski (Sun Type 6/7)"
+msgstr "נורווגית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1099
 msgid "Urdu (Navees, Pakistan)"
-msgstr "Urdu (Navees, Pakistan)"
+msgstr "אורדו (Navees, פקיסטן)"
 
 #: rules/base.extras.xml:1117
 msgid "Portuguese (Sun Type 6/7)"
-msgstr "Portugalski (Sun Type 6/7)"
+msgstr "פורטוגלית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1123
 msgid "Portuguese (Colemak)"
-msgstr "Portugalski (Colemak)"
+msgstr "פורטוגלית (קולמק)"
 
 #: rules/base.extras.xml:1138
 msgid "Slovak (ACC layout, only accented letters)"
-msgstr "Słowacki (układ ACC, tylko litery akcentowane)"
+msgstr "סלובקית (פריסת ACC, רק אותיות עם סימני הבחן)"
 
 #: rules/base.extras.xml:1144
 msgid "Slovak (Sun Type 6/7)"
-msgstr "Słowacki (Sun Type 6/7)"
+msgstr "סלובקית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1159
 msgid "Spanish (Sun Type 6/7)"
-msgstr "Hiszpański (Sun Type 6/7)"
+msgstr "ספרדית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1174
 msgid "Swedish (Dvorak A5)"
-msgstr "Szwedzki (Dvoraka A5)"
+msgstr "שוודית (דבוז׳אק A5)"
 
 #: rules/base.extras.xml:1180
 msgid "Swedish (Sun Type 6/7)"
-msgstr "Szwedzki (Sun Type 6/7)"
+msgstr "שוודית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1186
 msgid "Elfdalian (Swedish, with combining ogonek)"
-msgstr "Elfdalski (szwedzki, z dostawnym ogonkiem)"
+msgstr "אלפדליאן (שוודיה, עם אוגונק משולב)"
 
 #: rules/base.extras.xml:1204
 msgid "German (Switzerland, Sun Type 6/7)"
-msgstr "Niemiecki (Szwajcaria, Sun Type 6/7)"
+msgstr "גרמנית (שווייץ, Sun Type 6/7)"
 
 #: rules/base.extras.xml:1210
 msgid "French (Switzerland, Sun Type 6/7)"
-msgstr "Francuski (Szwajcaria, Sun Type 6/7)"
+msgstr "צרפתית (שווייץ, Sun Type 6/7)"
 
 #: rules/base.extras.xml:1225
 msgid "Turkish (Sun Type 6/7)"
-msgstr "Turecki (Sun Type 6/7)"
+msgstr "טורקית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1246
 msgid "Ukrainian (Sun Type 6/7)"
-msgstr "Ukraiński (Sun Type 6/7)"
+msgstr "אוקראינית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1261
 msgid "English (UK, Sun Type 6/7)"
-msgstr "Angielski (brytyjski, Sun Type 6/7)"
+msgstr "אנגלית (אנגליה, Sun Type 6/7)"
 
 #: rules/base.extras.xml:1276
 msgid "Korean (Sun Type 6/7)"
-msgstr "Koreański (Sun Type 6/7)"
+msgstr "קוריאנית (Sun Type 6/7)"
 
 #: rules/base.extras.xml:1295
 msgid "Vietnamese (AÐERTY)"
-msgstr "Wietnamski (AÐERTY)"
+msgstr "וייטנאמית (AÐERTY)"
 
 #: rules/base.extras.xml:1301
 msgid "Vietnamese (QĐERTY)"
-msgstr "Wietnamski (QĐERTY)"
+msgstr "וייטנאמית (QĐERTY)"
 
 #. Keyboard indicator for European layouts
 #: rules/base.extras.xml:1310
 msgid "eu"
-msgstr "eu"
+msgstr "ארו"
 
 #: rules/base.extras.xml:1311
 msgid "EurKEY (US)"
-msgstr "EurKey (USA)"
+msgstr "EurKEY (ארה״ב)"
 
 #. Keyboard layouts for transcription and transliteration systems
 #: rules/base.extras.xml:1337
 msgid "International Phonetic Alphabet"
-msgstr "Międzynarodowy alfabet fonetyczny (IPA)"
+msgstr "אלפבית פונטי בינלאומי"
 
 #: rules/base.extras.xml:1343
 msgid "International Phonetic Alphabet (QWERTY)"
-msgstr "Międzynarodowy alfabet fonetyczny (QWERTY)"
+msgstr "אלפבית פונטי בינלאומי (QWERTY)"
 
 #: rules/base.extras.xml:1360
 msgid "Modi (KaGaPa phonetic)"
-msgstr "Modi (fonetyczny KaGaPa)"
+msgstr "הודית (KaGaPa פונטית)"
 
 #: rules/base.extras.xml:1369
 msgid "sas"
-msgstr "sas"
+msgstr "סנס"
 
 #: rules/base.extras.xml:1370
 msgid "Sanskrit symbols"
-msgstr "Symbole sanskryckie"
+msgstr "סמלים בסנסקריט"
 
 #: rules/base.extras.xml:1380
 msgid "Urdu (Navees)"
-msgstr "Urdu (Navees)"
+msgstr "אורדו (Navees)"
 
 #: rules/base.extras.xml:1400
 msgid "Number key 4 when pressed in isolation"
-msgstr "Numeryczny 4 naciśnięty samodzielnie"
+msgstr "המקש עם המספר 4 כשנלחץ לבד"
 
 #: rules/base.extras.xml:1406
 msgid "Number key 9 when pressed in isolation"
-msgstr "Numeryczny 9 naciśnięty samodzielnie"
+msgstr "המקש עם המספר 9 כשנלחץ לב"
 
 #: rules/base.extras.xml:1414
 msgid "Parentheses position"
-msgstr "Położenie nawiasów"
+msgstr "מיקום הסוגריים"
 
 #: rules/base.extras.xml:1419
 msgid "Swap with square brackets"
-msgstr "Zamiana z nawiasami kwadratowymi"
+msgstr "החלפה בסוגריים מרובעים"
+
+#, fuzzy
+#~| msgid "Kabylian (azerty layout, no dead keys)"
+#~ msgid "Kabyle (azerty layout, dead keys)"
+#~ msgstr "קבילית (פריסת azerty, ללא מקשים מתים)"
+
+#, fuzzy
+#~| msgid "Kabylian (qwerty-gb layout, with dead keys)"
+#~ msgid "Kabyle (qwerty-gb layout, dead keys)"
+#~ msgstr "קבילית (פריסת qwerty-gb, עם מקשים מתים)"
+
+#, fuzzy
+#~| msgid "Kabylian (qwerty-us layout, with dead keys)"
+#~ msgid "Kabyle (qwerty-us layout, dead keys)"
+#~ msgstr "קבילית (פריסת qwerty-us, עם מקשים מתים)"
+
+#, fuzzy
+#~| msgid "azerty"
+#~ msgid "N'Ko (azerty)"
+#~ msgstr "azerty"
+
+#~ msgid "Maltese (US layout with AltGr overrides)"
+#~ msgstr "מלטית (פריסת ארה״ב עם מעקפי AltGr)"
+
+#~ msgid "Indonesian (Arab Melayu, phonetic)"
+#~ msgstr "אינדונזית (מלאיו ערבית, פונטית)"
+
+#, fuzzy
+#~| msgid "English (US, euro on 5)"
+#~ msgid "English (US, Hyena Layer5)"
+#~ msgstr "אנגלית (ארה״ב, אירו על מקש 5)"
+
+#, fuzzy
+#~| msgid "English (US, intl., with dead keys)"
+#~ msgid "English (US, alt. intl., with dead keys, Hyena Layer5)"
+#~ msgstr "אנגלית (ארה״ב, בינלאומית עם מקשים מתים)"
+
+#, fuzzy
+#~| msgid "English (US, intl., AltGr Unicode combining, alt.)"
+#~ msgid "English (US, intl., AltGr Unicode combining, Hyena Layer5)"
+#~ msgstr "אנגלית (ארה״ב, בינלאומית, AltGr לשילוב יוניקוד, חלופית)"
+
+#, fuzzy
+#~| msgid "English (Carpalx, full optimization)"
+#~ msgid "English (Carpalx, full optimization, Hyena Layer5)"
+#~ msgstr "אנגלית (Carpalx, מיטוב מלא)"
+
+#, fuzzy
+#~| msgid "English (Carpalx, full optimization, intl., with dead keys)"
+#~ msgid "English (Carpalx, full optimization, intl., with dead keys, Hyena Layer5)"
+#~ msgstr "אנגלית (Carpalx, מיטוב מלא, בינלאומי, עם מקשים מתים)"
+
+#, fuzzy
+#~| msgid "English (Carpalx, full optimization, intl., with AltGr dead keys)"
+#~ msgid "English (Carpalx, full optimization, intl., with AltGr dead keys, Hyena Layer5)"
+#~ msgstr "אנגלית (Carpalx, מיטוב מלא, בינלאומי, עם מקשים מתים עם AltGr)"
+
+#, fuzzy
+#~| msgid "English (US, euro on 5)"
+#~ msgid "English (US, MiniGuru Layer5)"
+#~ msgstr "אנגלית (ארה״ב, אירו על מקש 5)"
+
+#, fuzzy
+#~| msgid "English (US, intl., with dead keys)"
+#~ msgid "English (US, alt. intl., with dead keys, MiniGuru Layer5)"
+#~ msgstr "אנגלית (ארה״ב, בינלאומית עם מקשים מתים)"
+
+#, fuzzy
+#~| msgid "English (US, intl., AltGr Unicode combining, alt.)"
+#~ msgid "English (US, intl., AltGr Unicode combining, MiniGuru Layer5)"
+#~ msgstr "אנגלית (ארה״ב, בינלאומית, AltGr לשילוב יוניקוד, חלופית)"
+
+#, fuzzy
+#~| msgid "English (US, euro on 5)"
+#~ msgid "English (US, TEX Yoda Layer5)"
+#~ msgstr "אנגלית (ארה״ב, אירו על מקש 5)"
+
+#, fuzzy
+#~| msgid "English (US, intl., with dead keys)"
+#~ msgid "English (US, alt. intl., with dead keys, TEX Yoda Layer5)"
+#~ msgstr "אנגלית (ארה״ב, בינלאומית עם מקשים מתים)"
+
+#, fuzzy
+#~| msgid "English (US, intl., AltGr Unicode combining, alt.)"
+#~ msgid "English (US, intl., AltGr Unicode combining, TEX Yoda Layer5)"
+#~ msgstr "אנגלית (ארה״ב, בינלאומית, AltGr לשילוב יוניקוד, חלופית)"
+
+#, fuzzy
+#~| msgid "English (US, euro on 5)"
+#~ msgid "English (UK, Hyena Layer5)"
+#~ msgstr "אנגלית (ארה״ב, אירו על מקש 5)"
+
+#, fuzzy
+#~| msgid "English (UK, intl., with dead keys)"
+#~ msgid "English (UK, intl., with dead keys, Hyena Layer5)"
+#~ msgstr "אנגלית (אנגליה, בינלאומית, עם מקשים מתים)"
+
+#, fuzzy
+#~| msgid "English (UK, Sun Type 6/7)"
+#~ msgid "English (UK, MiniGuru Layer5)"
+#~ msgstr "אנגלית (אנגליה, Sun Type 6/7)"
+
+#, fuzzy
+#~| msgid "English (UK, intl., with dead keys)"
+#~ msgid "English (UK, intl., with dead keys, MiniGuru Layer5)"
+#~ msgstr "אנגלית (אנגליה, בינלאומית, עם מקשים מתים)"
+
+#, fuzzy
+#~| msgid "English (US, euro on 5)"
+#~ msgid "English (UK, TEX Yoda Layer5)"
+#~ msgstr "אנגלית (ארה״ב, אירו על מקש 5)"
+
+#, fuzzy
+#~| msgid "English (UK, intl., with dead keys)"
+#~ msgid "English (UK, intl., with dead keys, TEX Yoda Layer5)"
+#~ msgstr "אנגלית (אנגליה, בינלאומית, עם מקשים מתים)"
+
+#~ msgid "Truly Ergonomic Computer Keyboard Model 227 (Wide Alt keys)"
+#~ msgstr "Truly Ergonomic Computer Keyboard Model 227 (מקשי Alt רחבים)"
+
+#~ msgid "Truly Ergonomic Computer Keyboard Model 229 (Standard sized Alt keys, additional Super and Menu key)"
+#~ msgstr "Truly Ergonomic Computer Keyboard Model 229 (מקשי Alt בגודל רגיל, מקשי סופר ותפריט נוספים)"
+
+#~ msgid "German (Austria, Sun dead keys)"
+#~ msgstr "גרמנית (אוסטריה, מקשים מתים של Sun)"
+
+#~ msgid "Belgian (Sun dead keys, alt.)"
+#~ msgstr "בלגית (מקשים מתים של Sun, חלופית)"
+
+#~ msgid "Belgian (Sun dead keys)"
+#~ msgstr "בלגית (מקשים מתים של Sun)"
+
+#~ msgid "Dutch (Sun dead keys)"
+#~ msgstr "הולנדית (מקשים מתים של Sun)"
+
+#~ msgid "French (Sun dead keys)"
+#~ msgstr "צרפתית (מקשים מתים של Sun)"
+
+#~ msgid "French (alt., Sun dead keys)"
+#~ msgstr "צרפתית (חלופית, מקשים מתים של Sun)"
+
+#~ msgid "French (legacy, alt., Sun dead keys)"
+#~ msgstr "צרפתית (מיושנת, חלופית, מקשים מתים של Sun)"
+
+#~ msgid "French (Guinea)"
+#~ msgstr "צרפתית (גינאה)"
+
+#~ msgid "German (Sun dead keys)"
+#~ msgstr "גרמנית (מקשים מתים של Sun)"
+
+#~ msgid "Icelandic (Sun dead keys)"
+#~ msgstr "איסלנדית (מקשים מתים של Sun)"
+
+#~ msgid "Icelandic (no dead keys)"
+#~ msgstr "איסלנדית (ללא מקשים מתים)"
+
+#~ msgid "Spanish (Latin American, Sun dead keys)"
+#~ msgstr "ספרדית (אמריקה הלטינית, מקשים מתים של Sun)"
+
+#~ msgid "Portuguese (Sun dead keys)"
+#~ msgstr "פורטוגלית (מקשים מתים של Sun)"
+
+#~ msgid "Portuguese (Macintosh, Sun dead keys)"
+#~ msgstr "פורטוגלית (Macintosh, מקשים מתים של Sun)"
+
+#~ msgid "Romanian (cedilla)"
+#~ msgstr "רומנית (סדיליה)"
+
+#~ msgid "Romanian (standard cedilla)"
+#~ msgstr "רומנית (סדיליה תקנית)"
+
+#~ msgid "Spanish (Sun dead keys)"
+#~ msgstr "ספרדית (מקשים מתים של Sun)"
+
+#~ msgid "German (Switzerland, Sun dead keys)"
+#~ msgstr "גרמנית (שווייץ, מקשים מתים של Sun)"
+
+#~ msgid "French (Switzerland, Sun dead keys)"
+#~ msgstr "צרפתית (שווייץ, מקשים מתים של Sun)"
+
+#~ msgid "Turkish (Sun dead keys)"
+#~ msgstr "טורקית (מקשים מתים של Sun)"
+
+#~ msgid "Caps Lock is also a Ctrl"
+#~ msgstr "Caps Lock הוא גם Ctrl"
+
+#~ msgid "(F)"
+#~ msgstr "(F)"
+
+#~ msgid "101/qwerty/comma/Dead keys"
+#~ msgstr "101/qwerty/comma/מקשים מתים"
+
+#~ msgid "101/qwerty/comma/Eliminate dead keys"
+#~ msgstr "101/qwerty/comma/העלמת מקשים מתים"
+
+#~ msgid "101/qwerty/dot/Dead keys"
+#~ msgstr "101/qwerty/dot/מקשים מתים"
+
+#~ msgid "101/qwerty/dot/Eliminate dead keys"
+#~ msgstr "101/qwerty/dot/העלמת מקשים מתים"
+
+#~ msgid "101/qwertz/comma/Dead keys"
+#~ msgstr "101/qwertz/comma/מקשים מתים"
+
+#~ msgid "101/qwertz/comma/Eliminate dead keys"
+#~ msgstr "101/qwertz/comma/העלמת מקשים מתים"
+
+#~ msgid "101/qwertz/dot/Dead keys"
+#~ msgstr "101/qwertz/dot/מקשים מתים"
+
+#~ msgid "101/qwertz/dot/Eliminate dead keys"
+#~ msgstr "101/qwertz/dot/העלמת מקשים מתים"
+
+#~ msgid "102/qwerty/comma/Dead keys"
+#~ msgstr "102/qwerty/comma/מקשים מתים"
+
+#~ msgid "102/qwerty/comma/Eliminate dead keys"
+#~ msgstr "102/qwerty/comma/העלמת מקשים מתים"
+
+#~ msgid "102/qwerty/dot/Dead keys"
+#~ msgstr "102/qwerty/dot/מקשים מתים"
+
+#~ msgid "102/qwerty/dot/Eliminate dead keys"
+#~ msgstr "102/qwerty/dot/העלמת מקשים מתים"
+
+#~ msgid "102/qwertz/comma/Dead keys"
+#~ msgstr "102/qwertz/comma/מקשים מתים"
+
+#~ msgid "102/qwertz/comma/Eliminate dead keys"
+#~ msgstr "102/qwertz/comma/העלמת מקשים מתים"
+
+#~ msgid "102/qwertz/dot/Dead keys"
+#~ msgstr "102/qwertz/dot/מקשים מתים"
+
+#~ msgid "102/qwertz/dot/Eliminate dead keys"
+#~ msgstr "102/qwertz/dot/העלמת מקשים מתים"
+
+#~ msgid "ACPI Standard"
+#~ msgstr "ACPI תקנית"
+
+#~ msgid "Acer TravelMate 800"
+#~ msgstr "Acer TravelMate 800"
+
+#~ msgid "Add the EuroSign to the 2 key."
+#~ msgstr "הוספת הסימן אירו למקש 2."
+
+#~ msgid "Add the EuroSign to the 5 key."
+#~ msgstr "הוספת הסימן אירו למקש 5."
+
+#~ msgid "Add the EuroSign to the E key."
+#~ msgstr "הוספת סימן האירו למקש E."
+
+#~ msgid "Adding the EuroSign to certain keys"
+#~ msgstr "הוספת סימן האירו למקשים מסוימים"
+
+#~ msgid "Alt+Ctrl changes group."
+#~ msgstr "Alt+Ctrl מחליף קבוצה."
+
+#~ msgid "Alt+Shift changes group."
+#~ msgstr "Alt+Shift מחליף קבוצה."
+
+#~ msgid "Alt-Q"
+#~ msgstr "Alt-Q"
+
+#~ msgid "Alternative"
+#~ msgstr "חלופית"
+
+#~ msgid "Alternative international (former us_intl)"
+#~ msgstr "בינלאומית חלופית (לשעבר us_intl)"
+
+#~ msgid "Alternative, eliminate dead keys"
+#~ msgstr "חלופית, להעלים מקשים מתים"
+
+#~ msgid "Apostrophe (') variant"
+#~ msgstr "הגוון של אפוסטרוף (‘)"
+
+#~ msgid "Bengali"
+#~ msgstr "בנגלית"
+
+#~ msgid "Bhutan"
+#~ msgstr "בהוטן"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "בוסניה והרצגובינה"
+
+#~ msgid "Both Win-keys switch group while pressed."
+#~ msgstr "שני מקשי ה־Win מחליפים קבוצה בעודם לחוצים."
+
+#~ msgid "Brazil"
+#~ msgstr "ברזיל"
+
+#~ msgid "Brazilian ABNT2"
+#~ msgstr "ברזילאית ABNT2"
+
+#~ msgid "Canada"
+#~ msgstr "קנדה"
+
+#~ msgid "CapsLock LED shows alternative group."
+#~ msgstr "הנורית של ה־Caps Lock מציגה קבוצה חלופית."
+
+#~ msgid "CapsLock just locks the Shift modifier."
+#~ msgstr "Caps Lock פשוט נועל את מקש ההחלפה Shift."
+
+#~ msgid "CapsLock key changes group."
+#~ msgstr "מקש Caps Lock מחליף קבוצה."
+
+#~ msgid "Cherry Blue Line CyBo@rd (alternate option)"
+#~ msgstr "Cherry Blue Line CyBo@rd (אפשרות חלופית)"
+
+#~ msgid "Compose key position"
+#~ msgstr "מיקום מקש ה־Compose"
+
+#~ msgid "Ctrl key at left of 'A'"
+#~ msgstr "מקש Ctrl משמאל ל־‚A’"
+
+#~ msgid "Ctrl+Shift changes group."
+#~ msgstr "Ctrl+Shift מחליף קבוצה."
+
+#~ msgid "Cyrillic"
+#~ msgstr "קירילית"
+
+#~ msgid "Dead acute"
+#~ msgstr "acute מת"
+
+#~ msgid "Denmark"
+#~ msgstr "דנמרק"
+
+#~ msgid "Dvorak"
+#~ msgstr "דבוז׳אק"
+
+#~ msgid "Eliminate dead keys"
+#~ msgstr "התעלמות ממקשים מתים"
+
+#~ msgid "Extended"
+#~ msgstr "מורחבת"
+
+#~ msgid "F-letter (F) variant"
+#~ msgstr "הגוון של האות F"
+
+#~ msgid "Finland"
+#~ msgstr "פינלנד"
+
+#~ msgid "France"
+#~ msgstr "צרפת"
+
+#~ msgid "French, eliminate dead keys"
+#~ msgstr "צרפתית, העלמת מקשים מתים"
+
+#~ msgid "Generic 102-key (Intl) PC"
+#~ msgstr "גנרית של 102 מקשים למחשב (בינלאומית)"
+
+#~ msgid "Generic 105-key (Intl) PC"
+#~ msgstr "גנרית של 105 מקשים למחשב (בינלאומית)"
+
+#~ msgid "German, eliminate dead keys"
+#~ msgstr "גרמנית, התעלמות ממקשים מתים"
+
+#~ msgid "Group Shift/Lock behavior"
+#~ msgstr "התנהגות Shift/נעילה קיבוצית"
+
+#~ msgid "Hewlett-Packard SK-2505 Internet Keyboard"
+#~ msgstr "Hewlett-Packard SK-2505 Internet Keyboard"
+
+#~ msgid "IBM Rapid Access II (alternate option)"
+#~ msgstr "IBM Rapid Access II (אפשרות חלופית)"
+
+#~ msgid "ISO Alternate"
+#~ msgstr "חלופה ב־ISO"
+
+#~ msgid "Iran"
+#~ msgstr "איראן"
+
+#~ msgid "Ireland"
+#~ msgstr "אירלנד"
+
+#~ msgid "Israel"
+#~ msgstr "ישראל"
+
+#~ msgid "Laos"
+#~ msgstr "לאוס"
+
+#~ msgid "Laptop/notebook Compaq (eg. Armada) Laptop Keyboard"
+#~ msgstr "מקלדת של מחשב נייד Compaq (למשל Armada)"
+
+#~ msgid "Laptop/notebook Compaq (eg. Presario) Internet Keyboard"
+#~ msgstr "מקלדת אינטרנט למחשב נייד של Compaq (למשל Presario)"
+
+#~ msgid "Laptop/notebook Dell Inspiron 8xxx"
+#~ msgstr "מחשב נייד Dell Inspiron 8xxx"
+
+#~ msgid "Latin"
+#~ msgstr "לטינית"
+
+#~ msgid "Latin Unicode qwerty"
+#~ msgstr "לטינית יוניקוד qwerty"
+
+#~ msgid "Latin qwerty"
+#~ msgstr "לטינית qwerty"
+
+#~ msgid "Left Alt key changes group."
+#~ msgstr "מקש Alt שמאלי מחליף קבוצה."
+
+#~ msgid "Left Ctrl key changes group."
+#~ msgstr "מקש Ctrl שמאלי מחליף קבוצה."
+
+#~ msgid "Left Shift key changes group."
+#~ msgstr "מקש Shift שמאלי מחליף קבוצה."
+
+#~ msgid "Left Win-key changes group."
+#~ msgstr "מקש Win שמאלי מחליף קבוצה."
+
+#~ msgid "Logitech Cordless Desktop Pro (alternate option)"
+#~ msgstr "Logitech Cordless Desktop Pro (אפשרות חלופית)"
+
+#~ msgid "Logitech Cordless Desktop Pro (alternate option2)"
+#~ msgstr "Logitech Cordless Desktop Pro (אפשרות חלופית שנייה)"
+
+#~ msgid "Logitech Deluxe Access Keyboard"
+#~ msgstr "Logitech Deluxe Access Keyboard"
+
+#~ msgid "Menu key changes group."
+#~ msgstr "מקש תפריט מחליף קבוצה."
+
+#~ msgid "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
+#~ msgstr "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
+
+#~ msgid "Multilingual"
+#~ msgstr "רב־לשונית"
+
+#~ msgid "Multilingual, second part"
+#~ msgstr "רב־לשונית, חלק שני"
+
+#~ msgid "Myanmar"
+#~ msgstr "מיאנמר"
+
+#~ msgid "Netherlands"
+#~ msgstr "הולנד"
+
+#~ msgid "NumLock LED shows alternative group."
+#~ msgstr "הנורית של ה־NumLock מציגה קבוצה חלופית."
+
+#~ msgid "Oretec MCK-800 MM/Internet keyboard"
+#~ msgstr "מקלדת Oretec MCK-800 MM/Internet"
+
+#~ msgid "PC-98xx Series"
+#~ msgstr "סדרת PC-98xx"
+
+#~ msgid "Phonetic"
+#~ msgstr "פונטית"
+
+#~ msgid "Poland"
+#~ msgstr "פולין"
+
+#~ msgid "Power G5"
+#~ msgstr "Power G5"
+
+#~ msgid "PowerPC PS/2"
+#~ msgstr "PowerPC PS/2"
+
+#~ msgid "Press Left Win-key to choose 3rd level."
+#~ msgstr "לחיצה על מקש ה־Win השמאלי בוחרת את הרמה השלישית."
+
+#~ msgid "Press Right Win-key to choose 3rd level."
+#~ msgstr "לחיצה על מקש ה־Win הימני בוחרת את הרמה השלישית."
+
+#~ msgid "Press any of Alt keys to choose 3rd level."
+#~ msgstr "לחיצה על כל אחד ממקשי ה־Alt בוחרת את הרמה השלישית."
+
+#~ msgid "Press any of Win-keys to choose 3rd level."
+#~ msgstr "לחיצה על כל אחד ממקשי ה־Win בוחרת את הרמה השלישית."
+
+#~ msgid "Probhat"
+#~ msgstr "Probhat"
+
+#~ msgid "R-Alt switches group while pressed."
+#~ msgstr "Alt ימני מחליף קבוצה בעודו לחוץ."
+
+#~ msgid "Right Alt key changes group."
+#~ msgstr "מקש Alt ימני מחליף קבוצה."
+
+#~ msgid "Right Ctrl key changes group."
+#~ msgstr "מקש Ctrl ימני מחליף את הקבוצה."
+
+#~ msgid "Right Shift key changes group."
+#~ msgstr "מקש Shift ימני מחליף קבוצה."
+
+#~ msgid "Right Win-key changes group."
+#~ msgstr "מקש Win ימני מחליף קבוצה."
+
+#~ msgid "Right Win-key is Compose."
+#~ msgstr "מקש ה־Win הימני הוא Compose."
+
+#~ msgid "Romanian keyboard with German letters"
+#~ msgstr "מקלדת רומנית עם אותיות גרמניות"
+
+#~ msgid "Russia"
+#~ msgstr "רוסיה"
+
+#~ msgid "ScrollLock LED shows alternative group."
+#~ msgstr "הנורית של ה־Scroll Lock מציגה קבוצה חלופית."
+
+#~ msgid "Shift with numpad keys works as in MS Windows."
+#~ msgstr "Shift עם מקשי המקלדת הנומרת עובד כמו ב־MS Windows."
+
+#~ msgid "Spain"
+#~ msgstr "ספרד"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "סרי לנקה"
+
+#~ msgid "Standard"
+#~ msgstr "תקנית"
+
+#~ msgid "Super is mapped to the Win-keys (default)."
+#~ msgstr "סופר ממופה למקשי ה־Win(בררת מחדל)."
+
+#~ msgid "Syria"
+#~ msgstr "סוריה"
+
+#~ msgid "Tamil"
+#~ msgstr "טמילית"
+
+#~ msgid "Tamil TAB Typewriter"
+#~ msgstr "מכונת כתיבה TAB טמילית"
+
+#~ msgid "Tamil Unicode"
+#~ msgstr "טמילית יוניקוד"
+
+#~ msgid "Third level choosers"
+#~ msgstr "בוררי רמה שלישית"
+
+#~ msgid "Tilde (~) variant"
+#~ msgstr "הגוון של (~) טילדה"
+
+#~ msgid "Typewriter"
+#~ msgstr "מכונת כתיבה"
+
+#~ msgid "U.S. English"
+#~ msgstr "אנגלית אמריקאית"
+
+#~ msgid "US keyboard with Bosnian letters"
+#~ msgstr "מקלדת אמריקאית עם אותיות בוסניות"
+
+#~ msgid "US keyboard with Croatian letters"
+#~ msgstr "מקלדת אמריקאית עם אותיות קרואטיות"
+
+#~ msgid "US keyboard with Lithuanian letters"
+#~ msgstr "מקלדת אמריקאית עם אותיות ליטאיות"
+
+#~ msgid "US keyboard with Maltian letters"
+#~ msgstr "מקלדת אמריקאית עם אותיות מלטיות"
+
+#~ msgid "US keyboard with Slovenian digraphs"
+#~ msgstr "מקלדת אמריקאית עם צירופי אותיות בסלובנית"
+
+#~ msgid "US keyboard with Slovenian letters"
+#~ msgstr "מקלדת אמריקאית עם אותיות סלובניות"
+
+#~ msgid "USA"
+#~ msgstr "ארה״ב"
+
+#~ msgid "United Kingdom"
+#~ msgstr "אנגליה"
+
+#~ msgid "With guillemots"
+#~ msgstr "עם סוגריים משולשים כפולים"
+
+#~ msgid "azerty/digits"
+#~ msgstr "azerty/ספרות"
+
+#~ msgid "digits"
+#~ msgstr "ספרות"
+
+#~ msgid "lyx"
+#~ msgstr "lyx"
+
+#~ msgid "qwerty"
+#~ msgstr "qwerty"
+
+#~ msgid "qwerty/digits"
+#~ msgstr "qwerty/ספרות"
+
+#~ msgid "qwertz"
+#~ msgstr "qwertz"
+
+#~ msgid "si1452"
+#~ msgstr "ת״י 1452"
+
+#~ msgid "\"Standard\""
+#~ msgstr "„תקנית”"
+
+#~ msgid "Romanian keyboard with MS layout"
+#~ msgstr "מקלדת רומנית עם פריסת של מיקרוסופט"
+
+#~ msgid "Tamil INSCRIPT"
+#~ msgstr "טמילית INSCRIPT"
+
+#~ msgid "US keyboard with Romanian letters"
+#~ msgstr "מקלדת אמריקאית אם אותיות רומניות"
+
+#~ msgid "CloGaelach Laptop"
+#~ msgstr "מחשב נייד קלו גיילך"
+
+#~ msgid "Laptop"
+#~ msgstr "מחשב נייד"
+
+#~ msgid "Ogham IS434 laptop"
+#~ msgstr "מחשב נייד IS434"
+
+#~ msgid "Malayalam with Malayalam digits"
+#~ msgstr "מלאיאלאם עם ספרות במלאיאלאם"
+
+#~ msgid "Devanagari INSCRIPT"
+#~ msgstr "דוונאגרי INSCRIPT"
+
+#~ msgid "Gurmukhi INSCRIPT"
+#~ msgstr "גורמוקהי INSCRIPT"
+
+#~ msgid "Kannada INSCRIPT"
+#~ msgstr "קאנדה INSCRIPT"
+
+#~ msgid "INSCRIPT layout"
+#~ msgstr "פריסת INSCRIPT"
+
+#~ msgid "Ogam"
+#~ msgstr "אוגהם"
+
+#~ msgid "Typewrite-style keymap; TAB encoding"
+#~ msgstr "מפת תווים בסגנון מכונת כתיבה, קידוד TAB"
+
+#~ msgid "Typewrite-style keymap; TSCII encoding"
+#~ msgstr "מפת תווים בסגנון מכונת כתיבה, קידוד TSCII"
+
+#~ msgid "Typewrite-style keymap; Unicode encoding"
+#~ msgstr "מפת תווים בסגנון מכונת כתיבה, קידוד יוניקוד"
