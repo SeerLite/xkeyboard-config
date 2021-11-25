@@ -1,4 +1,4 @@
-AC_INIT(xkeyboard-config, 2.34) # change version in meson.build as well
+AC_INIT(xkeyboard-config-bbkt, 2.34) # change version in meson.build as well
 AC_CONFIG_SRCDIR(rules/base.xml)
 AM_INIT_AUTOMAKE([foreign dist-bzip2])
 
@@ -66,7 +66,7 @@ AM_CONDITIONAL(USE_COMPAT_RULES, test "x$enable_compat_rules" = "xyes")
 AM_GNU_GETTEXT_VERSION([0.19.8])
 AM_GNU_GETTEXT([external])
 
-GETTEXT_PACKAGE=xkeyboard-config
+GETTEXT_PACKAGE=xkeyboard-config-bbkt
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext package])
 
