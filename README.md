@@ -14,6 +14,10 @@ AUR package: [`xkeyboard-config-bbkt-git`](https://aur.archlinux.org/packages/xk
 
 Other distros: Soon™
 
+# Packaging
+Use your distribution's existing `xkeyboard-config` package as a base but replace the source URL to either of the tar archives from the latest [release](https://github.com/SeerLite/xkeyboard-config-bbkt/releases).
+You'll have to make `xkeyboard-config-bbkt` a package that conflicts and/or replaces the official `xkeyboard-config` package.
+
 ## See also
 [Upstream README](./README)
 
