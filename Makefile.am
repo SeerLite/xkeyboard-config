@@ -12,7 +12,7 @@ mesonfiles = meson.build \
 	     rules/compat/meson.build \
 	     $(NULL)
 
-EXTRA_DIST=config.rpath COPYING README \
+EXTRA_DIST=config.rpath COPYING README README.md \
        autogen.sh \
        xkeyboard-config.pc.in \
        $(mesonfiles)
