@@ -1,5 +1,5 @@
 # xkeyboard-config-bbkt
-[Upstream xkeyboard-config](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config) sources patched with @DreymaR's [Big Bag mods](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config).
+[Upstream xkeyboard-config](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config) sources patched with @DreymaR's [Big Bag mods](https://github.com/DreymaR/BigBagKbdTrixXKB).
 
 Should build just like the upstream version.
 
