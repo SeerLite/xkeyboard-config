@@ -15,6 +15,6 @@ AUR package: [`xkeyboard-config-bbkt-git`](https://aur.archlinux.org/packages/xk
 Other distros: Soon™
 
 ## See also
-[Upstream README](https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/master/README)
+[Upstream README](./README)
 
 [Dreymar's Big Bag of Keyboard Tricks main page](https://dreymar.colemak.org/index.html)
