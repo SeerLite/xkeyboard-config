@@ -10,7 +10,7 @@ Should build just like the upstream version.
 * Has `caps:escape_shifted_capslock` :)
 
 ## Installation
-AUR package: [`xkeyboard-config-bbkt-git`](https://aur.archlinux.org/packages/xkeyboard-config-bbkt-git/)
+AUR package: [`xkeyboard-config-bbkt`](https://aur.archlinux.org/packages/xkeyboard-config-bbkt/)
 
 Other distros: Soon™
 
